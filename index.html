@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Encontre peças Borrachas Rocha por veículo, código ou aplicação." />
+    <title>Borrachas Rocha | Catálogo de peças</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Borrachas Rocha, ir para o início">
+        <img src="assets/img/Logos/Logo.webp" alt="Borrachas Rocha" />
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#como-funciona">Como encontrar</a>
+        <a href="#atendimento">Atendimento</a>
+      </nav>
+      <a class="header-cta" href="#catalogo">Encontrar minha peça <span aria-hidden="true">→</span></a>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">CATÁLOGO DIGITAL</p>
+          <h1>A peça certa<br /><em>para o seu veículo.</em></h1>
+          <p class="hero-text">Consulte aplicações, códigos e kits em borracha e poliuretano de alta performance.</p>
+        </div>
+        <form id="search-form" class="finder" autocomplete="off">
+          <div class="finder-head">
+            <span class="finder-icon" aria-hidden="true">⌕</span>
+            <div>
+              <strong>Encontre pela aplicação</strong>
+              <span>Digite o modelo, ano, código ou nome da peça</span>
+            </div>
+          </div>
+          <label class="search-field">
+            <span class="sr-only">Buscar peça</span>
+            <input id="search" type="search" placeholder="Ex.: Hilux 2015, VW 8.150 ou BR-1000" />
+          </label>
+          <div class="quick-fields">
+            <label><span>Montadora</span><select id="brand"><option value="">Todas as montadoras</option></select></label>
+            <label><span>Ano do veículo</span><input id="year" inputmode="numeric" maxlength="4" placeholder="Ex.: 2018" /></label>
+            <label><span>Material</span><select id="material"><option value="">Borracha e PU</option><option value="Borracha">Borracha</option><option value="PU">Poliuretano (PU)</option></select></label>
+            <button type="submit">Buscar peças <span aria-hidden="true">→</span></button>
+          </div>
+        </form>
+        <div class="hero-note"><span></span> Qualidade e durabilidade para quem não pode parar.</div>
+      </section>
+
+      <section class="manufacturer-strip" aria-labelledby="manufacturer-title">
+        <div>
+          <p class="eyebrow">LINHAS ATENDIDAS</p>
+          <h2 id="manufacturer-title">Escolha uma montadora</h2>
+        </div>
+        <div id="brand-chips" class="brand-chips" aria-label="Filtrar por montadora"></div>
+      </section>
+
+      <section id="catalogo" class="catalog-section">
+        <div class="catalog-intro">
+          <div>
+            <p class="eyebrow">PEÇAS E KITS</p>
+            <h2>Catálogo unificado</h2>
+          </div>
+          <button id="clear-filters" class="text-button" type="button" hidden>Limpar filtros</button>
+        </div>
+        <div class="catalog-layout">
+          <aside class="filters" aria-label="Filtros do catálogo">
+            <div class="filter-title"><span aria-hidden="true">≡</span> Refine sua busca</div>
+            <label><span>Montadora</span><select id="brand-side"><option value="">Todas</option></select></label>
+            <label><span>Material</span><select id="material-side"><option value="">Todos</option><option value="Borracha">Borracha</option><option value="PU">Poliuretano (PU)</option></select></label>
+            <label><span>Ano</span><input id="year-side" inputmode="numeric" maxlength="4" placeholder="AAAA" /></label>
+            <div class="material-note"><span class="pu-dot"></span><p><strong>Peças em PU</strong><br />Imagens de referência enquanto atualizamos as fotos individuais.</p></div>
+          </aside>
+          <div class="results-wrap">
+            <div class="results-bar"><p id="result-count" aria-live="polite">Carregando catálogo...</p><label class="sort"><span>Ordenar:</span><select id="sort"><option value="relevance">Relevância</option><option value="code">Código</option><option value="name">Nome da peça</option></select></label></div>
+            <div id="active-filters" class="active-filters"></div>
+            <div id="product-grid" class="product-grid" aria-live="polite"></div>
+            <button id="load-more" class="load-more" type="button" hidden>Mostrar mais peças <span aria-hidden="true">↓</span></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="como-funciona" class="steps">
+        <p class="eyebrow">CONSULTA DESCOMPLICADA</p>
+        <h2>Três caminhos para chegar na peça certa.</h2>
+        <div class="step-grid">
+          <article><span>01</span><h3>Informe o veículo</h3><p>Pesquise pelo modelo e ano, ou escolha uma montadora.</p></article>
+          <article><span>02</span><h3>Compare materiais</h3><p>Veja as aplicações em borracha e as novas opções em PU.</p></article>
+          <article><span>03</span><h3>Confirme o código</h3><p>Leve o código e a aplicação para o atendimento especializado.</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer id="atendimento">
+      <img src="assets/img/Logos/Logo-Sem-Slogan-Variação-Branca-01.webp" alt="Borrachas Rocha" />
+      <p>Catálogo de produtos para consulta. Confirme a aplicação antes da compra.</p>
+      <a href="mailto:borrachasrocha@hotmail.com">borrachasrocha@hotmail.com</a>
+    </footer>
+    <dialog id="product-dialog" class="product-dialog"><button class="dialog-close" aria-label="Fechar">×</button><div id="dialog-content"></div></dialog>
+    <script src="catalog.js"></script>
+  </body>
+</html>
