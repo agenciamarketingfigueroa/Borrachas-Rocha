@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <style>.product-photo.pu img { object-fit: contain; }</style>
   </head>
   <body>
     <header class="site-header">
@@ -75,7 +76,7 @@
             <label><span>Montadora</span><select id="brand-side"><option value="">Todas</option></select></label>
             <label><span>Material</span><select id="material-side"><option value="">Todos</option><option value="Borracha">Borracha</option><option value="PU">Poliuretano (PU)</option></select></label>
             <label><span>Ano</span><input id="year-side" inputmode="numeric" maxlength="4" placeholder="AAAA" /></label>
-            <div class="material-note"><span class="pu-dot"></span><p><strong>Peças em PU</strong><br />Imagens de referência enquanto atualizamos as fotos individuais.</p></div>
+            <div class="material-note"><span class="pu-dot"></span><p><strong>Peças em PU</strong><br />Consulte as fotos individuais e aplicações de cada referência.</p></div>
           </aside>
           <div class="results-wrap">
             <div class="results-bar"><p id="result-count" aria-live="polite">Carregando catálogo...</p><label class="sort"><span>Ordenar:</span><select id="sort"><option value="relevance">Relevância</option><option value="code">Código</option><option value="name">Nome da peça</option></select></label></div>

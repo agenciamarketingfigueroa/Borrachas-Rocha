@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo PU 2026 | Borrachas Rocha</title>
+    <style>
+      :root { --blue:#344da7; --blue-dark:#263d91; --red:#f32635; --ink:#101010; --paper:#fff; }
+      * { box-sizing:border-box; }
+      html,body { margin:0; padding:0; background:#d9dbe2; color:var(--ink); font-family:Arial,Helvetica,sans-serif; }
+      @page { size:A4 portrait; margin:0; }
+      .sheet { position:relative; width:210mm; height:297mm; margin:8mm auto; overflow:hidden; background:#fff; break-after:page; page-break-after:always; }
+      .sheet:last-child { break-after:auto; page-break-after:auto; }
+
+      .cover { background:#fff; }
+      .cover-photo { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:58% center; }
+      .cover-white { position:absolute; inset:0; background:#fff; clip-path:polygon(0 0,100% 0,45% 47%,0 68%); }
+      .cover-blue-stripe { position:absolute; z-index:2; width:255mm; height:18mm; right:-95mm; top:47mm; background:var(--blue); transform:rotate(-43deg); transform-origin:center; }
+      .cover-red { position:absolute; z-index:3; left:-52mm; bottom:-33mm; width:185mm; height:180mm; background:var(--red); transform:rotate(45deg); }
+      .cover-blue-bottom { position:absolute; z-index:2; right:-1mm; bottom:0; width:102mm; height:82mm; background:var(--blue); clip-path:polygon(38% 0,100% 0,100% 100%,0 100%); }
+      .logo-crop { position:absolute; z-index:4; left:17mm; top:16mm; width:104mm; height:61mm; overflow:hidden; }
+      .logo-crop img { position:absolute; width:104mm; height:104mm; left:0; top:-24mm; object-fit:contain; }
+      .cover-year { position:absolute; z-index:5; left:13mm; bottom:52mm; color:#fff; font-size:31pt; font-weight:900; line-height:.82; text-shadow:0 1.2mm 1.5mm rgba(0,0,0,.28); }
+      .cover-year span { display:block; font-size:67pt; letter-spacing:-3pt; }
+      .cover-line { position:absolute; z-index:5; right:12mm; bottom:14mm; width:87mm; color:#fff; font-size:17pt; font-weight:900; line-height:.91; text-align:left; text-transform:uppercase; text-shadow:0 .8mm 1mm rgba(0,0,0,.25); }
+      .cover-line strong { display:block; font-size:35pt; line-height:.72; }
+
+      .inside { background:var(--blue); }
+      .inside .panel { position:absolute; top:8mm; bottom:4mm; background:#fff; }
+      .inside.left-rail .panel { left:17mm; right:0; border-radius:7mm 0 0 0; }
+      .inside.right-rail .panel { left:0; right:17mm; border-radius:0 7mm 0 0; }
+      .rail-title { position:absolute; z-index:2; top:82mm; color:#fff; font-size:11pt; font-weight:700; letter-spacing:.5pt; white-space:nowrap; writing-mode:vertical-rl; text-transform:uppercase; }
+      .left-rail .rail-title { left:6.4mm; transform:rotate(180deg); }
+      .right-rail .rail-title { right:6.4mm; }
+      .page-tab { position:absolute; z-index:3; bottom:0; width:20mm; height:33mm; display:grid; place-items:end center; padding-bottom:5mm; background:#fff; color:#050505; font-size:24pt; font-weight:800; clip-path:polygon(0 0,70% 18%,100% 18%,100% 100%,0 100%); }
+      .left-rail .page-tab { left:0; }
+      .right-rail .page-tab { right:0; transform:scaleX(-1); }
+      .right-rail .page-tab span { transform:scaleX(-1); }
+      .catalog-grid { position:absolute; inset:7mm 8mm 6mm; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:repeat(8,1fr); column-gap:8mm; row-gap:1.5mm; }
+      .item { position:relative; min-height:0; display:grid; grid-template-columns:31mm 1fr; gap:3mm; overflow:hidden; }
+      .code-tag { position:absolute; z-index:2; left:0; top:0; height:7mm; min-width:35mm; display:flex; align-items:center; color:#fff; background:var(--red); clip-path:polygon(0 0,100% 0,91% 100%,0 100%); font-size:8pt; font-weight:900; letter-spacing:.2pt; }
+      .code-tag .brand { width:12mm; height:6mm; margin-right:1mm; display:grid; place-items:center; color:var(--blue-dark); background:#fff; border:.35mm solid var(--red); font-size:5pt; font-weight:900; }
+      .item-photo { width:31mm; height:24mm; align-self:end; object-fit:contain; mix-blend-mode:multiply; }
+      .item-copy { align-self:center; min-width:0; padding-top:1mm; text-align:center; }
+      .item-copy h3 { margin:0 0 1mm; font-size:8.1pt; font-weight:900; line-height:.91; }
+      .details { margin:0; font-size:5.7pt; line-height:1.08; }
+      .application { margin:1.4mm 0 0; font-size:7.7pt; line-height:1.02; }
+      .compact .application { font-size:6.5pt; }
+      .compact .details { font-size:5.2pt; }
+
+      .shock .panel { padding-top:24mm; }
+      .shock-title { position:absolute; z-index:3; top:14mm; left:35mm; right:20mm; height:17mm; display:grid; place-items:center; background:var(--red); color:#fff; font-size:24pt; font-weight:900; text-transform:uppercase; }
+      .shock .catalog-grid { top:36mm; grid-template-rows:repeat(6,1fr); row-gap:3mm; }
+      .shock .item { grid-template-columns:31mm 1fr; }
+      .shock .item-photo { height:30mm; }
+      .shock .item-copy h3 { font-size:8.7pt; }
+      .shock .details { font-size:7pt; }
+      .shock .application { font-size:9pt; }
+
+      .back { background:#fff; }
+      .back::before { content:""; position:absolute; top:0; left:0; right:0; height:13mm; background:var(--blue); }
+      .back::after { content:""; position:absolute; bottom:0; left:0; right:0; height:13mm; background:var(--red); }
+      .back-logo { position:absolute; left:50%; top:92mm; width:108mm; height:76mm; overflow:hidden; transform:translateX(-50%); }
+      .back-logo img { position:absolute; width:108mm; height:108mm; top:-23mm; object-fit:contain; }
+      .contacts { position:absolute; left:31mm; right:31mm; top:188mm; display:grid; grid-template-columns:1fr 1fr; gap:20mm; text-align:center; }
+      .contact-icon { width:32mm; height:32mm; margin:0 auto 5mm; display:grid; place-items:center; border:1.8mm solid #090309; border-radius:50%; color:#090309; font-size:25pt; font-weight:800; }
+      .contact strong { font-size:11pt; line-height:1.15; }
+      .contact small { display:block; font-size:9pt; font-weight:800; }
+
+      @media print { html,body { background:#fff; print-color-adjust:exact; -webkit-print-color-adjust:exact; } .sheet { margin:0; } }
+    </style>
+  </head>
+  <body>
+    <main id="catalog"></main>
+    <script>
+      const items = [
+        ['1026 PU','VW','Bucha do Feixe de Mola Dianteira','Diâm. interno 16,0mm','VW 6.90 / 8.100 / 8.120 / 8.150'],
+        ['1030 PU','VW','Calço do Feixe de Molas (Pastilha Antirruído)','', 'VW L80 / 690 / 790 / 7100 / 7110 / 8100 / 8140 / 9150 · MB Accelo'],
+        ['1046A PU','HBZ','Bucha do Quarto Eixo Traseiro do Truck','Comprimento 118,0mm · Diâm. externo 68,0mm · Diâm. interno 22,0mm','HBZ'],
+        ['1048 PU','VW','Bucha Central da Barra Estabilizadora Dianteira','Cód. original 23B411346 · Diâm. interno 30,0mm','VW 9.170 / 11.180 Delivery · 2018 em diante'],
+        ['1048A PU','VW','Bucha Central da Barra Estabilizadora Traseira','Cód. original 23B411346 · Diâm. interno 33,0mm','VW 9.170 / 11.180 Delivery · 2018 em diante'],
+        ['1053 PU','VW','Bucha da Ponta da Barra Estabilizadora Traseira','', 'VW 11.180 / 9.170 / Delivery'],
+        ['1061 PU','VW','Bucha do Feixe de Molas e Suporte Traseiro','Comprimento 88,0mm · Diâm. externo 53,0mm · Diâm. interno 18,4mm','VW 9.170 / 11.180 Delivery · 2018 em diante'],
+        ['1062 PU','VW','Bucha do Feixe de Molas e Suporte Traseiro','Comprimento 76,0mm · Diâm. externo 53,0mm · Diâm. interno 18,2mm','VW 6.160 / 4.150 / 4.160 · Express 2018 em diante'],
+        ['2062 PU','MB','Bucha do Feixe de Molas Dianteiro — Parte Dianteira','Aplicável em olhais com diâm. interno 61,0mm','MB Atego'],
+        ['2063A PU','MB','Bucha do Feixe de Molas Dianteiro — Parte Traseira','Aplicável em olhais com diâm. interno 53,0mm','MB Atego'],
+        ['2063B PU','MB','Bucha do Feixe de Molas Dianteiro — Parte Traseira','Aplicável em olhais com diâm. interno 55,0mm','MB Atego'],
+        ['2063C PU','MB','Bucha do Feixe de Molas Dianteiro — Parte Traseira','Aplicável em olhais com diâm. interno 58,0mm · adaptação para mola sem capa de metal','MB Atego'],
+        ['2074A PU','MB','Bucha do Suporte da Mola Dianteira','Aplicável em suporte com diâm. interno 48,0mm','MB Atego'],
+        ['2074B PU','MB','Bucha do Suporte da Mola Dianteira','Aplicável em suporte com diâm. interno 46,0mm','MB Atego'],
+        ['2074C PU','MB','Bucha do Suporte da Mola Dianteira','Aplicável em suporte com diâm. interno 43,0mm','MB Atego'],
+        ['2078A PU','MB','Bucha do Suporte da Mola Dianteira e Traseira','', 'MB Accelo 815 / 915 / 1016'],
+
+        ['2081B PU','MB','Bucha do Feixe de Mola Traseiro','Aplicável em olhais com diâm. 61,0mm · diâm. interno do furo 22,0mm','MB Atego'],
+        ['2108 PU','MB','Bucha da Barra Estabilizadora Dianteira','Cód. original 000.323.6285 · comprimento 56,0mm · externo 43,0mm · interno 29,0mm','MB Actros 2031 / 2655 / 33315'],
+        ['2112 PU','MB','Bucha da Ponta da Barra Estabilizadora Dianteira','Código original 000.323.7985','MB Actros / Axor'],
+        ['2114 PU','MB','Bucha da Ponta da Barra Estabilizadora Traseira','Código original 000.323.8185','MB Actros / Axor'],
+        ['0627 PU','IVECO','Bucha da Barra de Torção Dianteira','Cód. original 500350342 · altura 32mm · externo 65mm · furo 33mm','Iveco Daily 70C16 / 70C16 HD / 70C17 / 70C17 HD · 65-170 / 70-170 (2019 em diante)'],
+        ['0628 PU','IVECO','Bucha da Barra de Torção Dianteira','Cód. original 500350342 · altura 32mm · externo 65mm · furo 38mm','Iveco Daily 70C16 / 70C16 HD / 70C17 / 70C17 HD · 65-170 / 70-170 (2019 em diante)'],
+        ['0630 PU','IVECO','Kit de Buchas da Barra de Torção Dianteira','Cód. originais 93828148A / 93807640A / 93828149A','Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17','compact'],
+        ['0631 PU','IVECO','Bucha Superior da Barra de Torção Dianteira','Cód. original 93828148A · altura 42mm · externo 57mm · furo 29mm','Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17','compact'],
+        ['0632 PU','IVECO','Bucha Inferior da Barra de Torção Dianteira','Cód. original 93807640A · altura 42mm · externo 52mm · furo 29mm','Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17','compact'],
+        ['0633 PU','IVECO','Bucha Superior da Barra de Torção Dianteira','Cód. original 93828149A · altura 42mm · externo 57mm · furo 37mm','Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17','compact'],
+        ['6002 PU','SCANIA','Bucha da Barra Estabilizadora Dianteira','Cód. original 228483 · comprimento 100mm · externo 71mm · furo 49mm','Scania 124'],
+        ['6052 PU','SCANIA','Bucha do Feixe de Molas — Parte Traseira','', 'Scania suspensão a ar'],
+        ['7010 PU','VOLVO','Bucha do Feixe de Molas Dianteiro','Aplicável em olhais com diâm. interno 52,0mm · furo 16,0mm','Volvo VM 240 / 260'],
+        ['7014 PU','VOLVO','Bucha do Feixe de Molas Dianteiro','Aplicável em olhais com diâm. interno 52,0mm · furo 20,0mm','Volvo VM 240 / 260 / 330'],
+        ['8011 PU','RANDON','Bucha do Tensor do Truck','Comprimento 63mm · diâmetro externo 58,5mm · furo 24mm','Randon 2000'],
+        ['8024 PU','SUSP.','Bucha da Balança','Comprimento 119,0mm · diâmetro externo 85,0mm · furo 30,5mm','Lub free'],
+
+        ['3056 PU','FORD','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 40,0mm · diâm. interno 16,2mm','Ranger 2012 a 2022'],
+        ['3058 PU','FORD','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 38,0mm · diâm. interno 16,2mm','Ranger 2012 a 2022'],
+        ['5021 PU','TOYOTA','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 40,0mm · diâm. interno 14,2mm','Hilux 2005 a 2022'],
+        ['5022 PU','TOYOTA','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 35,0mm · diâm. interno 14,2mm','Hilux 2005 a 2022'],
+        ['5023 PU','TOYOTA','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 38,0mm · diâm. interno 14,2mm','Hilux 2005 a 2022'],
+        ['5029 PU','TOYOTA','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 42,0mm · diâm. interno 14,2mm','Hilux 2005 a 2022'],
+        ['9028 PU','CHEV.','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 40,0mm · diâm. interno 14,2mm','S10 2012 a 2022'],
+        ['0828 PU','MITSU.','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 35,0mm · diâm. interno 14,2mm','L200 Triton 2008 a 2022'],
+        ['0828A PU','MITSU.','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 37,0mm · diâm. interno 14,2mm','L200 Triton 2008 a 2022'],
+        ['0828C PU','MITSU.','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 40,0mm · diâm. interno 14,2mm','Pajero / L200 Triton 2008 a 2022'],
+        ['0912 PU','NISSAN','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 37,0mm · diâm. interno 14,2mm','Frontier 2008 a 2022'],
+        ['0912A PU','NISSAN','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 41,5mm · diâm. interno 14,2mm','Frontier 2008 a 2022']
+      ].map(([code,brand,name,details,application,sizeClass='']) => ({code,brand,name,details,application,sizeClass}));
+
+      const esc = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[char]);
+      const imagePath = code => `../assets/img/Peças de PU/${encodeURIComponent(code)}.png`;
+      const item = product => `<article class="item ${product.sizeClass}"><div class="code-tag"><span class="brand">${esc(product.brand)}</span>${esc(product.code)}</div><img class="item-photo" src="${imagePath(product.code)}" alt="${esc(product.name)}"><div class="item-copy"><h3>${esc(product.name)}</h3>${product.details ? `<p class="details">${esc(product.details)}</p>` : ''}<p class="application">${esc(product.application)}</p></div></article>`;
+      const insidePage = (products, side, number, shock=false) => `<section class="sheet inside ${side}-rail ${shock?'shock':''}"><div class="panel">${shock?'<div class="shock-title">Buchas do amortecedor</div>':''}<div class="catalog-grid">${products.map(item).join('')}</div></div><div class="rail-title">Borrachas Rocha | Catálogo 2026</div><div class="page-tab"><span>${number}</span></div></section>`;
+      const logo = '../assets/img/Logos/Logo.webp';
+      const cover = `<section class="sheet cover"><img class="cover-photo" src="capa-caminhao.png" alt="Caminhão em rodovia"><div class="cover-white"></div><div class="cover-blue-stripe"></div><div class="cover-red"></div><div class="cover-blue-bottom"></div><div class="logo-crop"><img src="${logo}" alt="Borrachas Rocha"></div><div class="cover-year">CATÁLOGO<span>2026</span></div><div class="cover-line"><strong>LINHA</strong>Elastômero de poliuretano de alta performance</div></section>`;
+      const back = `<section class="sheet back"><div class="back-logo"><img src="${logo}" alt="Borrachas Rocha"></div><div class="contacts"><div class="contact"><div class="contact-icon">✉</div><strong>borrachasrocha@hotmail.com</strong></div><div class="contact"><div class="contact-icon">☎</div><strong>(31) 99616-5270</strong><small>André Rocha</small></div></div></section>`;
+      document.querySelector('#catalog').innerHTML = cover + insidePage(items.slice(0,16),'left',1) + insidePage(items.slice(16,32),'right',2) + insidePage(items.slice(32),'left',3,true) + back;
+      const preview = new URLSearchParams(location.search).get('preview');
+      if (preview !== null) document.querySelectorAll('.sheet').forEach((page,index) => page.style.display = index === Number(preview) ? 'block' : 'none');
+    </script>
+  </body>
+</html>

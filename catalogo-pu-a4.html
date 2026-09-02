@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo PU | Borrachas Rocha</title>
+    <style>
+      :root {
+        --blue: #273d91;
+        --blue-deep: #172459;
+        --red: #ef2633;
+        --yellow: #f5b51b;
+        --ink: #15204b;
+        --muted: #66708a;
+        --line: #dfe3ec;
+        --paper: #f5f5f2;
+      }
+
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; background: #d9dbe2; color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
+      @page { size: A4 portrait; margin: 0; }
+
+      .sheet {
+        position: relative;
+        width: 210mm;
+        height: 297mm;
+        margin: 8mm auto;
+        padding: 14mm 13mm 12mm 20mm;
+        overflow: hidden;
+        background: #fff;
+        break-after: page;
+        page-break-after: always;
+      }
+
+      .sheet:last-child { break-after: auto; page-break-after: auto; }
+      .cover, .back-cover { color: #fff; background: var(--blue-deep); }
+      .cover::before, .back-cover::before {
+        content: "";
+        position: absolute;
+        width: 142mm;
+        height: 142mm;
+        border: 18mm solid var(--red);
+        border-radius: 50%;
+        right: -92mm;
+        top: -82mm;
+      }
+      .cover::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        opacity: .12;
+        background-image: linear-gradient(rgba(255,255,255,.38) 0.3mm, transparent 0.3mm), linear-gradient(90deg, rgba(255,255,255,.38) 0.3mm, transparent 0.3mm);
+        background-size: 12mm 12mm;
+        mask-image: linear-gradient(90deg, #000, transparent 82%);
+      }
+      .cover > *, .back-cover > * { position: relative; z-index: 1; }
+      .cover-logo { width: 73mm; margin-top: 2mm; }
+      .cover-kicker { margin: 31mm 0 4mm; color: #ffd55b; font-size: 9pt; font-weight: 800; letter-spacing: 2.4pt; text-transform: uppercase; }
+      .cover h1 { max-width: 145mm; margin: 0; font-family: "Arial Narrow", Arial, sans-serif; font-size: 46pt; line-height: .89; letter-spacing: -2.2pt; text-transform: uppercase; }
+      .cover h1 span { display: block; color: var(--yellow); }
+      .cover-subtitle { width: 104mm; margin: 7mm 0 0; color: #d9dff9; font-size: 11pt; line-height: 1.5; }
+      .cover-photo {
+        position: absolute;
+        z-index: 2;
+        left: 20mm;
+        bottom: 16mm;
+        width: 177mm;
+        height: 84mm;
+        overflow: hidden;
+        background: #fff;
+        border-top: 3mm solid var(--yellow);
+      }
+      .cover-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 47%; }
+      .edition { position: absolute; right: 14mm; bottom: 105mm; color: #fff; font-size: 8pt; font-weight: 700; letter-spacing: 1pt; text-transform: uppercase; }
+
+      .section-kicker { margin: 0 0 3mm; color: var(--red); font-size: 8pt; font-weight: 800; letter-spacing: 1.7pt; text-transform: uppercase; }
+      .intro h2 { margin: 0; font-family: "Arial Narrow", Arial, sans-serif; font-size: 29pt; line-height: .95; letter-spacing: -1pt; text-transform: uppercase; }
+      .lead { width: 145mm; margin: 6mm 0 10mm; color: var(--muted); font-size: 10pt; line-height: 1.55; }
+      .intro-rule { width: 32mm; height: 1.5mm; margin: 7mm 0; background: var(--yellow); }
+      .guide-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7mm; }
+      .guide-box { min-height: 56mm; padding: 6mm; background: var(--paper); border-top: 1.3mm solid var(--blue); }
+      .guide-box h3 { margin: 0 0 4mm; color: var(--blue); font-family: "Arial Narrow", Arial, sans-serif; font-size: 16pt; text-transform: uppercase; }
+      .guide-box p, .guide-box li { color: #4f5974; font-size: 9pt; line-height: 1.5; }
+      .guide-box ol { margin: 0; padding-left: 5mm; }
+      .brand-index { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2.4mm 7mm; margin-top: 1mm; }
+      .brand-index div { display: flex; justify-content: space-between; gap: 3mm; padding-bottom: 1.4mm; border-bottom: .25mm solid #d5d9e3; color: #4f5974; font-size: 8.5pt; }
+      .brand-index strong { color: var(--ink); }
+      .notice { margin-top: 8mm; padding: 5mm 6mm; border-left: 1.6mm solid var(--yellow); background: #fff6dc; color: #5d563d; font-size: 8.5pt; line-height: 1.5; }
+
+      .page-header { height: 19mm; display: flex; align-items: flex-start; justify-content: space-between; gap: 8mm; border-bottom: .5mm solid var(--line); }
+      .page-header h2 { margin: 1mm 0 0; font-family: "Arial Narrow", Arial, sans-serif; font-size: 22pt; line-height: .9; letter-spacing: -.6pt; text-transform: uppercase; }
+      .page-header h2 span { color: var(--red); }
+      .page-header img { width: 34mm; height: 13mm; object-fit: contain; object-position: right top; }
+      .product-grid { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 6mm; height: 239mm; padding-top: 6mm; }
+      .product-card { position: relative; display: flex; min-height: 0; flex-direction: column; overflow: hidden; border: .35mm solid var(--line); background: #fff; }
+      .product-image { position: relative; height: 63mm; flex: 0 0 63mm; display: grid; place-items: center; overflow: hidden; background: #f0f1f0; border-bottom: .35mm solid var(--line); }
+      .product-image img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; }
+      .pu-badge { position: absolute; top: 3mm; right: 3mm; padding: 1.7mm 2.6mm; background: var(--yellow); color: #513a00; font-size: 7pt; font-weight: 800; letter-spacing: .8pt; }
+      .product-info { display: flex; min-height: 0; flex: 1; flex-direction: column; padding: 4.5mm 5mm 4mm; }
+      .product-code { color: var(--red); font-size: 8pt; font-weight: 800; letter-spacing: .8pt; text-transform: uppercase; }
+      .product-info h3 { margin: 2mm 0 2.5mm; font-family: "Arial Narrow", Arial, sans-serif; font-size: 14.5pt; line-height: 1.02; text-transform: uppercase; }
+      .product-brand { margin: auto 0 2.5mm; color: var(--blue); font-size: 7.7pt; font-weight: 800; letter-spacing: .6pt; text-transform: uppercase; }
+      .product-application { margin: 0; color: #555f77; font-size: 8.1pt; line-height: 1.35; }
+      .product-application strong { color: var(--ink); }
+      .page-footer { position: absolute; left: 20mm; right: 13mm; bottom: 5.2mm; display: flex; align-items: center; justify-content: space-between; color: #7a8297; font-size: 7pt; }
+      .page-footer span:last-child { color: var(--blue); font-weight: 800; }
+
+      .back-cover { display: block; }
+      .back-mark { position: absolute; top: 2mm; left: 20mm; width: 70mm; }
+      .back-cover > .section-kicker { margin-top: 82mm !important; }
+      .back-cover h2 { width: 145mm; margin: 0 0 7mm; font-family: "Arial Narrow", Arial, sans-serif; font-size: 37pt; line-height: .92; text-transform: uppercase; }
+      .back-cover h2 span { color: var(--yellow); }
+      .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm 10mm; padding: 8mm 0; border-top: .4mm solid #6674bb; border-bottom: .4mm solid #6674bb; }
+      .contact-item small { display: block; margin-bottom: 1.2mm; color: #aeb8e9; font-size: 7pt; font-weight: 700; letter-spacing: 1pt; text-transform: uppercase; }
+      .contact-item strong { font-size: 10pt; }
+      .back-note { margin: 8mm 0 2mm; color: #cbd2f6; font-size: 8.5pt; line-height: 1.5; }
+
+      @media print {
+        html, body { background: #fff; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+        .sheet { margin: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <main id="catalog"></main>
+    <script>
+      const products = [
+        ['1026 PU','Volkswagen','Bucha do feixe de mola dianteira','VW 6.90 / 8.100 / 8.120 / 8.150'],
+        ['1030 PU','Volkswagen','Calço do feixe de molas','VW L80 / 6.90 / 7.90 / 7.100 / 7.110 / 8.100 / 8.150 e MB Accelo'],
+        ['1046A PU','Agrale','Bucha do quarto eixo traseiro','HBZ'],
+        ['1048 PU','Volkswagen','Bucha central da barra estabilizadora dianteira','VW 9.170 / 11.180 Delivery 2018 em diante'],
+        ['1048A PU','Volkswagen','Bucha central da barra estabilizadora traseira','VW 9.170 / 11.180 Delivery 2018 em diante'],
+        ['1053 PU','Volkswagen','Bucha da ponta da barra estabilizadora traseira','VW 11.180 / 9.170 / Delivery'],
+        ['1061 PU','Volkswagen','Bucha do feixe de molas e suporte traseiro','VW 9.170 / 11.180 Delivery 2018 em diante'],
+        ['1062 PU','Volkswagen','Bucha do feixe de molas e suporte traseiro','VW 6.160 / 4.150 / 4.160 / Express 2018 em diante'],
+        ['2062 PU','Mercedes','Bucha do feixe de molas dianteiro','MB Atego'],
+        ['2063A PU','Mercedes','Bucha do feixe de molas dianteiro — parte traseira','MB Atego'],
+        ['2063B PU','Mercedes','Bucha do feixe de molas dianteiro — parte traseira','MB Atego'],
+        ['2063C PU','Mercedes','Bucha do feixe de molas dianteiro — parte traseira','MB Atego'],
+        ['2074A PU','Mercedes','Bucha do suporte da mola dianteira','MB Atego / Sprinter'],
+        ['2074B PU','Mercedes','Bucha do suporte da mola dianteira','MB Atego / Sprinter'],
+        ['2074C PU','Mercedes','Bucha do suporte da mola dianteira','MB Atego'],
+        ['2078A PU','Mercedes','Bucha do suporte da mola dianteira e traseira','MB Accelo 815 / 915 / 1016'],
+        ['2081B PU','Mercedes','Bucha do feixe de mola traseira','MB Atego'],
+        ['2108 PU','Mercedes','Bucha da barra estabilizadora dianteira','MB Actros 2031 / 2655 / 33315'],
+        ['2112 PU','Mercedes','Bucha da ponta da barra estabilizadora dianteira','MB Actros / Axor'],
+        ['2114 PU','Mercedes','Bucha da ponta da barra estabilizadora traseira','MB Actros / Axor'],
+        ['0627 PU','Iveco','Bucha da barra de torção dianteira','Iveco Daily 70C16 / 70C17 / 70C17 HD / 65-170 / 70-170 / 2019 em diante'],
+        ['0628 PU','Iveco','Bucha da barra de torção dianteira','Iveco Daily 70C16 / 70C17 / 70C17 HD / 65-170 / 70-170 / 2019 em diante'],
+        ['0630 PU','Iveco','Kit de buchas da barra de torção dianteira','Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12'],
+        ['0631 PU','Iveco','Bucha superior da barra de torção dianteira','Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12'],
+        ['0632 PU','Iveco','Bucha inferior da barra de torção dianteira','Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12'],
+        ['0633 PU','Iveco','Bucha superior da barra de torção dianteira','Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12'],
+        ['6002 PU','Scania','Bucha da barra estabilizadora dianteira','Scania 124'],
+        ['6052 PU','Scania','Bucha do feixe de molas — parte traseira','Scania suspensão a ar'],
+        ['7010 PU','Volvo','Bucha do feixe de molas dianteiro','Volvo VM 240 / 260'],
+        ['7014 PU','Volvo','Bucha do feixe de molas dianteiro','Volvo VM 240 / 260 / 330'],
+        ['8011 PU','Randon','Bucha do tensor do motor','Randon 2300'],
+        ['8024 PU','Suspensys','Bucha da balança','Suspensys'],
+        ['3056 PU','Ford','Bucha inferior do amortecedor dianteiro','Ranger 2012 a 2022'],
+        ['3058 PU','Ford','Bucha inferior do amortecedor dianteiro','Ranger 2012 a 2022'],
+        ['5021 PU','Toyota','Bucha inferior do amortecedor dianteiro','Hilux 2005 a 2022'],
+        ['5022 PU','Toyota','Bucha inferior do amortecedor dianteiro','Hilux 2005 a 2022'],
+        ['5023 PU','Toyota','Bucha inferior do amortecedor dianteiro','Hilux 2005 a 2022'],
+        ['5029 PU','Toyota','Bucha inferior do amortecedor dianteiro','Hilux 2005 a 2022'],
+        ['9028 PU','Chevrolet','Bucha inferior do amortecedor dianteiro','S10 2012 a 2022'],
+        ['0828 PU','Mitsubishi','Bucha inferior do amortecedor dianteiro','L200 Triton 2008 a 2022'],
+        ['0828A PU','Mitsubishi','Bucha inferior do amortecedor dianteiro','L200 Triton 2008 a 2022'],
+        ['0828C PU','Mitsubishi','Bucha inferior do amortecedor dianteiro','Pajero / L200 Triton 2008 a 2022'],
+        ['0912 PU','Nissan Frontier','Bucha inferior do amortecedor dianteiro','Frontier 2008 a 2022'],
+        ['0912A PU','Nissan Frontier','Bucha inferior do amortecedor dianteiro','Frontier 2008 a 2022']
+      ].map(([code, brand, name, application]) => ({ code, brand, name, application }));
+
+      const brandCounts = products.reduce((counts, product) => {
+        counts[product.brand] = (counts[product.brand] || 0) + 1;
+        return counts;
+      }, {});
+      const brandOrder = [...new Set(products.map(product => product.brand))];
+      const chunks = [];
+      for (let index = 0; index < products.length; index += 4) chunks.push(products.slice(index, index + 4));
+      const totalPages = chunks.length + 3;
+      const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[char]);
+      const logo = 'assets/img/Logos/Logo-Sem-Slogan-Variação-Branca-01.webp';
+      const colorLogo = 'assets/img/Logos/Logo.webp';
+
+      const cover = `
+        <section class="sheet cover">
+          <img class="cover-logo" src="${logo}" alt="Borrachas Rocha" />
+          <p class="cover-kicker">Linha de alta performance</p>
+          <h1>Catálogo de peças <span>em poliuretano</span></h1>
+          <p class="cover-subtitle">Referências, aplicações e imagens para uma consulta comercial rápida e precisa.</p>
+          <span class="edition">Edição 2026</span>
+          <div class="cover-photo"><img src="assets/img/pecas-pu-placeholder.png" alt="Peças em poliuretano" /></div>
+        </section>`;
+
+      const indexItems = brandOrder.map(brand => `<div><strong>${escapeHtml(brand)}</strong><span>${brandCounts[brand]} ${brandCounts[brand] === 1 ? 'referência' : 'referências'}</span></div>`).join('');
+      const intro = `
+        <section class="sheet intro">
+          <p class="section-kicker">Catálogo técnico-comercial</p>
+          <h2>Encontre a referência ideal</h2>
+          <div class="intro-rule"></div>
+          <p class="lead">A linha PU Borrachas Rocha reúne componentes desenvolvidos para aplicações que exigem resistência, estabilidade e durabilidade. Use o código, a foto e a aplicação como apoio na identificação da peça.</p>
+          <div class="guide-grid">
+            <div class="guide-box">
+              <h3>Como consultar</h3>
+              <ol>
+                <li>Localize a montadora ou linha desejada.</li>
+                <li>Compare a imagem e a aplicação do veículo.</li>
+                <li>Confirme o código com o atendimento antes da compra.</li>
+              </ol>
+            </div>
+            <div class="guide-box">
+              <h3>Linha PU</h3>
+              <p><strong>44 referências com fotos individuais.</strong></p>
+              <p>Organização por código e aplicação, cobrindo veículos leves, caminhões, implementos e sistemas de suspensão.</p>
+            </div>
+          </div>
+          <p class="section-kicker" style="margin-top:10mm">Índice por linha</p>
+          <div class="brand-index">${indexItems}</div>
+          <div class="notice"><strong>Importante:</strong> as imagens são ilustrativas. Medidas, códigos originais e aplicação devem ser confirmados com a equipe comercial antes da instalação.</div>
+          <div class="page-footer"><span>Borrachas Rocha · Catálogo PU</span><span>2 / ${totalPages}</span></div>
+        </section>`;
+
+      const productCard = product => `
+        <article class="product-card">
+          <div class="product-image">
+            <img src="assets/img/Peças de PU/${encodeURIComponent(product.code)}.png" alt="${escapeHtml(product.name)}" />
+            <span class="pu-badge">PU</span>
+          </div>
+          <div class="product-info">
+            <span class="product-code">Cód. ${escapeHtml(product.code)}</span>
+            <h3>${escapeHtml(product.name)}</h3>
+            <div class="product-brand">${escapeHtml(product.brand)}</div>
+            <p class="product-application"><strong>Aplicação:</strong> ${escapeHtml(product.application)}</p>
+          </div>
+        </article>`;
+
+      const productPages = chunks.map((chunk, index) => {
+        const brands = [...new Set(chunk.map(product => product.brand))];
+        const heading = brands.length === 1 ? brands[0] : 'Linha PU';
+        const pageNumber = index + 3;
+        return `
+          <section class="sheet product-page" id="product-page-${index}">
+            <header class="page-header">
+              <div><p class="section-kicker">Peças em poliuretano</p><h2>${escapeHtml(heading)} <span>/ PU</span></h2></div>
+              <img src="${colorLogo}" alt="Borrachas Rocha" />
+            </header>
+            <div class="product-grid">${chunk.map(productCard).join('')}</div>
+            <div class="page-footer"><span>Confirme a aplicação antes da compra · borrachasrocha.com.br</span><span>${pageNumber} / ${totalPages}</span></div>
+          </section>`;
+      }).join('');
+
+      const back = `
+        <section class="sheet back-cover">
+          <img class="back-mark" src="${logo}" alt="Borrachas Rocha" />
+          <p class="section-kicker" style="color:#ffbcc2">Atendimento especializado</p>
+          <h2>Qualidade que acompanha <span>o seu caminho.</span></h2>
+          <div class="contact-grid">
+            <div class="contact-item"><small>Telefone</small><strong>(31) 3357-9744</strong></div>
+            <div class="contact-item"><small>WhatsApp</small><strong>(31) 99961-6527</strong></div>
+            <div class="contact-item"><small>E-mail</small><strong>borrachasrocha@hotmail.com</strong></div>
+            <div class="contact-item"><small>Site</small><strong>borrachasrocha.com.br</strong></div>
+          </div>
+          <p class="back-note">Catálogo de produtos para consulta. As especificações podem ser atualizadas sem aviso prévio. Confirme disponibilidade, medidas e aplicação com nossa equipe.</p>
+          <div class="page-footer" style="color:#aeb8e9"><span>Borrachas Rocha · Qualidade &amp; Durabilidade</span><span style="color:#fff">${totalPages} / ${totalPages}</span></div>
+        </section>`;
+
+      document.querySelector('#catalog').innerHTML = cover + intro + productPages + back;
+      const previewPage = new URLSearchParams(location.search).get('preview');
+      if (previewPage !== null) document.querySelectorAll('.sheet').forEach((sheet, index) => { sheet.style.display = index === Number(previewPage) ? 'block' : 'none'; });
+      if (location.hash) requestAnimationFrame(() => document.querySelector(location.hash)?.scrollIntoView());
+    </script>
+  </body>
+</html>

@@ -12,7 +12,7 @@ Funciona nas duas opções abaixo:
 ## Conteúdo do catálogo
 
 - A linha de borracha é pesquisável por código, nome, montadora e aplicação extraída do catálogo.
-- A linha de PU traz as referências e aplicações do catálogo de 2024. A imagem em `assets/img/pecas-pu-placeholder.png` é temporária e pode ser trocada por fotos individuais a qualquer momento.
+- A linha de PU traz as referências, aplicações e fotos individuais do catálogo. As imagens ficam em `assets/img/Peças de PU` e seguem o código da peça (por exemplo, `1026 PU.png`).
 - Os cards mantêm uma área quadrada com `object-fit: contain`; as fotos originais não são recortadas nem esticadas.
 
 Para acrescentar ou corrigir uma aplicação de PU, edite a lista `PU_PRODUCTS` em `catalog.js`.

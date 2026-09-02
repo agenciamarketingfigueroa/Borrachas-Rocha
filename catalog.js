@@ -32,7 +32,8 @@ const PU_PRODUCTS = [
   ['6052 PU','Scania','Bucha do feixe de molas parte traseira','Scania suspensão a ar'],
   ['7010 PU','Volvo','Bucha do feixe de molas dianteiro','Volvo VM 240 / 260'],
   ['7014 PU','Volvo','Bucha do feixe de molas dianteiro','Volvo VM 240 / 260 / 330'],
-  ['8111 PU','Ford','Bucha do tensor do motor','Randon 2300'],
+  ['8011 PU','Randon','Bucha do tensor do motor','Randon 2300'],
+  ['8024 PU','Suspensys','Bucha da balança','Suspensys'],
   ['3056 PU','Ford','Bucha inferior do amortecedor dianteiro','Ranger 2012 a 2022'],
   ['3058 PU','Ford','Bucha inferior do amortecedor dianteiro','Ranger 2012 a 2022'],
   ['5021 PU','Toyota','Bucha inferior do amortecedor dianteiro','Hilux 2005 a 2022'],
@@ -46,7 +47,7 @@ const PU_PRODUCTS = [
   ['0912 PU','Nissan Frontier','Bucha inferior do amortecedor dianteiro','Frontier 2008 a 2022'],
   ['0912A PU','Nissan Frontier','Bucha inferior do amortecedor dianteiro','Frontier 2008 a 2022']
 ].map(function (item) {
-  return { code:item[0], brand:item[1], name:item[2], application:item[3], material:'PU', image:'pecas-pu-placeholder.png' };
+  return { code:item[0], brand:item[1], name:item[2], application:item[3], material:'PU', image:item[0] + '.png' };
 });
 
 const state = { query:'', brand:'', material:'', year:'', limit:24, sort:'relevance' };
@@ -63,7 +64,7 @@ const escapeHtml = function (value) {
 };
 const pathForImage = function (product) {
   if (!product.image) return '';
-  if (product.material === 'PU') return 'assets/img/' + encodeURIComponent(product.image);
+  if (product.material === 'PU') return encodeURI('assets/img/Peças de PU/' + product.image);
   return encodeURI('assets/img/Peças de Borracha/' + product.image);
 };
 const decodeCatalog = async function () {
