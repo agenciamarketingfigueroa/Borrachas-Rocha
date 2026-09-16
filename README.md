@@ -16,3 +16,9 @@ Funciona nas duas opções abaixo:
 - Os cards mantêm uma área quadrada com `object-fit: contain`; as fotos originais não são recortadas nem esticadas.
 
 Para acrescentar ou corrigir uma aplicação de PU, edite a lista `PU_PRODUCTS` em `catalog.js`.
+
+## Pedido pelo WhatsApp
+
+O carrinho funciona sem backend. Peças, quantidades e dados de entrega ficam salvos no `localStorage` do navegador até o cliente usar **Limpar pedido**. A finalização abre o WhatsApp com uma mensagem pronta; o cliente precisa confirmar o envio.
+
+O número de destino está em `WHATSAPP_NUMBER` no arquivo `order.js`. Quando uma peça contém opções de medida identificadas no catálogo, o carrinho mostra uma quantidade independente para cada opção.

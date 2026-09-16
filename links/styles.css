@@ -1,0 +1,38 @@
+:root{color-scheme:dark;--navy:#101e4d;--blue:#232774;--red:#e32635;--white:#fff}
+*{box-sizing:border-box}
+html{min-height:100%;background:#101627}
+body{min-height:100vh;min-height:100dvh;margin:0;color:var(--white);font-family:Inter,Arial,sans-serif;-webkit-font-smoothing:antialiased;background:#101627}
+body::before{content:"";position:fixed;inset:0;z-index:0;background-image:linear-gradient(180deg,rgba(8,15,36,.90) 0%,rgba(10,21,52,.78) 43%,rgba(9,15,30,.77) 100%),url("../assets/img/caminhao-rocha.jpg");background-size:cover;background-position:center,center 48%}
+body::after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(circle at 50% 12%,rgba(37,70,150,.32),transparent 48%)}
+a{color:inherit}
+a:focus-visible{outline:3px solid #fff;outline-offset:4px}
+.links-page{position:relative;z-index:1;width:min(100%,590px);min-height:100vh;min-height:100dvh;margin-inline:auto;padding:46px 22px max(30px,env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center}
+.profile{text-align:center}
+.logo-badge{display:grid;place-items:center;width:138px;height:138px;margin:0 auto 24px;border-radius:50%;background:#fff;box-shadow:0 12px 35px rgba(0,0,0,.18)}
+.logo-badge img{display:block;width:119px;height:119px;object-fit:contain}
+.eyebrow{margin:0 0 12px;color:#c6d4f9;font-size:10px;font-weight:800;letter-spacing:.2em}
+h1{margin:0;font-size:clamp(27px,7vw,36px);line-height:1.13;font-weight:700;letter-spacing:-.035em}
+.location{display:flex;align-items:center;justify-content:center;gap:7px;margin:13px 0 0;color:#e0e8f7;font-size:15px;font-weight:600}
+.location svg{width:17px;height:17px;flex:none;color:#f05260}
+.description{margin:26px 0 0;font-size:17px;font-weight:700;line-height:1.35}
+.link-list{display:grid;gap:13px;width:100%;margin-top:26px}
+.link-card{min-height:76px;display:grid;grid-template-columns:48px minmax(0,1fr) 20px;align-items:center;gap:13px;padding:11px 17px 11px 13px;border:1.5px solid rgba(255,255,255,.86);border-radius:22px;background:rgba(25,40,109,.95);box-shadow:0 10px 23px rgba(0,0,0,.14);text-decoration:none;transition:transform .2s,background-color .2s,border-color .2s,box-shadow .2s}
+.link-card:hover{transform:translateY(-2px);background:#273b95;border-color:white;box-shadow:0 15px 26px rgba(0,0,0,.2)}
+.link-card:active{transform:scale(.99)}
+.link-icon{display:grid;place-items:center;width:46px;height:46px;color:white}
+.link-icon svg{width:29px;height:29px}
+.logo-icon{border-radius:50%;background:white}
+.logo-icon img{width:41px;height:41px;object-fit:contain}
+.link-copy{display:grid;gap:4px;min-width:0}
+.link-copy strong{font-size:17px;font-weight:700;line-height:1.15}
+.link-copy small{color:#e3e9ff;font-size:12px;font-weight:400;line-height:1.25}
+.link-arrow{width:19px;height:19px;color:#d4dfff}
+.link-card-pending{border-color:rgba(255,255,255,.5);background:rgba(25,40,109,.72);box-shadow:none;cursor:default}
+.link-card-pending:hover{transform:none;border-color:rgba(255,255,255,.5);background:rgba(25,40,109,.72);box-shadow:none}
+.link-card-pending .link-copy small{color:#c3cbe3}
+.pending-dot{width:8px;height:8px;margin:auto;border-radius:50%;background:#f05260}
+.footer-note{margin:auto 0 0;padding-top:28px;color:#d3dcf1;font-size:11px;font-weight:600;letter-spacing:.03em;text-align:center}
+.footer-note span{color:var(--red);padding-inline:4px}
+@media(min-width:700px){.links-page{padding-top:58px;padding-bottom:48px}.logo-badge{width:150px;height:150px}.logo-badge img{width:130px;height:130px}.description{margin-top:28px}.link-list{gap:14px;margin-top:28px}.link-card{min-height:82px;border-radius:24px}.link-copy strong{font-size:18px}.link-copy small{font-size:13px}}
+@media(max-width:360px){.links-page{padding-inline:15px;padding-top:28px}.logo-badge{width:120px;height:120px;margin-bottom:18px}.logo-badge img{width:104px;height:104px}.description{margin-top:19px}.link-list{margin-top:20px;gap:10px}.link-card{min-height:70px}.footer-note{padding-top:20px}}
+@media(prefers-reduced-motion:reduce){.link-card{transition:none}}

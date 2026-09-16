@@ -53,6 +53,7 @@ const PU_PRODUCTS = [
 const state = { query:'', brand:'', material:'', year:'', limit:24, sort:'relevance' };
 let products = [];
 let productByCode = new Map();
+window.getCatalogProduct = function (code) { return productByCode.get(code); };
 const $ = function (selector) { return document.querySelector(selector); };
 const normalize = function (value) {
   return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
@@ -66,6 +67,10 @@ const pathForImage = function (product) {
   if (!product.image) return '';
   if (product.material === 'PU') return encodeURI('assets/img/Peças de PU/' + product.image);
   return encodeURI('assets/img/Peças de Borracha/' + product.image);
+};
+window.getCatalogProductImage = function (code) {
+  const product = productByCode.get(code);
+  return product ? pathForImage(product) : '';
 };
 const decodeCatalog = async function () {
   const binary = atob(RUBBER_PAYLOAD);
@@ -156,7 +161,7 @@ const openProduct = function (code) {
   if (!product) return;
   const src = pathForImage(product);
   const image = src ? '<img src="' + src + '" alt="' + escapeHtml(product.name) + '" />' : '<span class="image-fallback">' + escapeHtml(product.code) + '</span>';
-  $('#dialog-content').innerHTML = '<div class="dialog-inner"><div class="dialog-image">' + image + '</div><div class="dialog-copy"><span class="dialog-code">' + escapeHtml(product.code) + '</span><h2>' + escapeHtml(product.name) + '</h2><p class="dialog-material">' + escapeHtml(product.material === 'PU' ? 'Poliuretano de alta performance' : 'Linha de borracha') + ' · ' + escapeHtml(product.brand) + '</p><p><strong>Aplicação:</strong><br />' + escapeHtml(product.application) + '</p></div></div>';
+  $('#dialog-content').innerHTML = '<div class="dialog-inner"><div class="dialog-image">' + image + '</div><div class="dialog-copy"><span class="dialog-code">' + escapeHtml(product.code) + '</span><h2>' + escapeHtml(product.name) + '</h2><p class="dialog-material">' + escapeHtml(product.material === 'PU' ? 'Poliuretano de alta performance' : 'Linha de borracha') + ' · ' + escapeHtml(product.brand) + '</p><p><strong>Aplicação:</strong><br />' + escapeHtml(product.application) + '</p><button class="add-to-order" type="button" data-add-product="' + escapeHtml(product.code) + '">Adicionar ao pedido <span aria-hidden="true">→</span></button></div></div>';
   $('#product-dialog').showModal();
 };
 const bind = function () {
@@ -184,5 +189,6 @@ const init = async function () {
   productByCode = new Map(products.map(function(product) { return [product.code, product]; }));
   fillSelect('#brand', 'Todas as montadoras'); fillSelect('#brand-side', 'Todas');
   bind(); render(true);
+  document.dispatchEvent(new Event('catalog-ready'));
 };
 init();
