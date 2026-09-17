@@ -4,10 +4,11 @@ Site estático para consulta de peças e aplicações. Não exige build: `index.
 
 ## Publicação
 
-Funciona nas duas opções abaixo:
+O site é publicado pelo GitHub Pages a partir da branch `main`, pasta `/ (root)`, com domínio personalizado `borrachasrocha.com.br`. O arquivo `CNAME` na raiz registra esse domínio no código. Cada atualização enviada para `main` gera uma nova publicação.
 
-- **Cloudflare Pages conectado ao GitHub:** crie o projeto apontando para este repositório, selecione `main` e deixe o campo de comando de build vazio. O diretório de publicação é a raiz do repositório (`/`).
-- **GitHub Pages:** em *Settings > Pages*, selecione *Deploy from a branch*, a branch `main` e a pasta `/ (root)`.
+O Cloudflare gerencia o DNS; a hospedagem e o deploy ficam no GitHub Pages. No Cloudflare, configure quatro registros `A` para `@` com os IPs oficiais do GitHub Pages (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`) e um `CNAME` de `www` para `agenciamarketingfigueroa.github.io`. Deixe os registros como **DNS only** durante a validação do domínio e do certificado HTTPS no GitHub. Remova os antigos registros de hospedagem da Nuvemshop em `@` e `www` no momento da migração, preservando quaisquer registros de e-mail e outros serviços.
+
+No GitHub, em *Settings > Pages*, selecione *Deploy from a branch*, `main` e `/ (root)`; depois salve `borrachasrocha.com.br` em *Custom domain* e habilite *Enforce HTTPS* após a validação. No Registro.br, troque os servidores DNS pelos dois nomes exatos fornecidos pelo Cloudflare somente após revisar a zona importada.
 
 ## Conteúdo do catálogo
 

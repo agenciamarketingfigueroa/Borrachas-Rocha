@@ -45,9 +45,43 @@ const PU_PRODUCTS = [
   ['0828A PU','Mitsubishi','Bucha inferior do amortecedor dianteiro','L200 Triton 2008 a 2022'],
   ['0828C PU','Mitsubishi','Bucha inferior do amortecedor dianteiro','Pajero / L200 Triton 2008 a 2022'],
   ['0912 PU','Nissan Frontier','Bucha inferior do amortecedor dianteiro','Frontier 2008 a 2022'],
-  ['0912A PU','Nissan Frontier','Bucha inferior do amortecedor dianteiro','Frontier 2008 a 2022']
+  ['0912A PU','Nissan Frontier','Bucha inferior do amortecedor dianteiro','Frontier 2008 a 2022'],
+  ['6058 PU','Scania','Separador anti ruído da mola dianteira','Scania NTG 2019 em diante','Comprimento: 100 mm | Largura: 90 mm | Entre pinos: 45 mm','6058 PU.jpg'],
+  ['8002 PU','Rodoviária','Borracha rodoviária com aba','','Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm','8002 PU.jpg'],
+  ['8003 PU','Randon','Borracha Randon sem aba','','Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm','8003 PU.jpg'],
+  ['6057 PU','Scania','Bucha tranca da cabine traseira','Scania NTG 2019 em diante','','6057 PU.jpg'],
+  ['8001 PU','Rodoviária','Borracha rodoviária sem aba','','Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm','8001 PU.jpg'],
+  ['8004 PU','Randon','Borracha Randon com aba','','Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm','8004 PU.jpg'],
+  ['8023 PU','Jost','Coxim da 5ª roda (2 polegadas)','Jost','','8023 PU.jpg'],
+  ['5003 PU','Toyota','Borracha da mola dianteira','Toyota Band 1992 em diante','','5003 PU.jpg'],
+  ['5004 PU','Toyota','Borracha da mola traseira','Toyota Band 1992 em diante','','5004 PU.jpg'],
+  ['0611D PU','Iveco','Bucha da barra estabilizadora dianteira','Iveco Tector / Stralis','Comprimento total: 82 mm | Diâmetro do corpo: 70 mm | Entre abas: 71 mm | Interno do furo: 48 mm','0611D PU.jpg'],
+  ['3079 PU','Ford','Borracha do amortecedor dianteiro inferior','Ranger','Comprimento: 50 mm | Diâmetro externo: 54 mm | Interno do furo: 20 mm','3079 PU.jpg'],
+  ['3039 PU','Ford','Borracha da ponta estabilizadora dianteira','Ford 815','Comprimento: 45 mm | Diâmetro externo: 34 mm | Interno do furo: 12 mm','3039 PU.jpg'],
+  ['0616A PU','Iveco','Bucha da mola e suporte traseiro','Iveco Daily; aplicar em mola com 70 mm de largura','Comprimento: 80 mm | Diâmetro: 40 mm | Interno do furo: 16 mm','0616A PU.jpg'],
+  ['0610A PU','Iveco','Bucha da ponta estabilizadora dianteira','Iveco Stralis','Comprimento: 50 mm | Diâmetro: 61 mm | Interno do furo: 28 mm','0610A PU.jpg'],
+  ['0836 PU','Iveco','Bucha da mola dianteira e traseira','Iveco ônibus Mascarello','Comprimento: 80 mm | Diâmetro: 60 mm | Interno do furo: 16 mm','0836 PU.jpg'],
+  ['1024 PU','Volkswagen','Bucha da barra estabilizadora dianteira','VW 13.190','Interno do furo: 35 mm','1024 PU.jpg'],
+  ['1014 PU','Volkswagen','Borracha da barra estabilizadora dianteira','VW 12.140 - 24.250','Interno do furo: 44 mm','1014 PU.jpg'],
+  ['1013 PU','Volkswagen','Borracha da barra estabilizadora traseira','VW 6.90 - 8.150','Interno do furo: 32 mm','1013 PU.jpg'],
+  ['1013A PU','Volkswagen','Borracha da barra estabilizadora traseira','VW 6.90 - 8.150','Interno do furo: 30 mm',''],
+  ['1055 PU','Volkswagen','Bucha silenciosa da mola traseira','VW 11.180 - Delivery','Comprimento: 88 mm | Diâmetro externo: 53 mm | Interno do furo: 18 mm','1055 PU.jpg'],
+  ['1011 PU','Volkswagen','Borracha da ponta estabilizadora dianteira','VW 12.140 - 24.250','Olhal: 43 mm','1011 PU.jpg'],
+  ['1068 PU','Volkswagen','Bucha da barra estabilizadora dianteira superior','VW Meteor','Comprimento: 60 mm | Diâmetro externo (olhal): 65 mm | Interno do furo: 37 mm','1068 PU.jpg'],
+  ['1067 PU','Volkswagen','Bucha da barra estabilizadora dianteira inferior','VW Meteor','Altura: 60 mm | Diâmetro externo: 85 mm | Interno do furo: 49 mm','1067 PU.jpg'],
+  ['1008 PU','Volkswagen','Borracha estabilizadora dianteira','VW 6.90 - 8.150','Olhal: 28 mm','1008 PU.jpg'],
+  ['1010 PU','Volkswagen','Borracha da ponta estabilizadora traseira','VW 6.90 - 8.150','Olhal: 35 mm','1010 PU.jpg'],
+  ['1069 PU','Volkswagen','Bucha da ponta estabilizadora dianteira','VW Meteor','Comprimento: 64 mm | Diâmetro externo: 58 mm | Interno do furo: 20 mm','1069 PU.jpg'],
+  ['2010 PU','Mercedes','Borracha da barra estabilizadora com tubo dianteiro/traseiro','MB 710','Olhal: 30 mm','2010 PU.jpg'],
+  ['2008 PU','Mercedes','Borracha da barra estabilizadora com tubo dianteiro/traseiro','MB 608','Olhal: 26 mm','2008 PU.jpg'],
+  ['2095 PU','Mercedes','Batente guia do grampo da mola dianteira','MB Axor (fora de estrada)','Altura: 109 mm','2095 PU.jpg'],
+  ['2039 PU','Mercedes','Borracha da mola dianteira','MB 608','','2039 PU.jpg'],
+  ['2054 PU','Mercedes','Borracha da mola da cabine','MB 1620','','2054 PU.jpg'],
+  ['2078C PU','Mercedes','Bucha silenciosa do olho da mola traseira/dianteira','MB Accelo','','2078C PU.jpg'],
+  ['2120 PU','Mercedes','Bucha da ponta estabilizadora traseira inferior','MB Arocs','','2120 PU.jpg'],
+  ['2121 PU','Mercedes','Bucha da ponta estabilizadora dianteira inferior','MB Arocs','Comprimento: 57 mm | Diâmetro do olhal: 75 mm | Interno do furo: 20 mm','2121 PU.jpg']
 ].map(function (item) {
-  return { code:item[0], brand:item[1], name:item[2], application:item[3], material:'PU', image:item[0] + '.png' };
+  return { code:item[0], brand:item[1], name:item[2], application:item[3], specs:item[4] || '', material:'PU', image:item[5] === undefined ? item[0] + '.png' : item[5] };
 });
 
 const state = { query:'', brand:'', material:'', year:'', limit:24, sort:'relevance' };
@@ -97,16 +131,16 @@ const yearMatches = function (product, year) {
   const years = (product.application.match(/\b(19|20)\d{2}\b/g) || []).map(Number);
   if (!years.length) return true;
   const requested = Number(year);
+  if (/em diante/i.test(product.application)) return requested >= years[0];
   if (years.length >= 2 && /\b(a|ao|até|ate|em diante)\b/i.test(product.application)) {
     const first = Math.min.apply(null, years), last = Math.max.apply(null, years);
-    if (/em diante/i.test(product.application)) return requested >= first;
     return requested >= first && requested <= last;
   }
   return years.includes(requested);
 };
 const searchMatches = function (product) {
-  const terms = normalize(state.query).replace(/\b(19|20)\d{2}\b/g, ' ').split(/\s+/).filter(function(term){ return term.length > 1; });
-  const haystack = normalize([product.code, product.brand, product.name, product.application].join(' '));
+  const terms = normalize(state.query).replace(/\b(19|20)\d{2}\b/g, ' ').replace(/\bbr\b/g, ' ').split(/\s+/).filter(function(term){ return term.length > 1; });
+  const haystack = normalize([product.code, product.brand, product.name, product.application, product.specs].join(' '));
   const implicitYear = (state.query.match(/\b(19|20)\d{2}\b/) || [])[0];
   return terms.every(function (term) { return haystack.includes(term); }) && yearMatches(product, state.year || implicitYear);
 };
@@ -161,7 +195,9 @@ const openProduct = function (code) {
   if (!product) return;
   const src = pathForImage(product);
   const image = src ? '<img src="' + src + '" alt="' + escapeHtml(product.name) + '" />' : '<span class="image-fallback">' + escapeHtml(product.code) + '</span>';
-  $('#dialog-content').innerHTML = '<div class="dialog-inner"><div class="dialog-image">' + image + '</div><div class="dialog-copy"><span class="dialog-code">' + escapeHtml(product.code) + '</span><h2>' + escapeHtml(product.name) + '</h2><p class="dialog-material">' + escapeHtml(product.material === 'PU' ? 'Poliuretano de alta performance' : 'Linha de borracha') + ' · ' + escapeHtml(product.brand) + '</p><p><strong>Aplicação:</strong><br />' + escapeHtml(product.application) + '</p><button class="add-to-order" type="button" data-add-product="' + escapeHtml(product.code) + '">Adicionar ao pedido <span aria-hidden="true">→</span></button></div></div>';
+  const application = product.application ? '<p><strong>Aplicação:</strong><br />' + escapeHtml(product.application) + '</p>' : '';
+  const specs = product.specs ? '<p><strong>Medidas:</strong><br />' + product.specs.split(' | ').map(escapeHtml).join('<br />') + '</p>' : '';
+  $('#dialog-content').innerHTML = '<div class="dialog-inner"><div class="dialog-image">' + image + '</div><div class="dialog-copy"><span class="dialog-code">' + escapeHtml(product.code) + '</span><h2>' + escapeHtml(product.name) + '</h2><p class="dialog-material">' + escapeHtml(product.material === 'PU' ? 'Poliuretano de alta performance' : 'Linha de borracha') + ' · ' + escapeHtml(product.brand) + '</p>' + application + specs + '<button class="add-to-order" type="button" data-add-product="' + escapeHtml(product.code) + '">Adicionar ao pedido <span aria-hidden="true">→</span></button></div></div>';
   $('#product-dialog').showModal();
 };
 const bind = function () {

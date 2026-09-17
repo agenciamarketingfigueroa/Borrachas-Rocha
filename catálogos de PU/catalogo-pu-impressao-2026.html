@@ -51,7 +51,7 @@
       .shock .panel { padding-top:24mm; }
       .shock-title { position:absolute; z-index:3; top:14mm; left:35mm; right:20mm; height:17mm; display:grid; place-items:center; background:var(--red); color:#fff; font-size:24pt; font-weight:900; text-transform:uppercase; }
       .shock .catalog-grid { top:36mm; grid-template-rows:repeat(6,1fr); row-gap:3mm; }
-      .shock .item { grid-template-columns:31mm 1fr; }
+      .shock .item { grid-template-columns:34mm 1fr; }
       .shock .item-photo { height:30mm; }
       .shock .item-copy h3 { font-size:8.7pt; }
       .shock .details { font-size:7pt; }
@@ -68,68 +68,135 @@
       .contact small { display:block; font-size:9pt; font-weight:800; }
 
       @media print { html,body { background:#fff; print-color-adjust:exact; -webkit-print-color-adjust:exact; } .sheet { margin:0; } }
+          .item-photo.missing { display:grid; place-items:center; color:#60709e; background:#eef1f8; font-size:7pt; font-weight:700; }
+          .hero-cover { background:linear-gradient(180deg,#0b1534,#152a65); color:#fff; font-family:Arial,Helvetica,sans-serif; }
+      .hero-grid { position:absolute; inset:0; opacity:.09; background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px); background-size:16mm 16mm; }
+      .hero-r { position:absolute; right:10mm; top:62mm; font:330pt/.9 Impact,sans-serif; color:#ffffff0c; }
+      .hero-rings { position:absolute; right:-35mm; top:69mm; width:165mm; height:165mm; border:1px solid #ffffff80; border-radius:50%; box-shadow:inset 0 0 0 20mm #ffffff15,0 0 0 26mm #ffffff10; }
+      .hero-rings:after { content:''; position:absolute; inset:33mm; border:2mm solid #e32635; border-radius:50%; }
+      .hero-logo { position:absolute; left:15mm; top:14mm; width:85mm; height:45mm; object-fit:contain; object-position:left center; }
+      .hero-content { position:absolute; left:15mm; right:10mm; top:73mm; }
+      .hero-content p { margin:0 0 18mm; color:#d3def4; font-size:11pt; font-weight:800; letter-spacing:.08em; }
+      .hero-content h1 { position:relative; margin:0; font:50pt/.98 Impact,sans-serif; letter-spacing:.01em; }
+      .hero-rule { width:45mm; height:2.5mm; margin:10mm 0; background:#e32635; }
+      .hero-content strong,.hero-content span { display:block; font-size:12pt; line-height:1.7; }
+      .hero-content span { color:#d3def4; font-size:11pt; }
+      .hero-bottom { position:absolute; left:15mm; right:15mm; bottom:18mm; border-top:.3mm solid #ffffff80; padding-top:10mm; }
+      .hero-bottom strong,.hero-bottom span { display:block; }
+      .hero-bottom strong { font:26pt Impact,sans-serif; }
+      .hero-bottom span { margin-top:3mm; color:#d3def4; font-size:9pt; font-weight:800; }
+      .hero-final { position:absolute; z-index:3; left:31mm; right:16mm; top:76mm; bottom:33mm; padding:15mm 11mm; border-top:3mm solid #e32635; background:#0b1534; color:white; }
+      .hero-final img { display:block; width:90mm; height:52mm; object-fit:contain; object-position:left center; }
+      .hero-final h2 { margin:10mm 0 0; font:29pt/.96 Impact,sans-serif; }
+      .hero-final .hero-rule { width:33mm; margin:6mm 0; height:1.5mm; }
+      .hero-final p { color:#d3def4; font-size:10pt; }
+      .hero-final strong,.hero-final span { display:block; margin-top:5mm; font-size:11pt; }
     </style>
   </head>
   <body>
     <main id="catalog"></main>
     <script>
       const items = [
-        ['1026 PU','VW','Bucha do Feixe de Mola Dianteira','Diâm. interno 16,0mm','VW 6.90 / 8.100 / 8.120 / 8.150'],
-        ['1030 PU','VW','Calço do Feixe de Molas (Pastilha Antirruído)','', 'VW L80 / 690 / 790 / 7100 / 7110 / 8100 / 8140 / 9150 · MB Accelo'],
-        ['1046A PU','HBZ','Bucha do Quarto Eixo Traseiro do Truck','Comprimento 118,0mm · Diâm. externo 68,0mm · Diâm. interno 22,0mm','HBZ'],
-        ['1048 PU','VW','Bucha Central da Barra Estabilizadora Dianteira','Cód. original 23B411346 · Diâm. interno 30,0mm','VW 9.170 / 11.180 Delivery · 2018 em diante'],
-        ['1048A PU','VW','Bucha Central da Barra Estabilizadora Traseira','Cód. original 23B411346 · Diâm. interno 33,0mm','VW 9.170 / 11.180 Delivery · 2018 em diante'],
-        ['1053 PU','VW','Bucha da Ponta da Barra Estabilizadora Traseira','', 'VW 11.180 / 9.170 / Delivery'],
-        ['1061 PU','VW','Bucha do Feixe de Molas e Suporte Traseiro','Comprimento 88,0mm · Diâm. externo 53,0mm · Diâm. interno 18,4mm','VW 9.170 / 11.180 Delivery · 2018 em diante'],
-        ['1062 PU','VW','Bucha do Feixe de Molas e Suporte Traseiro','Comprimento 76,0mm · Diâm. externo 53,0mm · Diâm. interno 18,2mm','VW 6.160 / 4.150 / 4.160 · Express 2018 em diante'],
-        ['2062 PU','MB','Bucha do Feixe de Molas Dianteiro — Parte Dianteira','Aplicável em olhais com diâm. interno 61,0mm','MB Atego'],
-        ['2063A PU','MB','Bucha do Feixe de Molas Dianteiro — Parte Traseira','Aplicável em olhais com diâm. interno 53,0mm','MB Atego'],
-        ['2063B PU','MB','Bucha do Feixe de Molas Dianteiro — Parte Traseira','Aplicável em olhais com diâm. interno 55,0mm','MB Atego'],
-        ['2063C PU','MB','Bucha do Feixe de Molas Dianteiro — Parte Traseira','Aplicável em olhais com diâm. interno 58,0mm · adaptação para mola sem capa de metal','MB Atego'],
-        ['2074A PU','MB','Bucha do Suporte da Mola Dianteira','Aplicável em suporte com diâm. interno 48,0mm','MB Atego'],
-        ['2074B PU','MB','Bucha do Suporte da Mola Dianteira','Aplicável em suporte com diâm. interno 46,0mm','MB Atego'],
-        ['2074C PU','MB','Bucha do Suporte da Mola Dianteira','Aplicável em suporte com diâm. interno 43,0mm','MB Atego'],
-        ['2078A PU','MB','Bucha do Suporte da Mola Dianteira e Traseira','', 'MB Accelo 815 / 915 / 1016'],
-
-        ['2081B PU','MB','Bucha do Feixe de Mola Traseiro','Aplicável em olhais com diâm. 61,0mm · diâm. interno do furo 22,0mm','MB Atego'],
-        ['2108 PU','MB','Bucha da Barra Estabilizadora Dianteira','Cód. original 000.323.6285 · comprimento 56,0mm · externo 43,0mm · interno 29,0mm','MB Actros 2031 / 2655 / 33315'],
-        ['2112 PU','MB','Bucha da Ponta da Barra Estabilizadora Dianteira','Código original 000.323.7985','MB Actros / Axor'],
-        ['2114 PU','MB','Bucha da Ponta da Barra Estabilizadora Traseira','Código original 000.323.8185','MB Actros / Axor'],
-        ['0627 PU','IVECO','Bucha da Barra de Torção Dianteira','Cód. original 500350342 · altura 32mm · externo 65mm · furo 33mm','Iveco Daily 70C16 / 70C16 HD / 70C17 / 70C17 HD · 65-170 / 70-170 (2019 em diante)'],
-        ['0628 PU','IVECO','Bucha da Barra de Torção Dianteira','Cód. original 500350342 · altura 32mm · externo 65mm · furo 38mm','Iveco Daily 70C16 / 70C16 HD / 70C17 / 70C17 HD · 65-170 / 70-170 (2019 em diante)'],
-        ['0630 PU','IVECO','Kit de Buchas da Barra de Torção Dianteira','Cód. originais 93828148A / 93807640A / 93828149A','Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17','compact'],
-        ['0631 PU','IVECO','Bucha Superior da Barra de Torção Dianteira','Cód. original 93828148A · altura 42mm · externo 57mm · furo 29mm','Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17','compact'],
-        ['0632 PU','IVECO','Bucha Inferior da Barra de Torção Dianteira','Cód. original 93807640A · altura 42mm · externo 52mm · furo 29mm','Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17','compact'],
-        ['0633 PU','IVECO','Bucha Superior da Barra de Torção Dianteira','Cód. original 93828149A · altura 42mm · externo 57mm · furo 37mm','Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17','compact'],
-        ['6002 PU','SCANIA','Bucha da Barra Estabilizadora Dianteira','Cód. original 228483 · comprimento 100mm · externo 71mm · furo 49mm','Scania 124'],
-        ['6052 PU','SCANIA','Bucha do Feixe de Molas — Parte Traseira','', 'Scania suspensão a ar'],
-        ['7010 PU','VOLVO','Bucha do Feixe de Molas Dianteiro','Aplicável em olhais com diâm. interno 52,0mm · furo 16,0mm','Volvo VM 240 / 260'],
-        ['7014 PU','VOLVO','Bucha do Feixe de Molas Dianteiro','Aplicável em olhais com diâm. interno 52,0mm · furo 20,0mm','Volvo VM 240 / 260 / 330'],
-        ['8011 PU','RANDON','Bucha do Tensor do Truck','Comprimento 63mm · diâmetro externo 58,5mm · furo 24mm','Randon 2000'],
-        ['8024 PU','SUSP.','Bucha da Balança','Comprimento 119,0mm · diâmetro externo 85,0mm · furo 30,5mm','Lub free'],
-
-        ['3056 PU','FORD','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 40,0mm · diâm. interno 16,2mm','Ranger 2012 a 2022'],
-        ['3058 PU','FORD','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 38,0mm · diâm. interno 16,2mm','Ranger 2012 a 2022'],
-        ['5021 PU','TOYOTA','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 40,0mm · diâm. interno 14,2mm','Hilux 2005 a 2022'],
-        ['5022 PU','TOYOTA','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 35,0mm · diâm. interno 14,2mm','Hilux 2005 a 2022'],
-        ['5023 PU','TOYOTA','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 38,0mm · diâm. interno 14,2mm','Hilux 2005 a 2022'],
-        ['5029 PU','TOYOTA','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 42,0mm · diâm. interno 14,2mm','Hilux 2005 a 2022'],
-        ['9028 PU','CHEV.','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 40,0mm · diâm. interno 14,2mm','S10 2012 a 2022'],
-        ['0828 PU','MITSU.','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 35,0mm · diâm. interno 14,2mm','L200 Triton 2008 a 2022'],
-        ['0828A PU','MITSU.','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 37,0mm · diâm. interno 14,2mm','L200 Triton 2008 a 2022'],
-        ['0828C PU','MITSU.','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 40,0mm · diâm. interno 14,2mm','Pajero / L200 Triton 2008 a 2022'],
-        ['0912 PU','NISSAN','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 37,0mm · diâm. interno 14,2mm','Frontier 2008 a 2022'],
-        ['0912A PU','NISSAN','Bucha Inferior do Amortecedor Dianteiro','Diâm. externo 41,5mm · diâm. interno 14,2mm','Frontier 2008 a 2022']
-      ].map(([code,brand,name,details,application,sizeClass='']) => ({code,brand,name,details,application,sizeClass}));
+        ["1026 PU","VW","Bucha do Feixe de Mola Dianteira","Diâm. interno 16,0mm","VW 6.90 / 8.100 / 8.120 / 8.150","","1026 PU.png"],
+        ["1030 PU","VW","Calço do Feixe de Molas (Pastilha Antirruído)","","VW L80 / 690 / 790 / 7100 / 7110 / 8100 / 8140 / 9150 · MB Accelo","","1030 PU.png"],
+        ["1046A PU","HBZ","Bucha do Quarto Eixo Traseiro do Truck","Comprimento 118,0mm · Diâm. externo 68,0mm · Diâm. interno 22,0mm","HBZ","","1046A PU.png"],
+        ["1048 PU","VW","Bucha Central da Barra Estabilizadora Dianteira","Cód. original 23B411346 · Diâm. interno 30,0mm","VW 9.170 / 11.180 Delivery · 2018 em diante","","1048 PU.png"],
+        ["1048A PU","VW","Bucha Central da Barra Estabilizadora Traseira","Cód. original 23B411346 · Diâm. interno 33,0mm","VW 9.170 / 11.180 Delivery · 2018 em diante","","1048A PU.png"],
+        ["1053 PU","VW","Bucha da Ponta da Barra Estabilizadora Traseira","","VW 11.180 / 9.170 / Delivery","","1053 PU.png"],
+        ["1061 PU","VW","Bucha do Feixe de Molas e Suporte Traseiro","Comprimento 88,0mm · Diâm. externo 53,0mm · Diâm. interno 18,4mm","VW 9.170 / 11.180 Delivery · 2018 em diante","","1061 PU.png"],
+        ["1062 PU","VW","Bucha do Feixe de Molas e Suporte Traseiro","Comprimento 76,0mm · Diâm. externo 53,0mm · Diâm. interno 18,2mm","VW 6.160 / 4.150 / 4.160 · Express 2018 em diante","","1062 PU.png"],
+        ["2062 PU","MB","Bucha do Feixe de Molas Dianteiro — Parte Dianteira","Aplicável em olhais com diâm. interno 61,0mm","MB Atego","","2062 PU.png"],
+        ["2063A PU","MB","Bucha do Feixe de Molas Dianteiro — Parte Traseira","Aplicável em olhais com diâm. interno 53,0mm","MB Atego","","2063A PU.png"],
+        ["2063B PU","MB","Bucha do Feixe de Molas Dianteiro — Parte Traseira","Aplicável em olhais com diâm. interno 55,0mm","MB Atego","","2063B PU.png"],
+        ["2063C PU","MB","Bucha do Feixe de Molas Dianteiro — Parte Traseira","Aplicável em olhais com diâm. interno 58,0mm · adaptação para mola sem capa de metal","MB Atego","","2063C PU.png"],
+        ["2074A PU","MB","Bucha do Suporte da Mola Dianteira","Aplicável em suporte com diâm. interno 48,0mm","MB Atego","","2074A PU.png"],
+        ["2074B PU","MB","Bucha do Suporte da Mola Dianteira","Aplicável em suporte com diâm. interno 46,0mm","MB Atego","","2074B PU.png"],
+        ["2074C PU","MB","Bucha do Suporte da Mola Dianteira","Aplicável em suporte com diâm. interno 43,0mm","MB Atego","","2074C PU.png"],
+        ["2078A PU","MB","Bucha do Suporte da Mola Dianteira e Traseira","","MB Accelo 815 / 915 / 1016","","2078A PU.png"],
+        ["2081B PU","MB","Bucha do Feixe de Mola Traseiro","Aplicável em olhais com diâm. 61,0mm · diâm. interno do furo 22,0mm","MB Atego","","2081B PU.png"],
+        ["2108 PU","MB","Bucha da Barra Estabilizadora Dianteira","Cód. original 000.323.6285 · comprimento 56,0mm · externo 43,0mm · interno 29,0mm","MB Actros 2031 / 2655 / 33315","","2108 PU.png"],
+        ["2112 PU","MB","Bucha da Ponta da Barra Estabilizadora Dianteira","Código original 000.323.7985","MB Actros / Axor","","2112 PU.png"],
+        ["2114 PU","MB","Bucha da Ponta da Barra Estabilizadora Traseira","Código original 000.323.8185","MB Actros / Axor","","2114 PU.png"],
+        ["0627 PU","IVECO","Bucha da Barra de Torção Dianteira","Cód. original 500350342 · altura 32mm · externo 65mm · furo 33mm","Iveco Daily 70C16 / 70C16 HD / 70C17 / 70C17 HD · 65-170 / 70-170 (2019 em diante)","","0627 PU.png"],
+        ["0628 PU","IVECO","Bucha da Barra de Torção Dianteira","Cód. original 500350342 · altura 32mm · externo 65mm · furo 38mm","Iveco Daily 70C16 / 70C16 HD / 70C17 / 70C17 HD · 65-170 / 70-170 (2019 em diante)","","0628 PU.png"],
+        ["0630 PU","IVECO","Kit de Buchas da Barra de Torção Dianteira","Cód. originais 93828148A / 93807640A / 93828149A","Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17","compact","0630 PU.png"],
+        ["0631 PU","IVECO","Bucha Superior da Barra de Torção Dianteira","Cód. original 93828148A · altura 42mm · externo 57mm · furo 29mm","Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17","compact","0631 PU.png"],
+        ["0632 PU","IVECO","Bucha Inferior da Barra de Torção Dianteira","Cód. original 93807640A · altura 42mm · externo 52mm · furo 29mm","Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17","compact","0632 PU.png"],
+        ["0633 PU","IVECO","Bucha Superior da Barra de Torção Dianteira","Cód. original 93828149A · altura 42mm · externo 57mm · furo 37mm","Iveco Daily 35-10 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12 / 60-12 / 60-13 / 70-12 / 70-13 / 35S14 / 35S14 HD / 40S14 / 40S16 / 45S14 / 45S16 / 45S17 / 55C16 / 50C17 / 55C17","compact","0633 PU.png"],
+        ["6002 PU","SCANIA","Bucha da Barra Estabilizadora Dianteira","Cód. original 228483 · comprimento 100mm · externo 71mm · furo 49mm","Scania 124","","6002 PU.png"],
+        ["6052 PU","SCANIA","Bucha do Feixe de Molas — Parte Traseira","","Scania suspensão a ar","","6052 PU.png"],
+        ["7010 PU","VOLVO","Bucha do Feixe de Molas Dianteiro","Aplicável em olhais com diâm. interno 52,0mm · furo 16,0mm","Volvo VM 240 / 260","","7010 PU.png"],
+        ["7014 PU","VOLVO","Bucha do Feixe de Molas Dianteiro","Aplicável em olhais com diâm. interno 52,0mm · furo 20,0mm","Volvo VM 240 / 260 / 330","","7014 PU.png"],
+        ["8011 PU","RANDON","Bucha do Tensor do Truck","Comprimento 63mm · diâmetro externo 58,5mm · furo 24mm","Randon 2000","","8011 PU.png"],
+        ["8024 PU","SUSP.","Bucha da Balança","Comprimento 119,0mm · diâmetro externo 85,0mm · furo 30,5mm","Lub free","","8024 PU.png"],
+        ["3056 PU","FORD","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 40,0mm · diâm. interno 16,2mm","Ranger 2012 a 2022","","3056 PU.png"],
+        ["3058 PU","FORD","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 38,0mm · diâm. interno 16,2mm","Ranger 2012 a 2022","","3058 PU.png"],
+        ["5021 PU","TOYOTA","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 40,0mm · diâm. interno 14,2mm","Hilux 2005 a 2022","","5021 PU.png"],
+        ["5022 PU","TOYOTA","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 35,0mm · diâm. interno 14,2mm","Hilux 2005 a 2022","","5022 PU.png"],
+        ["5023 PU","TOYOTA","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 38,0mm · diâm. interno 14,2mm","Hilux 2005 a 2022","","5023 PU.png"],
+        ["5029 PU","TOYOTA","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 42,0mm · diâm. interno 14,2mm","Hilux 2005 a 2022","","5029 PU.png"],
+        ["9028 PU","CHEV.","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 40,0mm · diâm. interno 14,2mm","S10 2012 a 2022","","9028 PU.png"],
+        ["0828 PU","MITSU.","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 35,0mm · diâm. interno 14,2mm","L200 Triton 2008 a 2022","","0828 PU.png"],
+        ["0828A PU","MITSU.","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 37,0mm · diâm. interno 14,2mm","L200 Triton 2008 a 2022","","0828A PU.png"],
+        ["0828C PU","MITSU.","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 40,0mm · diâm. interno 14,2mm","Pajero / L200 Triton 2008 a 2022","","0828C PU.png"],
+        ["0912 PU","NISSAN","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 37,0mm · diâm. interno 14,2mm","Frontier 2008 a 2022","","0912 PU.png"],
+        ["0912A PU","NISSAN","Bucha Inferior do Amortecedor Dianteiro","Diâm. externo 41,5mm · diâm. interno 14,2mm","Frontier 2008 a 2022","","0912A PU.png"],
+        ["1008 PU","VW","Borracha estabilizadora dianteira","Olhal: 28 mm","VW 6.90 - 8.150","","1008 PU.jpg"],
+        ["1010 PU","VW","Borracha da ponta estabilizadora traseira","Olhal: 35 mm","VW 6.90 - 8.150","","1010 PU.jpg"],
+        ["1011 PU","VW","Borracha da ponta estabilizadora dianteira","Olhal: 43 mm","VW 12.140 - 24.250","","1011 PU.jpg"],
+        ["1013 PU","VW","Borracha da barra estabilizadora traseira","Interno do furo: 32 mm","VW 6.90 - 8.150","","1013 PU.jpg"],
+        ["1013A PU","VW","Borracha da barra estabilizadora traseira","Interno do furo: 30 mm","VW 6.90 - 8.150","",""],
+        ["1014 PU","VW","Borracha da barra estabilizadora dianteira","Interno do furo: 44 mm","VW 12.140 - 24.250","","1014 PU.jpg"],
+        ["1024 PU","VW","Bucha da barra estabilizadora dianteira","Interno do furo: 35 mm","VW 13.190","","1024 PU.jpg"],
+        ["1055 PU","VW","Bucha silenciosa da mola traseira","Comprimento: 88 mm | Diâmetro externo: 53 mm | Interno do furo: 18 mm","VW 11.180 - Delivery","","1055 PU.jpg"],
+        ["1067 PU","VW","Bucha da barra estabilizadora dianteira inferior","Altura: 60 mm | Diâmetro externo: 85 mm | Interno do furo: 49 mm","VW Meteor","","1067 PU.jpg"],
+        ["1068 PU","VW","Bucha da barra estabilizadora dianteira superior","Comprimento: 60 mm | Diâmetro externo (olhal): 65 mm | Interno do furo: 37 mm","VW Meteor","","1068 PU.jpg"],
+        ["1069 PU","VW","Bucha da ponta estabilizadora dianteira","Comprimento: 64 mm | Diâmetro externo: 58 mm | Interno do furo: 20 mm","VW Meteor","","1069 PU.jpg"],
+        ["2008 PU","MB","Borracha da barra estabilizadora com tubo dianteiro/traseiro","Olhal: 26 mm","MB 608","","2008 PU.jpg"],
+        ["2010 PU","MB","Borracha da barra estabilizadora com tubo dianteiro/traseiro","Olhal: 30 mm","MB 710","","2010 PU.jpg"],
+        ["2039 PU","MB","Borracha da mola dianteira","","MB 608","","2039 PU.jpg"],
+        ["2054 PU","MB","Borracha da mola da cabine","","MB 1620","","2054 PU.jpg"],
+        ["2078C PU","MB","Bucha silenciosa do olho da mola traseira/dianteira","","MB Accelo","","2078C PU.jpg"],
+        ["2095 PU","MB","Batente guia do grampo da mola dianteira","Altura: 109 mm","MB Axor (fora de estrada)","","2095 PU.jpg"],
+        ["2120 PU","MB","Bucha da ponta estabilizadora traseira inferior","","MB Arocs","","2120 PU.jpg"],
+        ["2121 PU","MB","Bucha da ponta estabilizadora dianteira inferior","Comprimento: 57 mm | Diâmetro do olhal: 75 mm | Interno do furo: 20 mm","MB Arocs","","2121 PU.jpg"],
+        ["0610A PU","IVECO","Bucha da ponta estabilizadora dianteira","Comprimento: 50 mm | Diâmetro: 61 mm | Interno do furo: 28 mm","Iveco Stralis","","0610A PU.jpg"],
+        ["0611D PU","IVECO","Bucha da barra estabilizadora dianteira","Comprimento total: 82 mm | Diâmetro do corpo: 70 mm | Entre abas: 71 mm | Interno do furo: 48 mm","Iveco Tector / Stralis","","0611D PU.jpg"],
+        ["0616A PU","IVECO","Bucha da mola e suporte traseiro","Comprimento: 80 mm | Diâmetro: 40 mm | Interno do furo: 16 mm","Iveco Daily; aplicar em mola com 70 mm de largura","","0616A PU.jpg"],
+        ["0836 PU","IVECO","Bucha da mola dianteira e traseira","Comprimento: 80 mm | Diâmetro: 60 mm | Interno do furo: 16 mm","Iveco ônibus Mascarello","","0836 PU.jpg"],
+        ["6057 PU","SCANIA","Bucha tranca da cabine traseira","","Scania NTG 2019 em diante","","6057 PU.jpg"],
+        ["6058 PU","SCANIA","Separador anti ruído da mola dianteira","Comprimento: 100 mm | Largura: 90 mm | Entre pinos: 45 mm","Scania NTG 2019 em diante","","6058 PU.jpg"],
+        ["8003 PU","RANDON","Borracha Randon sem aba","Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm","","","8003 PU.jpg"],
+        ["8004 PU","RANDON","Borracha Randon com aba","Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm","","","8004 PU.jpg"],
+        ["3039 PU","FORD","Borracha da ponta estabilizadora dianteira","Comprimento: 45 mm | Diâmetro externo: 34 mm | Interno do furo: 12 mm","Ford 815","","3039 PU.jpg"],
+        ["3079 PU","FORD","Borracha do amortecedor dianteiro inferior","Comprimento: 50 mm | Diâmetro externo: 54 mm | Interno do furo: 20 mm","Ranger","","3079 PU.jpg"],
+        ["5003 PU","TOYOTA","Borracha da mola dianteira","","Toyota Band 1992 em diante","","5003 PU.jpg"],
+        ["5004 PU","TOYOTA","Borracha da mola traseira","","Toyota Band 1992 em diante","","5004 PU.jpg"],
+        ["8023 PU","JOST","Coxim da 5ª roda (2 polegadas)","","Jost","","8023 PU.jpg"],
+        ["8001 PU","ROD.","Borracha rodoviária sem aba","Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm","","","8001 PU.jpg"],
+        ["8002 PU","ROD.","Borracha rodoviária com aba","Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm","","","8002 PU.jpg"]
+      ].map(([code,brand,name,details,application,sizeClass='',image='']) => ({code,brand,name,details,application,sizeClass,image}));
 
       const esc = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[char]);
-      const imagePath = code => `../assets/img/Peças de PU/${encodeURIComponent(code)}.png`;
-      const item = product => `<article class="item ${product.sizeClass}"><div class="code-tag"><span class="brand">${esc(product.brand)}</span>${esc(product.code)}</div><img class="item-photo" src="${imagePath(product.code)}" alt="${esc(product.name)}"><div class="item-copy"><h3>${esc(product.name)}</h3>${product.details ? `<p class="details">${esc(product.details)}</p>` : ''}<p class="application">${esc(product.application)}</p></div></article>`;
+      const imagePath = product => product.image ? `../assets/img/Peças de PU/${encodeURIComponent(product.image)}` : '';
+      const item = product => `<article class="item ${product.sizeClass}"><div class="code-tag"><span class="brand">${esc(product.brand)}</span>${esc(product.code)}</div>${product.image ? `<img class="item-photo" src="${imagePath(product)}" alt="${esc(product.name)}">` : `<div class="item-photo missing">Foto em breve</div>`}<div class="item-copy"><h3>${esc(product.name)}</h3>${product.details ? `<p class="details">${esc(product.details)}</p>` : ''}<p class="application">${esc(product.application)}</p></div></article>`;
       const insidePage = (products, side, number, shock=false) => `<section class="sheet inside ${side}-rail ${shock?'shock':''}"><div class="panel">${shock?'<div class="shock-title">Buchas do amortecedor</div>':''}<div class="catalog-grid">${products.map(item).join('')}</div></div><div class="rail-title">Borrachas Rocha | Catálogo 2026</div><div class="page-tab"><span>${number}</span></div></section>`;
       const logo = '../assets/img/Logos/Logo.webp';
-      const cover = `<section class="sheet cover"><img class="cover-photo" src="capa-caminhao.png" alt="Caminhão em rodovia"><div class="cover-white"></div><div class="cover-blue-stripe"></div><div class="cover-red"></div><div class="cover-blue-bottom"></div><div class="logo-crop"><img src="${logo}" alt="Borrachas Rocha"></div><div class="cover-year">CATÁLOGO<span>2026</span></div><div class="cover-line"><strong>LINHA</strong>Elastômero de poliuretano de alta performance</div></section>`;
-      const back = `<section class="sheet back"><div class="back-logo"><img src="${logo}" alt="Borrachas Rocha"></div><div class="contacts"><div class="contact"><div class="contact-icon">✉</div><strong>borrachasrocha@hotmail.com</strong></div><div class="contact"><div class="contact-icon">☎</div><strong>(31) 99616-5270</strong><small>André Rocha</small></div></div></section>`;
-      document.querySelector('#catalog').innerHTML = cover + insidePage(items.slice(0,16),'left',1) + insidePage(items.slice(16,32),'right',2) + insidePage(items.slice(32),'left',3,true) + back;
+      const cover = `<section class="sheet hero-cover">
+        <div class="hero-grid"></div><div class="hero-r">R</div><div class="hero-rings"></div>
+        <img class="hero-logo" src="../assets/img/Logos/Logo-Branca.webp" alt="Borrachas Rocha">
+        <div class="hero-content"><p>CATÁLOGO DE PEÇAS EM POLIURETANO</p><h1>A PEÇA CERTA.<br>O CAMINHO CERTO.</h1><div class="hero-rule"></div><strong>REFERÊNCIAS, MEDIDAS E APLICAÇÕES</strong><span>para caminhões, veículos leves e implementos.</span></div>
+        <div class="hero-bottom"><strong>LINHA PU</strong><span>EDIÇÃO 2026 / 78 REFERÊNCIAS</span></div>
+      </section>`;
+      const back = `<section class="sheet back"><div class="back-logo"><img src="${logo}" alt="Borrachas Rocha"></div><div class="contacts"><div class="contact"><div class="contact-icon">✉</div><strong>borrachasrocha@hotmail.com</strong></div><div class="contact"><div class="contact-icon">☎</div><strong>(31) 97358-9165</strong><small>WhatsApp</small></div></div></section>`;
+      const first = insidePage(items.slice(0,16),'left',1);
+      const second = insidePage(items.slice(16,32),'right',2);
+      const shock = insidePage(items.slice(32,44),'left',3,true);
+      const additions1 = insidePage(items.slice(44,60),'left',4);
+      const additions2 = insidePage(items.slice(60,76),'right',5);
+      const finalPanel = `<div class="hero-final"><img src="../assets/img/Logos/Logo-Branca.webp" alt="Borrachas Rocha"><h2>A PEÇA CERTA PARA<br>O SEU CAMINHO.</h2><div class="hero-rule"></div><p>Consulte disponibilidade, medidas e aplicação.</p><strong>WHATSAPP (31) 97358-9165</strong><span>borrachasrocha@hotmail.com</span><span>borrachasrocha.com.br</span></div>`;
+      const additions3 = insidePage(items.slice(76),'left',6).replace('</section>',finalPanel+'</section>');
+      document.querySelector('#catalog').innerHTML = cover + first + second + shock + additions1 + additions2 + additions3;
       const preview = new URLSearchParams(location.search).get('preview');
       if (preview !== null) document.querySelectorAll('.sheet').forEach((page,index) => page.style.display = index === Number(preview) ? 'block' : 'none');
     </script>
