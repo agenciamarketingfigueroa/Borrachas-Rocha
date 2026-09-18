@@ -1,0 +1,77 @@
+{
+  "paginas": 16,
+  "novos_codigos_conferidos": 34,
+  "fontes_incorporadas": 9,
+  "preservacao_original": [
+    {
+      "pagina_original": 1,
+      "pagina_final": 1,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 2,
+      "pagina_final": 2,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 3,
+      "pagina_final": 3,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 4,
+      "pagina_final": 4,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 5,
+      "pagina_final": 5,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 6,
+      "pagina_final": 6,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 7,
+      "pagina_final": 7,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 8,
+      "pagina_final": 8,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 9,
+      "pagina_final": 9,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 10,
+      "pagina_final": 10,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 11,
+      "pagina_final": 11,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 12,
+      "pagina_final": 12,
+      "conteudo_preservado": true
+    },
+    {
+      "pagina_original": 13,
+      "pagina_final": 16,
+      "conteudo_preservado": true
+    }
+  ],
+  "sangria_mm": 3,
+  "formato_corte_mm": [
+    209.97,
+    297.01
+  ]
+}

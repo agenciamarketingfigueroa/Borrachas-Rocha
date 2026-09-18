@@ -1,0 +1,304 @@
+{
+  "original": "/Users/felipefigueroa/Desktop/[CATÁLOGO 2025][PU][DIGITAL].pdf",
+  "sha256_original": "679e353ee61041281d8ceece2ff9705e59ef927f15331ac6c372556afc9d150b",
+  "cadastro": "https://borrachasrocha.com.br/catalog.js",
+  "sha256_cadastro": "aab381e80e3dc6fd3503c77d93204249eede8d141b9ace707a9aee1490226f89",
+  "paginas": 16,
+  "referencias_originais": 102,
+  "referencias_adicionadas": 34,
+  "referencias_por_pagina_original": [
+    "1020 1021 1026 1026A 1027 1030 1033 1046A 1048 1048A",
+    "1050 1053 1061 1062 1065 1066 2015 2048 2048A 2049",
+    "2062 2063A 2063B 2063C 2074A 2074B 2074C 2078 2078A 2081B",
+    "2108 2112 2114 5007 5008 5019 5024 5025 6002 6051",
+    "6052 6053 6054 7010 7010A 7012 7014 7014A 7015 7017A",
+    "7019 7020 7025 7025A 7033 7037 8011 8012 8013 8024",
+    "9017 9020 9022 9023 9024 9026 9027 0610 0611 0614",
+    "0614A 0614B 0615 0627 0628 0630 0631 0632 0633 0805",
+    "0806 0807 0813 0825 0904 0905 0906 0911 0913 0914",
+    "3056 3058 5021 5022 5023 5029 9028 0828 0828A 0836",
+    "0912 0912A"
+  ],
+  "novos_produtos": [
+    {
+      "code": "1008 PU",
+      "brand": "Volkswagen",
+      "name": "Borracha estabilizadora dianteira",
+      "application": "VW 6.90 - 8.150",
+      "specs": "Olhal: 28 mm",
+      "image": "1008 PU.jpg"
+    },
+    {
+      "code": "1010 PU",
+      "brand": "Volkswagen",
+      "name": "Borracha da ponta estabilizadora traseira",
+      "application": "VW 6.90 - 8.150",
+      "specs": "Olhal: 35 mm",
+      "image": "1010 PU.jpg"
+    },
+    {
+      "code": "1011 PU",
+      "brand": "Volkswagen",
+      "name": "Borracha da ponta estabilizadora dianteira",
+      "application": "VW 12.140 - 24.250",
+      "specs": "Olhal: 43 mm",
+      "image": "1011 PU.jpg"
+    },
+    {
+      "code": "1013 PU",
+      "brand": "Volkswagen",
+      "name": "Borracha da barra estabilizadora traseira",
+      "application": "VW 6.90 - 8.150",
+      "specs": "Interno do furo: 32 mm",
+      "image": "1013 PU.jpg"
+    },
+    {
+      "code": "1013A PU",
+      "brand": "Volkswagen",
+      "name": "Borracha da barra estabilizadora traseira",
+      "application": "VW 6.90 - 8.150",
+      "specs": "Interno do furo: 30 mm",
+      "image": ""
+    },
+    {
+      "code": "1014 PU",
+      "brand": "Volkswagen",
+      "name": "Borracha da barra estabilizadora dianteira",
+      "application": "VW 12.140 - 24.250",
+      "specs": "Interno do furo: 44 mm",
+      "image": "1014 PU.jpg"
+    },
+    {
+      "code": "1024 PU",
+      "brand": "Volkswagen",
+      "name": "Bucha da barra estabilizadora dianteira",
+      "application": "VW 13.190",
+      "specs": "Interno do furo: 35 mm",
+      "image": "1024 PU.jpg"
+    },
+    {
+      "code": "1055 PU",
+      "brand": "Volkswagen",
+      "name": "Bucha silenciosa da mola traseira",
+      "application": "VW 11.180 - Delivery",
+      "specs": "Comprimento: 88 mm | Diâmetro externo: 53 mm | Interno do furo: 18 mm",
+      "image": "1055 PU.jpg"
+    },
+    {
+      "code": "1067 PU",
+      "brand": "Volkswagen",
+      "name": "Bucha da barra estabilizadora dianteira inferior",
+      "application": "VW Meteor",
+      "specs": "Altura: 60 mm | Diâmetro externo: 85 mm | Interno do furo: 49 mm",
+      "image": "1067 PU.jpg"
+    },
+    {
+      "code": "1068 PU",
+      "brand": "Volkswagen",
+      "name": "Bucha da barra estabilizadora dianteira superior",
+      "application": "VW Meteor",
+      "specs": "Comprimento: 60 mm | Diâmetro externo (olhal): 65 mm | Interno do furo: 37 mm",
+      "image": "1068 PU.jpg"
+    },
+    {
+      "code": "1069 PU",
+      "brand": "Volkswagen",
+      "name": "Bucha da ponta estabilizadora dianteira",
+      "application": "VW Meteor",
+      "specs": "Comprimento: 64 mm | Diâmetro externo: 58 mm | Interno do furo: 20 mm",
+      "image": "1069 PU.jpg"
+    },
+    {
+      "code": "2008 PU",
+      "brand": "Mercedes",
+      "name": "Borracha da barra estabilizadora com tubo dianteiro/traseiro",
+      "application": "MB 608",
+      "specs": "Olhal: 26 mm",
+      "image": "2008 PU.jpg"
+    },
+    {
+      "code": "2010 PU",
+      "brand": "Mercedes",
+      "name": "Borracha da barra estabilizadora com tubo dianteiro/traseiro",
+      "application": "MB 710",
+      "specs": "Olhal: 30 mm",
+      "image": "2010 PU.jpg"
+    },
+    {
+      "code": "2039 PU",
+      "brand": "Mercedes",
+      "name": "Borracha da mola dianteira",
+      "application": "MB 608",
+      "specs": "",
+      "image": "2039 PU.jpg"
+    },
+    {
+      "code": "2054 PU",
+      "brand": "Mercedes",
+      "name": "Borracha da mola da cabine",
+      "application": "MB 1620",
+      "specs": "",
+      "image": "2054 PU.jpg"
+    },
+    {
+      "code": "2078C PU",
+      "brand": "Mercedes",
+      "name": "Bucha silenciosa do olho da mola traseira/dianteira",
+      "application": "MB Accelo",
+      "specs": "",
+      "image": "2078C PU.jpg"
+    },
+    {
+      "code": "2095 PU",
+      "brand": "Mercedes",
+      "name": "Batente guia do grampo da mola dianteira",
+      "application": "MB Axor (fora de estrada)",
+      "specs": "Altura: 109 mm",
+      "image": "2095 PU.jpg"
+    },
+    {
+      "code": "2120 PU",
+      "brand": "Mercedes",
+      "name": "Bucha da ponta estabilizadora traseira inferior",
+      "application": "MB Arocs",
+      "specs": "",
+      "image": "2120 PU.jpg"
+    },
+    {
+      "code": "2121 PU",
+      "brand": "Mercedes",
+      "name": "Bucha da ponta estabilizadora dianteira inferior",
+      "application": "MB Arocs",
+      "specs": "Comprimento: 57 mm | Diâmetro do olhal: 75 mm | Interno do furo: 20 mm",
+      "image": "2121 PU.jpg"
+    },
+    {
+      "code": "0610A PU",
+      "brand": "Iveco",
+      "name": "Bucha da ponta estabilizadora dianteira",
+      "application": "Iveco Stralis",
+      "specs": "Comprimento: 50 mm | Diâmetro: 61 mm | Interno do furo: 28 mm",
+      "image": "0610A PU.jpg"
+    },
+    {
+      "code": "0611D PU",
+      "brand": "Iveco",
+      "name": "Bucha da barra estabilizadora dianteira",
+      "application": "Iveco Tector / Stralis",
+      "specs": "Comprimento total: 82 mm | Diâmetro do corpo: 70 mm | Entre abas: 71 mm | Interno do furo: 48 mm",
+      "image": "0611D PU.jpg"
+    },
+    {
+      "code": "0616A PU",
+      "brand": "Iveco",
+      "name": "Bucha da mola e suporte traseiro",
+      "application": "Iveco Daily; aplicar em mola com 70 mm de largura",
+      "specs": "Comprimento: 80 mm | Diâmetro: 40 mm | Interno do furo: 16 mm",
+      "image": "0616A PU.jpg"
+    },
+    {
+      "code": "6057 PU",
+      "brand": "Scania",
+      "name": "Bucha tranca da cabine traseira",
+      "application": "Scania NTG 2019 em diante",
+      "specs": "",
+      "image": "6057 PU.jpg"
+    },
+    {
+      "code": "6058 PU",
+      "brand": "Scania",
+      "name": "Separador anti ruído da mola dianteira",
+      "application": "Scania NTG 2019 em diante",
+      "specs": "Comprimento: 100 mm | Largura: 90 mm | Entre pinos: 45 mm",
+      "image": "6058 PU.jpg"
+    },
+    {
+      "code": "3039 PU",
+      "brand": "Ford",
+      "name": "Borracha da ponta estabilizadora dianteira",
+      "application": "Ford 815",
+      "specs": "Comprimento: 45 mm | Diâmetro externo: 34 mm | Interno do furo: 12 mm",
+      "image": "3039 PU.jpg"
+    },
+    {
+      "code": "3079 PU",
+      "brand": "Ford",
+      "name": "Borracha do amortecedor dianteiro inferior",
+      "application": "Ranger",
+      "specs": "Comprimento: 50 mm | Diâmetro externo: 54 mm | Interno do furo: 20 mm",
+      "image": "3079 PU.jpg"
+    },
+    {
+      "code": "5003 PU",
+      "brand": "Toyota",
+      "name": "Borracha da mola dianteira",
+      "application": "Toyota Band 1992 em diante",
+      "specs": "",
+      "image": "5003 PU.jpg"
+    },
+    {
+      "code": "5004 PU",
+      "brand": "Toyota",
+      "name": "Borracha da mola traseira",
+      "application": "Toyota Band 1992 em diante",
+      "specs": "",
+      "image": "5004 PU.jpg"
+    },
+    {
+      "code": "0828C PU",
+      "brand": "Mitsubishi",
+      "name": "Bucha inferior do amortecedor dianteiro",
+      "application": "Pajero / L200 Triton 2008 a 2022",
+      "specs": "",
+      "image": "0828C PU.png"
+    },
+    {
+      "code": "8003 PU",
+      "brand": "Randon",
+      "name": "Borracha Randon sem aba",
+      "application": "",
+      "specs": "Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm",
+      "image": "8003 PU.jpg"
+    },
+    {
+      "code": "8004 PU",
+      "brand": "Randon",
+      "name": "Borracha Randon com aba",
+      "application": "",
+      "specs": "Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm",
+      "image": "8004 PU.jpg"
+    },
+    {
+      "code": "8023 PU",
+      "brand": "Jost",
+      "name": "Coxim da 5ª roda (2 polegadas)",
+      "application": "Jost",
+      "specs": "",
+      "image": "8023 PU.jpg"
+    },
+    {
+      "code": "8001 PU",
+      "brand": "Rodoviária",
+      "name": "Borracha rodoviária sem aba",
+      "application": "",
+      "specs": "Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm",
+      "image": "8001 PU.jpg"
+    },
+    {
+      "code": "8002 PU",
+      "brand": "Rodoviária",
+      "name": "Borracha rodoviária com aba",
+      "application": "",
+      "specs": "Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm",
+      "image": "8002 PU.jpg"
+    }
+  ],
+  "decisao_0836": "Manter a aplicação Pajero do PDF, por instrução do cliente.",
+  "ajustes": [
+    "Ano da capa e das tarjas: 2026.",
+    "Segunda etiqueta 0912 PU corrigida para 0912A PU (41,5 mm)."
+  ],
+  "sem_foto": [
+    "1013A PU"
+  ]
+}
