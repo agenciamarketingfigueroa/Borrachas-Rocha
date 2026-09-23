@@ -184,7 +184,7 @@
       const logo = '../assets/img/Logos/Logo.webp';
       const cover = `<section class="sheet hero-cover">
         <div class="hero-grid"></div><div class="hero-r">R</div><div class="hero-rings"></div>
-        <img class="hero-logo" src="../assets/img/Logos/Logo-Branca.webp" alt="Borrachas Rocha">
+        <img class="hero-logo" src="../assets/img/Logos/logo-borrachas-rocha-cor.svg" alt="Borrachas Rocha">
         <div class="hero-content"><p>CATÁLOGO DE PEÇAS EM POLIURETANO</p><h1>A PEÇA CERTA.<br>O CAMINHO CERTO.</h1><div class="hero-rule"></div><strong>REFERÊNCIAS, MEDIDAS E APLICAÇÕES</strong><span>para caminhões, veículos leves e implementos.</span></div>
         <div class="hero-bottom"><strong>LINHA PU</strong><span>EDIÇÃO 2026 / 78 REFERÊNCIAS</span></div>
       </section>`;
@@ -194,7 +194,7 @@
       const shock = insidePage(items.slice(32,44),'left',3,true);
       const additions1 = insidePage(items.slice(44,60),'left',4);
       const additions2 = insidePage(items.slice(60,76),'right',5);
-      const finalPanel = `<div class="hero-final"><img src="../assets/img/Logos/Logo-Branca.webp" alt="Borrachas Rocha"><h2>A PEÇA CERTA PARA<br>O SEU CAMINHO.</h2><div class="hero-rule"></div><p>Consulte disponibilidade, medidas e aplicação.</p><strong>WHATSAPP (31) 97358-9165</strong><span>borrachasrocha@hotmail.com</span><span>borrachasrocha.com.br</span></div>`;
+      const finalPanel = `<div class="hero-final"><img src="../assets/img/Logos/logo-borrachas-rocha-cor.svg" alt="Borrachas Rocha"><h2>A PEÇA CERTA PARA<br>O SEU CAMINHO.</h2><div class="hero-rule"></div><p>Consulte disponibilidade, medidas e aplicação.</p><strong>WHATSAPP (31) 97358-9165</strong><span>borrachasrocha@hotmail.com</span><span>borrachasrocha.com.br</span></div>`;
       const additions3 = insidePage(items.slice(76),'left',6).replace('</section>',finalPanel+'</section>');
       document.querySelector('#catalog').innerHTML = cover + first + second + shock + additions1 + additions2 + additions3;
       const preview = new URLSearchParams(location.search).get('preview');
