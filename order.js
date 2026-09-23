@@ -1,7 +1,7 @@
 /* Pedido local: nenhum dado é enviado até o cliente abrir o WhatsApp. */
 (function () {
   const STORAGE_KEY = 'borrachas-rocha-order-v1';
-  const WHATSAPP_NUMBER = '5531973589165';
+  const WHATSAPP_NUMBER = '5531996165270';
   const customerFields = ['name', 'street', 'number', 'zip', 'complement', 'city', 'state'];
   const cartDialog = document.querySelector('#cart-dialog');
   const productDialog = document.querySelector('#product-dialog');

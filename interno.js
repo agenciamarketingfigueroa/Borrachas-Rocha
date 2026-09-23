@@ -3,7 +3,7 @@
   const AUTH_SESSION_KEY = 'borrachas-rocha-internal-access-v1';
   const TEST_PASSWORD = '1234';
   const STORAGE_KEY = 'borrachas-rocha-internal-order-v1';
-  const WHATSAPP_NUMBER = '';
+  const WHATSAPP_NUMBER = '553133571785';
   const CATALOG_PRICES_CENTS = {};
   const form = document.querySelector('#internal-form');
   const searchInput = document.querySelector('#internal-search');

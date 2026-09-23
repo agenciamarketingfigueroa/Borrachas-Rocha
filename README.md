@@ -22,7 +22,7 @@ Para acrescentar ou corrigir uma aplicação de PU, edite a lista `PU_PRODUCTS` 
 
 O carrinho funciona sem backend. Peças, quantidades e dados de entrega ficam salvos no `localStorage` do navegador até o cliente usar **Limpar pedido**. A finalização abre o WhatsApp com uma mensagem pronta; o cliente precisa confirmar o envio.
 
-O número de destino está em `WHATSAPP_NUMBER` no arquivo `order.js`. Quando uma peça contém opções de medida identificadas no catálogo, o carrinho mostra uma quantidade independente para cada opção.
+O pedido do cliente abre o WhatsApp de destino `+55 31 99616-5270`, configurado em `WHATSAPP_NUMBER` no arquivo `order.js`. Quando uma peça contém opções de medida identificadas no catálogo, o carrinho mostra uma quantidade independente para cada opção.
 
 ## Pedido interno para Expedição
 
@@ -30,7 +30,7 @@ Acesse pelo ícone de entrada no topo do site ou diretamente por `https://borrac
 
 O botão de download na capa pública usa `output/pdf/Catalogo-PU-2026-Clientes.pdf` (5,6 MB). O botão de impressão da área interna usa `output/catalogo-pu-2026-por-montadora/revisao-02/Catalogo-PU-2026-Por-Montadora-A4.pdf` (95,4 MB). A versão para clientes foi gerada em 200 dpi a partir do mesmo catálogo de 28 páginas.
 
-Configure o WhatsApp da Expedição em `WHATSAPP_NUMBER`, no arquivo `interno.js`, com código do país e DDD (somente dígitos). Enquanto o número estiver vazio, o botão de envio avisa que falta configurar o destino. Para cadastrar preços padrão no futuro, preencha `CATALOG_PRICES_CENTS` no mesmo arquivo, usando o código da peça e o preço em centavos (por exemplo, `'BR-5015': 2590`). O vendedor ainda pode alterar o preço no pedido.
+O pedido interno abre o WhatsApp da Expedição `+55 31 3357-1785`, configurado em `WHATSAPP_NUMBER` no arquivo `interno.js`. Para cadastrar preços padrão no futuro, preencha `CATALOG_PRICES_CENTS` no mesmo arquivo, usando o código da peça e o preço em centavos (por exemplo, `'BR-5015': 2590`). O vendedor ainda pode alterar o preço no pedido.
 
 A senha temporária é conferida no JavaScript público: ela funciona como uma tela de entrada para testes, mas não protege os dados nem impede acesso por quem inspeciona o código. O GitHub Pages publica `interno.html` como página pública; `noindex` apenas pede aos buscadores que não a indexem. Antes de usar dados internos sensíveis, será necessário adicionar autenticação em uma hospedagem ou serviço que a suporte. Também não há fila central de pedidos: o envio só é concluído quando o vendedor confirma a mensagem no WhatsApp.
 
