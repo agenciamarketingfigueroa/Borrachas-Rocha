@@ -1,0 +1,2033 @@
+[
+  {
+    "code": "1020 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1020.png",
+    "source_page": 2,
+    "source_rect": [
+      48,
+      67,
+      304,
+      201
+    ],
+    "crop_pixels": [
+      1013,
+      500
+    ]
+  },
+  {
+    "code": "1021 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1021.png",
+    "source_page": 2,
+    "source_rect": [
+      48,
+      202,
+      304,
+      340
+    ],
+    "crop_pixels": [
+      961,
+      493
+    ]
+  },
+  {
+    "code": "1026 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1026.png",
+    "source_page": 2,
+    "source_rect": [
+      48,
+      341,
+      304,
+      487
+    ],
+    "crop_pixels": [
+      1008,
+      489
+    ]
+  },
+  {
+    "code": "1026A PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1026A.png",
+    "source_page": 2,
+    "source_rect": [
+      48,
+      488,
+      304,
+      645
+    ],
+    "crop_pixels": [
+      979,
+      477
+    ]
+  },
+  {
+    "code": "1027 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1027.png",
+    "source_page": 2,
+    "source_rect": [
+      48,
+      646,
+      318,
+      781
+    ],
+    "crop_pixels": [
+      1049,
+      529
+    ]
+  },
+  {
+    "code": "1030 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1030.png",
+    "source_page": 2,
+    "source_rect": [
+      304,
+      70,
+      590,
+      201
+    ],
+    "crop_pixels": [
+      1023,
+      534
+    ]
+  },
+  {
+    "code": "1033 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1033.png",
+    "source_page": 2,
+    "source_rect": [
+      304,
+      202,
+      590,
+      341
+    ],
+    "crop_pixels": [
+      982,
+      474
+    ]
+  },
+  {
+    "code": "1046A PU",
+    "brand": "HBZ",
+    "original": true,
+    "image": "fichas/1046A.png",
+    "source_page": 2,
+    "source_rect": [
+      304,
+      342,
+      590,
+      487
+    ],
+    "crop_pixels": [
+      992,
+      451
+    ]
+  },
+  {
+    "code": "1048 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1048.png",
+    "source_page": 2,
+    "source_rect": [
+      304,
+      488,
+      590,
+      644
+    ],
+    "crop_pixels": [
+      1028,
+      488
+    ]
+  },
+  {
+    "code": "1048A PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1048A.png",
+    "source_page": 2,
+    "source_rect": [
+      318,
+      645,
+      590,
+      781
+    ],
+    "crop_pixels": [
+      1024,
+      521
+    ]
+  },
+  {
+    "code": "1050 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1050.png",
+    "source_page": 3,
+    "source_rect": [
+      27,
+      68,
+      297,
+      202
+    ],
+    "crop_pixels": [
+      1007,
+      503
+    ]
+  },
+  {
+    "code": "1053 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1053.png",
+    "source_page": 3,
+    "source_rect": [
+      27,
+      203,
+      297,
+      341
+    ],
+    "crop_pixels": [
+      1005,
+      538
+    ]
+  },
+  {
+    "code": "1061 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1061.png",
+    "source_page": 3,
+    "source_rect": [
+      27,
+      342,
+      297,
+      494
+    ],
+    "crop_pixels": [
+      1010,
+      588
+    ]
+  },
+  {
+    "code": "1062 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1062.png",
+    "source_page": 3,
+    "source_rect": [
+      27,
+      495,
+      297,
+      645
+    ],
+    "crop_pixels": [
+      1067,
+      599
+    ]
+  },
+  {
+    "code": "1065 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1065.png",
+    "source_page": 3,
+    "source_rect": [
+      27,
+      646,
+      297,
+      781
+    ],
+    "crop_pixels": [
+      1078,
+      504
+    ]
+  },
+  {
+    "code": "1066 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1066.png",
+    "source_page": 3,
+    "source_rect": [
+      297,
+      68,
+      549,
+      202
+    ],
+    "crop_pixels": [
+      1046,
+      500
+    ]
+  },
+  {
+    "code": "2015 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2015.png",
+    "source_page": 3,
+    "source_rect": [
+      297,
+      203,
+      549,
+      341
+    ],
+    "crop_pixels": [
+      1025,
+      531
+    ]
+  },
+  {
+    "code": "2048 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2048.png",
+    "source_page": 3,
+    "source_rect": [
+      297,
+      342,
+      549,
+      494
+    ],
+    "crop_pixels": [
+      1023,
+      578
+    ]
+  },
+  {
+    "code": "2048A PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2048A.png",
+    "source_page": 3,
+    "source_rect": [
+      297,
+      495,
+      549,
+      645
+    ],
+    "crop_pixels": [
+      1025,
+      578
+    ]
+  },
+  {
+    "code": "2049 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2049.png",
+    "source_page": 3,
+    "source_rect": [
+      297,
+      646,
+      549,
+      781
+    ],
+    "crop_pixels": [
+      1035,
+      509
+    ]
+  },
+  {
+    "code": "2062 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2062.png",
+    "source_page": 4,
+    "source_rect": [
+      48,
+      68,
+      315,
+      201
+    ],
+    "crop_pixels": [
+      978,
+      523
+    ]
+  },
+  {
+    "code": "2063A PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2063A.png",
+    "source_page": 4,
+    "source_rect": [
+      48,
+      202,
+      318,
+      351
+    ],
+    "crop_pixels": [
+      976,
+      544
+    ]
+  },
+  {
+    "code": "2063B PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2063B.png",
+    "source_page": 4,
+    "source_rect": [
+      48,
+      352,
+      318,
+      507
+    ],
+    "crop_pixels": [
+      1058,
+      591
+    ]
+  },
+  {
+    "code": "2063C PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2063C.png",
+    "source_page": 4,
+    "source_rect": [
+      48,
+      508,
+      318,
+      647
+    ],
+    "crop_pixels": [
+      1045,
+      511
+    ]
+  },
+  {
+    "code": "2074A PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2074A.png",
+    "source_page": 4,
+    "source_rect": [
+      48,
+      648,
+      318,
+      781
+    ],
+    "crop_pixels": [
+      1015,
+      506
+    ]
+  },
+  {
+    "code": "2074B PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2074B.png",
+    "source_page": 4,
+    "source_rect": [
+      315,
+      69,
+      590,
+      201
+    ],
+    "crop_pixels": [
+      1021,
+      495
+    ]
+  },
+  {
+    "code": "2074C PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2074C.png",
+    "source_page": 4,
+    "source_rect": [
+      318,
+      202,
+      590,
+      351
+    ],
+    "crop_pixels": [
+      997,
+      501
+    ]
+  },
+  {
+    "code": "2078 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2078.png",
+    "source_page": 4,
+    "source_rect": [
+      318,
+      352,
+      590,
+      507
+    ],
+    "crop_pixels": [
+      958,
+      508
+    ]
+  },
+  {
+    "code": "2078A PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2078A.png",
+    "source_page": 4,
+    "source_rect": [
+      318,
+      508,
+      590,
+      647
+    ],
+    "crop_pixels": [
+      988,
+      508
+    ]
+  },
+  {
+    "code": "2081B PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2081B.png",
+    "source_page": 4,
+    "source_rect": [
+      318,
+      648,
+      590,
+      781
+    ],
+    "crop_pixels": [
+      1008,
+      495
+    ]
+  },
+  {
+    "code": "2108 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2108.png",
+    "source_page": 5,
+    "source_rect": [
+      27,
+      69,
+      297,
+      202
+    ],
+    "crop_pixels": [
+      958,
+      518
+    ]
+  },
+  {
+    "code": "2112 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2112.png",
+    "source_page": 5,
+    "source_rect": [
+      27,
+      203,
+      297,
+      341
+    ],
+    "crop_pixels": [
+      1029,
+      523
+    ]
+  },
+  {
+    "code": "2114 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2114.png",
+    "source_page": 5,
+    "source_rect": [
+      27,
+      342,
+      297,
+      488
+    ],
+    "crop_pixels": [
+      1024,
+      530
+    ]
+  },
+  {
+    "code": "5007 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5007.png",
+    "source_page": 5,
+    "source_rect": [
+      27,
+      489,
+      297,
+      646
+    ],
+    "crop_pixels": [
+      984,
+      567
+    ]
+  },
+  {
+    "code": "5008 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5008.png",
+    "source_page": 5,
+    "source_rect": [
+      27,
+      647,
+      297,
+      781
+    ],
+    "crop_pixels": [
+      1015,
+      549
+    ]
+  },
+  {
+    "code": "5019 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5019.png",
+    "source_page": 5,
+    "source_rect": [
+      297,
+      69,
+      549,
+      202
+    ],
+    "crop_pixels": [
+      1031,
+      498
+    ]
+  },
+  {
+    "code": "5024 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5024.png",
+    "source_page": 5,
+    "source_rect": [
+      297,
+      203,
+      549,
+      341
+    ],
+    "crop_pixels": [
+      1004,
+      529
+    ]
+  },
+  {
+    "code": "5025 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5025.png",
+    "source_page": 5,
+    "source_rect": [
+      297,
+      342,
+      549,
+      488
+    ],
+    "crop_pixels": [
+      1032,
+      519
+    ]
+  },
+  {
+    "code": "6002 PU",
+    "brand": "Scania",
+    "original": true,
+    "image": "fichas/6002.png",
+    "source_page": 5,
+    "source_rect": [
+      297,
+      489,
+      549,
+      645
+    ],
+    "crop_pixels": [
+      975,
+      562
+    ]
+  },
+  {
+    "code": "6051 PU",
+    "brand": "Scania",
+    "original": true,
+    "image": "fichas/6051.png",
+    "source_page": 5,
+    "source_rect": [
+      297,
+      646,
+      549,
+      781
+    ],
+    "crop_pixels": [
+      1042,
+      555
+    ]
+  },
+  {
+    "code": "6052 PU",
+    "brand": "Scania",
+    "original": true,
+    "image": "fichas/6052.png",
+    "source_page": 6,
+    "source_rect": [
+      48,
+      67,
+      318,
+      201
+    ],
+    "crop_pixels": [
+      1038,
+      498
+    ]
+  },
+  {
+    "code": "6053 PU",
+    "brand": "Scania",
+    "original": true,
+    "image": "fichas/6053.png",
+    "source_page": 6,
+    "source_rect": [
+      48,
+      202,
+      318,
+      348
+    ],
+    "crop_pixels": [
+      1000,
+      497
+    ]
+  },
+  {
+    "code": "6054 PU",
+    "brand": "Scania",
+    "original": true,
+    "image": "fichas/6054.png",
+    "source_page": 6,
+    "source_rect": [
+      48,
+      349,
+      318,
+      500
+    ],
+    "crop_pixels": [
+      1061,
+      535
+    ]
+  },
+  {
+    "code": "7010 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7010.png",
+    "source_page": 6,
+    "source_rect": [
+      48,
+      501,
+      318,
+      648
+    ],
+    "crop_pixels": [
+      1029,
+      529
+    ]
+  },
+  {
+    "code": "7010A PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7010A.png",
+    "source_page": 6,
+    "source_rect": [
+      48,
+      649,
+      315,
+      781
+    ],
+    "crop_pixels": [
+      1080,
+      509
+    ]
+  },
+  {
+    "code": "7012 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7012.png",
+    "source_page": 6,
+    "source_rect": [
+      318,
+      68,
+      590,
+      202
+    ],
+    "crop_pixels": [
+      1042,
+      484
+    ]
+  },
+  {
+    "code": "7014 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7014.png",
+    "source_page": 6,
+    "source_rect": [
+      318,
+      203,
+      590,
+      348
+    ],
+    "crop_pixels": [
+      1012,
+      470
+    ]
+  },
+  {
+    "code": "7014A PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7014A.png",
+    "source_page": 6,
+    "source_rect": [
+      318,
+      349,
+      590,
+      501
+    ],
+    "crop_pixels": [
+      1016,
+      535
+    ]
+  },
+  {
+    "code": "7015 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7015.png",
+    "source_page": 6,
+    "source_rect": [
+      318,
+      502,
+      590,
+      648
+    ],
+    "crop_pixels": [
+      1039,
+      515
+    ]
+  },
+  {
+    "code": "7017A PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7017A.png",
+    "source_page": 6,
+    "source_rect": [
+      315,
+      649,
+      590,
+      781
+    ],
+    "crop_pixels": [
+      1031,
+      498
+    ]
+  },
+  {
+    "code": "7019 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7019.png",
+    "source_page": 7,
+    "source_rect": [
+      27,
+      67,
+      287,
+      201
+    ],
+    "crop_pixels": [
+      1046,
+      518
+    ]
+  },
+  {
+    "code": "7020 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7020.png",
+    "source_page": 7,
+    "source_rect": [
+      27,
+      202,
+      297,
+      342
+    ],
+    "crop_pixels": [
+      1060,
+      511
+    ]
+  },
+  {
+    "code": "7025 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7025.png",
+    "source_page": 7,
+    "source_rect": [
+      27,
+      343,
+      289,
+      488
+    ],
+    "crop_pixels": [
+      1050,
+      515
+    ]
+  },
+  {
+    "code": "7025A PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7025A.png",
+    "source_page": 7,
+    "source_rect": [
+      27,
+      489,
+      297,
+      638
+    ],
+    "crop_pixels": [
+      1051,
+      529
+    ]
+  },
+  {
+    "code": "7033 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7033.png",
+    "source_page": 7,
+    "source_rect": [
+      27,
+      639,
+      297,
+      781
+    ],
+    "crop_pixels": [
+      1055,
+      538
+    ]
+  },
+  {
+    "code": "7037 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7037.png",
+    "source_page": 7,
+    "source_rect": [
+      288,
+      69,
+      549,
+      201
+    ],
+    "crop_pixels": [
+      1052,
+      529
+    ]
+  },
+  {
+    "code": "8011 PU",
+    "brand": "Randon",
+    "original": true,
+    "image": "fichas/8011.png",
+    "source_page": 7,
+    "source_rect": [
+      297,
+      202,
+      549,
+      339
+    ],
+    "crop_pixels": [
+      1006,
+      509
+    ]
+  },
+  {
+    "code": "8012 PU",
+    "brand": "Suspensys",
+    "original": true,
+    "image": "fichas/8012.png",
+    "source_page": 7,
+    "source_rect": [
+      288,
+      340,
+      549,
+      488
+    ],
+    "crop_pixels": [
+      1033,
+      508
+    ]
+  },
+  {
+    "code": "8013 PU",
+    "brand": "Suspensys",
+    "original": true,
+    "image": "fichas/8013.png",
+    "source_page": 7,
+    "source_rect": [
+      288,
+      489,
+      549,
+      639
+    ],
+    "crop_pixels": [
+      1024,
+      496
+    ]
+  },
+  {
+    "code": "8024 PU",
+    "brand": "Suspensys",
+    "original": true,
+    "image": "fichas/8024.png",
+    "source_page": 7,
+    "source_rect": [
+      297,
+      640,
+      549,
+      781
+    ],
+    "crop_pixels": [
+      1000,
+      493
+    ]
+  },
+  {
+    "code": "9017 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9017.png",
+    "source_page": 8,
+    "source_rect": [
+      48,
+      69,
+      318,
+      202
+    ],
+    "crop_pixels": [
+      1032,
+      503
+    ]
+  },
+  {
+    "code": "9020 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9020.png",
+    "source_page": 8,
+    "source_rect": [
+      48,
+      203,
+      318,
+      348
+    ],
+    "crop_pixels": [
+      1050,
+      507
+    ]
+  },
+  {
+    "code": "9022 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9022.png",
+    "source_page": 8,
+    "source_rect": [
+      48,
+      349,
+      318,
+      501
+    ],
+    "crop_pixels": [
+      1038,
+      512
+    ]
+  },
+  {
+    "code": "9023 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9023.png",
+    "source_page": 8,
+    "source_rect": [
+      48,
+      502,
+      318,
+      647
+    ],
+    "crop_pixels": [
+      1005,
+      536
+    ]
+  },
+  {
+    "code": "9024 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9024.png",
+    "source_page": 8,
+    "source_rect": [
+      48,
+      648,
+      318,
+      781
+    ],
+    "crop_pixels": [
+      1036,
+      507
+    ]
+  },
+  {
+    "code": "9026 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9026.png",
+    "source_page": 8,
+    "source_rect": [
+      318,
+      69,
+      590,
+      201
+    ],
+    "crop_pixels": [
+      1056,
+      484
+    ]
+  },
+  {
+    "code": "9027 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9027.png",
+    "source_page": 8,
+    "source_rect": [
+      318,
+      202,
+      590,
+      347
+    ],
+    "crop_pixels": [
+      1033,
+      534
+    ]
+  },
+  {
+    "code": "0610 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0610.png",
+    "source_page": 8,
+    "source_rect": [
+      318,
+      348,
+      590,
+      500
+    ],
+    "crop_pixels": [
+      1031,
+      561
+    ]
+  },
+  {
+    "code": "0611 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0611.png",
+    "source_page": 8,
+    "source_rect": [
+      318,
+      501,
+      590,
+      646
+    ],
+    "crop_pixels": [
+      1049,
+      543
+    ]
+  },
+  {
+    "code": "0614 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0614.png",
+    "source_page": 8,
+    "source_rect": [
+      318,
+      647,
+      590,
+      781
+    ],
+    "crop_pixels": [
+      1042,
+      509
+    ]
+  },
+  {
+    "code": "0614A PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0614A.png",
+    "source_page": 9,
+    "source_rect": [
+      27,
+      61,
+      297,
+      203
+    ],
+    "crop_pixels": [
+      1038,
+      470
+    ]
+  },
+  {
+    "code": "0614B PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0614B.png",
+    "source_page": 9,
+    "source_rect": [
+      27,
+      204,
+      297,
+      353
+    ],
+    "crop_pixels": [
+      1061,
+      513
+    ]
+  },
+  {
+    "code": "0615 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0615.png",
+    "source_page": 9,
+    "source_rect": [
+      27,
+      354,
+      297,
+      498
+    ],
+    "crop_pixels": [
+      1061,
+      520
+    ]
+  },
+  {
+    "code": "0627 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0627.png",
+    "source_page": 9,
+    "source_rect": [
+      27,
+      499,
+      297,
+      639
+    ],
+    "crop_pixels": [
+      1024,
+      529
+    ]
+  },
+  {
+    "code": "0628 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0628.png",
+    "source_page": 9,
+    "source_rect": [
+      27,
+      640,
+      297,
+      781
+    ],
+    "crop_pixels": [
+      1025,
+      553
+    ]
+  },
+  {
+    "code": "0630 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0630.png",
+    "source_page": 9,
+    "source_rect": [
+      297,
+      61,
+      549,
+      202
+    ],
+    "crop_pixels": [
+      1040,
+      571
+    ]
+  },
+  {
+    "code": "0631 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0631.png",
+    "source_page": 9,
+    "source_rect": [
+      297,
+      203,
+      549,
+      353
+    ],
+    "crop_pixels": [
+      1044,
+      596
+    ]
+  },
+  {
+    "code": "0632 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0632.png",
+    "source_page": 9,
+    "source_rect": [
+      297,
+      354,
+      549,
+      499
+    ],
+    "crop_pixels": [
+      1038,
+      597
+    ]
+  },
+  {
+    "code": "0633 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0633.png",
+    "source_page": 9,
+    "source_rect": [
+      297,
+      500,
+      551,
+      638
+    ],
+    "crop_pixels": [
+      1058,
+      572
+    ]
+  },
+  {
+    "code": "0805 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0805.png",
+    "source_page": 9,
+    "source_rect": [
+      297,
+      639,
+      549,
+      781
+    ],
+    "crop_pixels": [
+      1010,
+      573
+    ]
+  },
+  {
+    "code": "0806 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0806.png",
+    "source_page": 10,
+    "source_rect": [
+      48,
+      69,
+      318,
+      200
+    ],
+    "crop_pixels": [
+      990,
+      506
+    ]
+  },
+  {
+    "code": "0807 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0807.png",
+    "source_page": 10,
+    "source_rect": [
+      48,
+      201,
+      318,
+      347
+    ],
+    "crop_pixels": [
+      988,
+      521
+    ]
+  },
+  {
+    "code": "0813 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0813.png",
+    "source_page": 10,
+    "source_rect": [
+      48,
+      348,
+      318,
+      502
+    ],
+    "crop_pixels": [
+      986,
+      492
+    ]
+  },
+  {
+    "code": "0825 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0825.png",
+    "source_page": 10,
+    "source_rect": [
+      48,
+      503,
+      318,
+      647
+    ],
+    "crop_pixels": [
+      1033,
+      491
+    ]
+  },
+  {
+    "code": "0904 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0904.png",
+    "source_page": 10,
+    "source_rect": [
+      48,
+      648,
+      318,
+      781
+    ],
+    "crop_pixels": [
+      961,
+      520
+    ]
+  },
+  {
+    "code": "0905 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0905.png",
+    "source_page": 10,
+    "source_rect": [
+      318,
+      68,
+      590,
+      201
+    ],
+    "crop_pixels": [
+      991,
+      521
+    ]
+  },
+  {
+    "code": "0906 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0906.png",
+    "source_page": 10,
+    "source_rect": [
+      318,
+      202,
+      590,
+      348
+    ],
+    "crop_pixels": [
+      990,
+      494
+    ]
+  },
+  {
+    "code": "0911 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0911.png",
+    "source_page": 10,
+    "source_rect": [
+      318,
+      349,
+      590,
+      500
+    ],
+    "crop_pixels": [
+      1049,
+      488
+    ]
+  },
+  {
+    "code": "0913 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0913.png",
+    "source_page": 10,
+    "source_rect": [
+      318,
+      501,
+      590,
+      647
+    ],
+    "crop_pixels": [
+      962,
+      503
+    ]
+  },
+  {
+    "code": "0914 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0914.png",
+    "source_page": 10,
+    "source_rect": [
+      318,
+      648,
+      590,
+      781
+    ],
+    "crop_pixels": [
+      1031,
+      495
+    ]
+  },
+  {
+    "code": "3056 PU",
+    "brand": "Ford",
+    "original": true,
+    "image": "fichas/3056.png",
+    "source_page": 11,
+    "source_rect": [
+      27,
+      62,
+      297,
+      202
+    ],
+    "crop_pixels": [
+      969,
+      508
+    ]
+  },
+  {
+    "code": "3058 PU",
+    "brand": "Ford",
+    "original": true,
+    "image": "fichas/3058.png",
+    "source_page": 11,
+    "source_rect": [
+      27,
+      203,
+      297,
+      354
+    ],
+    "crop_pixels": [
+      971,
+      520
+    ]
+  },
+  {
+    "code": "5021 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5021.png",
+    "source_page": 11,
+    "source_rect": [
+      27,
+      355,
+      297,
+      499
+    ],
+    "crop_pixels": [
+      990,
+      512
+    ]
+  },
+  {
+    "code": "5022 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5022.png",
+    "source_page": 11,
+    "source_rect": [
+      27,
+      500,
+      297,
+      638
+    ],
+    "crop_pixels": [
+      983,
+      513
+    ]
+  },
+  {
+    "code": "5023 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5023.png",
+    "source_page": 11,
+    "source_rect": [
+      27,
+      639,
+      297,
+      781
+    ],
+    "crop_pixels": [
+      985,
+      506
+    ]
+  },
+  {
+    "code": "5029 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5029.png",
+    "source_page": 11,
+    "source_rect": [
+      297,
+      62,
+      549,
+      203
+    ],
+    "crop_pixels": [
+      1039,
+      509
+    ]
+  },
+  {
+    "code": "9028 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9028.png",
+    "source_page": 11,
+    "source_rect": [
+      297,
+      204,
+      549,
+      353
+    ],
+    "crop_pixels": [
+      1033,
+      511
+    ]
+  },
+  {
+    "code": "0828 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0828.png",
+    "source_page": 11,
+    "source_rect": [
+      297,
+      354,
+      549,
+      498
+    ],
+    "crop_pixels": [
+      1037,
+      511
+    ]
+  },
+  {
+    "code": "0828A PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0828A.png",
+    "source_page": 11,
+    "source_rect": [
+      297,
+      499,
+      549,
+      638
+    ],
+    "crop_pixels": [
+      1036,
+      511
+    ]
+  },
+  {
+    "code": "0836 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0836.png",
+    "source_page": 11,
+    "source_rect": [
+      297,
+      639,
+      549,
+      781
+    ],
+    "crop_pixels": [
+      1005,
+      542
+    ]
+  },
+  {
+    "code": "0912 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0912.png",
+    "source_page": 12,
+    "source_rect": [
+      48,
+      68,
+      318,
+      201
+    ],
+    "crop_pixels": [
+      1025,
+      501
+    ]
+  },
+  {
+    "code": "0912A PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0912A.png",
+    "source_page": 12,
+    "source_rect": [
+      48,
+      202,
+      318,
+      335
+    ],
+    "crop_pixels": [
+      1025,
+      501
+    ]
+  },
+  {
+    "code": "0828C PU",
+    "brand": "Mitsubishi",
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "Pajero / L200 Triton 2008 a 2022",
+    "specs": "",
+    "image": "0828C PU.png",
+    "original": false
+  },
+  {
+    "code": "6058 PU",
+    "brand": "Scania",
+    "name": "Separador anti ruído da mola dianteira",
+    "application": "Scania NTG 2019 em diante",
+    "specs": "Comprimento: 100 mm | Largura: 90 mm | Entre pinos: 45 mm",
+    "image": "6058 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "8002 PU",
+    "brand": "Rodoviária",
+    "name": "Borracha rodoviária com aba",
+    "application": "",
+    "specs": "Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm",
+    "image": "8002 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "8003 PU",
+    "brand": "Randon",
+    "name": "Borracha Randon sem aba",
+    "application": "",
+    "specs": "Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm",
+    "image": "8003 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "6057 PU",
+    "brand": "Scania",
+    "name": "Bucha tranca da cabine traseira",
+    "application": "Scania NTG 2019 em diante",
+    "specs": "",
+    "image": "6057 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "8001 PU",
+    "brand": "Rodoviária",
+    "name": "Borracha rodoviária sem aba",
+    "application": "",
+    "specs": "Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm",
+    "image": "8001 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "8004 PU",
+    "brand": "Randon",
+    "name": "Borracha Randon com aba",
+    "application": "",
+    "specs": "Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm",
+    "image": "8004 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "8023 PU",
+    "brand": "JOST",
+    "name": "Coxim da 5ª roda (2 polegadas)",
+    "application": "Jost",
+    "specs": "",
+    "image": "8023 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "5003 PU",
+    "brand": "Toyota",
+    "name": "Borracha da mola dianteira",
+    "application": "Toyota Band 1992 em diante",
+    "specs": "",
+    "image": "5003 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "5004 PU",
+    "brand": "Toyota",
+    "name": "Borracha da mola traseira",
+    "application": "Toyota Band 1992 em diante",
+    "specs": "",
+    "image": "5004 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "0611D PU",
+    "brand": "Iveco",
+    "name": "Bucha da barra estabilizadora dianteira",
+    "application": "Iveco Tector / Stralis",
+    "specs": "Comprimento total: 82 mm | Diâmetro do corpo: 70 mm | Entre abas: 71 mm | Interno do furo: 48 mm",
+    "image": "0611D PU.jpg",
+    "original": false
+  },
+  {
+    "code": "3079 PU",
+    "brand": "Ford",
+    "name": "Borracha do amortecedor dianteiro inferior",
+    "application": "Ranger",
+    "specs": "Comprimento: 50 mm | Diâmetro externo: 54 mm | Interno do furo: 20 mm",
+    "image": "3079 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "3039 PU",
+    "brand": "Ford",
+    "name": "Borracha da ponta estabilizadora dianteira",
+    "application": "Ford 815",
+    "specs": "Comprimento: 45 mm | Diâmetro externo: 34 mm | Interno do furo: 12 mm",
+    "image": "3039 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "0616A PU",
+    "brand": "Iveco",
+    "name": "Bucha da mola e suporte traseiro",
+    "application": "Iveco Daily; aplicar em mola com 70 mm de largura",
+    "specs": "Comprimento: 80 mm | Diâmetro: 40 mm | Interno do furo: 16 mm",
+    "image": "0616A PU.jpg",
+    "original": false
+  },
+  {
+    "code": "0610A PU",
+    "brand": "Iveco",
+    "name": "Bucha da ponta estabilizadora dianteira",
+    "application": "Iveco Stralis",
+    "specs": "Comprimento: 50 mm | Diâmetro: 61 mm | Interno do furo: 28 mm",
+    "image": "0610A PU.jpg",
+    "original": false
+  },
+  {
+    "code": "1024 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha da barra estabilizadora dianteira",
+    "application": "VW 13.190",
+    "specs": "Interno do furo: 35 mm",
+    "image": "1024 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "1014 PU",
+    "brand": "Volkswagen",
+    "name": "Borracha da barra estabilizadora dianteira",
+    "application": "VW 12.140 - 24.250",
+    "specs": "Interno do furo: 44 mm",
+    "image": "1014 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "1013 PU",
+    "brand": "Volkswagen",
+    "name": "Borracha da barra estabilizadora traseira",
+    "application": "VW 6.90 - 8.150",
+    "specs": "Interno do furo: 32 mm",
+    "image": "1013 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "1055 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha silenciosa da mola traseira",
+    "application": "VW 11.180 - Delivery",
+    "specs": "Comprimento: 88 mm | Diâmetro externo: 53 mm | Interno do furo: 18 mm",
+    "image": "1055 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "1011 PU",
+    "brand": "Volkswagen",
+    "name": "Borracha da ponta estabilizadora dianteira",
+    "application": "VW 12.140 - 24.250",
+    "specs": "Olhal: 43 mm",
+    "image": "1011 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "1068 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha da barra estabilizadora dianteira superior",
+    "application": "VW Meteor",
+    "specs": "Comprimento: 60 mm | Diâmetro externo (olhal): 65 mm | Interno do furo: 37 mm",
+    "image": "1068 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "1067 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha da barra estabilizadora dianteira inferior",
+    "application": "VW Meteor",
+    "specs": "Altura: 60 mm | Diâmetro externo: 85 mm | Interno do furo: 49 mm",
+    "image": "1067 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "1008 PU",
+    "brand": "Volkswagen",
+    "name": "Borracha estabilizadora dianteira",
+    "application": "VW 6.90 - 8.150",
+    "specs": "Olhal: 28 mm",
+    "image": "1008 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "1010 PU",
+    "brand": "Volkswagen",
+    "name": "Borracha da ponta estabilizadora traseira",
+    "application": "VW 6.90 - 8.150",
+    "specs": "Olhal: 35 mm",
+    "image": "1010 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "1069 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha da ponta estabilizadora dianteira",
+    "application": "VW Meteor",
+    "specs": "Comprimento: 64 mm | Diâmetro externo: 58 mm | Interno do furo: 20 mm",
+    "image": "1069 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "2010 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Borracha da barra estabilizadora com tubo dianteiro/traseiro",
+    "application": "MB 710",
+    "specs": "Olhal: 30 mm",
+    "image": "2010 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "2008 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Borracha da barra estabilizadora com tubo dianteiro/traseiro",
+    "application": "MB 608",
+    "specs": "Olhal: 26 mm",
+    "image": "2008 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "2095 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Batente guia do grampo da mola dianteira",
+    "application": "MB Axor (fora de estrada)",
+    "specs": "Altura: 109 mm",
+    "image": "2095 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "2039 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Borracha da mola dianteira",
+    "application": "MB 608",
+    "specs": "",
+    "image": "2039 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "2054 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Borracha da mola da cabine",
+    "application": "MB 1620",
+    "specs": "",
+    "image": "2054 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "2078C PU",
+    "brand": "Mercedes-Benz",
+    "name": "Bucha silenciosa do olho da mola traseira/dianteira",
+    "application": "MB Accelo",
+    "specs": "",
+    "image": "2078C PU.jpg",
+    "original": false
+  },
+  {
+    "code": "2120 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Bucha da ponta estabilizadora traseira inferior",
+    "application": "MB Arocs",
+    "specs": "",
+    "image": "2120 PU.jpg",
+    "original": false
+  },
+  {
+    "code": "2121 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Bucha da ponta estabilizadora dianteira inferior",
+    "application": "MB Arocs",
+    "specs": "Comprimento: 57 mm | Diâmetro do olhal: 75 mm | Interno do furo: 20 mm",
+    "image": "2121 PU.jpg",
+    "original": false
+  }
+]

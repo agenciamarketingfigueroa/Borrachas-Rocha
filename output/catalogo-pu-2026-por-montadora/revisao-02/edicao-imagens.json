@@ -1,0 +1,238 @@
+{
+  "tool": "image_gen.imagegen",
+  "mode": "edit with referenced_image_paths, one reference photograph per asset",
+  "note": "Prompts completos registrados quando disponíveis; prompt_base registra a instrução comum, com reforços sobre furos e conjuntos nas respectivas chamadas. Recortes produzidos por edição generativa, não máscaras pixel a pixel.",
+  "assets": [
+    {
+      "code": "0828C PU",
+      "source": "assets/img/Peças de PU/0828C PU.png",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-19b68d1a-41ba-4a0e-9395-18623fe63ef0.png",
+      "output": "recortes/0828C PU.png",
+      "prompt": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout. Reference 0828C PU. This source is low resolution. Preserve its appearance; do not invent surface details or change its upright perspective."
+    },
+    {
+      "code": "6058 PU",
+      "source": "assets/img/Peças de PU/6058 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-1c3a8676-d51c-442a-989c-77f1b4189e5d.png",
+      "output": "recortes/6058 PU.png",
+      "prompt": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout. Reference 6058 PU. Preserve BOTH protruding pins on the square plate."
+    },
+    {
+      "code": "8002 PU",
+      "source": "assets/img/Peças de PU/8002 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-e642b289-7b5a-4317-acef-a24f078592f2.png",
+      "output": "recortes/8002 PU.png",
+      "prompt": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout. Reference 8002 PU."
+    },
+    {
+      "code": "8003 PU",
+      "source": "assets/img/Peças de PU/8003 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-0c81b30c-c33f-4143-bb93-edd618268304.png",
+      "output": "recortes/8003 PU.png",
+      "prompt": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout. Reference 8003 PU."
+    },
+    {
+      "code": "6057 PU",
+      "source": "assets/img/Peças de PU/6057 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-02d984ec-d3dd-413f-8b82-afe251455759.png",
+      "output": "recortes/6057 PU.png",
+      "prompt": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout. Reference 6057 PU. Preserve every central spline tooth exactly; remove tabletop visible THROUGH the central opening without removing dark walls or any teeth."
+    },
+    {
+      "code": "8001 PU",
+      "source": "assets/img/Peças de PU/8001 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-2809f38c-3391-4254-89d4-92578911417e.png",
+      "output": "recortes/8001 PU.png",
+      "prompt": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout. Reference 8001 PU."
+    },
+    {
+      "code": "8004 PU",
+      "source": "assets/img/Peças de PU/8004 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-04500a69-87ab-4a6d-8c1c-464bd1d7e0be.png",
+      "output": "recortes/8004 PU.png",
+      "prompt": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout. Reference 8004 PU."
+    },
+    {
+      "code": "8023 PU",
+      "source": "assets/img/Peças de PU/8023 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-b8be1990-0294-48bd-bb99-6b071b8d8fb0.png",
+      "output": "recortes/8023 PU.png",
+      "prompt": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout. Reference 8023 PU. Preserve BOTH square products with identical relative positioning, grooves, holes and the embossed RODOFIX text. Do not change or replace any writing."
+    },
+    {
+      "code": "5003 PU",
+      "source": "assets/img/Peças de PU/5003 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-fe45c771-c02f-4043-abd1-87fecede9181.png",
+      "output": "recortes/5003 PU.png",
+      "prompt": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout. Reference 5003 PU."
+    },
+    {
+      "code": "5004 PU",
+      "source": "assets/img/Peças de PU/5004 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-891aae2a-4445-41ea-9f89-ad556f47a097.png",
+      "output": "recortes/5004 PU.png",
+      "prompt": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout. Reference 5004 PU."
+    },
+    {
+      "code": "0611D PU",
+      "source": "assets/img/Peças de PU/0611D PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-a761ae7f-919c-4043-9aa5-c750c791424b.png",
+      "output": "recortes/0611D PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "3079 PU",
+      "source": "assets/img/Peças de PU/3079 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-b2eab70c-eb63-4ec8-a1e3-585581d3ed44.png",
+      "output": "recortes/3079 PU.png",
+      "prompt": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout. Reference 3079 PU."
+    },
+    {
+      "code": "3039 PU",
+      "source": "assets/img/Peças de PU/3039 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-36571f7e-d00e-473e-987a-346c19deca18.png",
+      "output": "recortes/3039 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "0616A PU",
+      "source": "assets/img/Peças de PU/0616A PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-e0394d02-612f-4f07-9884-7cc3b0cd89bb.png",
+      "output": "recortes/0616A PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "0610A PU",
+      "source": "assets/img/Peças de PU/0610A PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-48974eb7-e05e-41f7-bb77-f8e87929099d.png",
+      "output": "recortes/0610A PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "1024 PU",
+      "source": "assets/img/Peças de PU/1024 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-06d63e18-d869-47a8-abd9-d478ce5485ee.png",
+      "output": "recortes/1024 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "1014 PU",
+      "source": "assets/img/Peças de PU/1014 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-0b48c90c-147d-4bd2-a617-e9740a06c01e.png",
+      "output": "recortes/1014 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "1013 PU",
+      "source": "assets/img/Peças de PU/1013 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-8d69a11e-5551-4721-9690-20614333f9a6.png",
+      "output": "recortes/1013 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "1055 PU",
+      "source": "assets/img/Peças de PU/1055 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-9563c260-d769-44c5-8c4d-b461987a996a.png",
+      "output": "recortes/1055 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "1011 PU",
+      "source": "assets/img/Peças de PU/1011 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-68009394-cb4d-4087-836c-21a2578591a9.png",
+      "output": "recortes/1011 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "1068 PU",
+      "source": "assets/img/Peças de PU/1068 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-467eb92b-692e-4cb6-9179-aa59d788d986.png",
+      "output": "recortes/1068 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "1067 PU",
+      "source": "assets/img/Peças de PU/1067 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-995e5be9-b90c-4bec-bde7-0c9579b9fe3c.png",
+      "output": "recortes/1067 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "1008 PU",
+      "source": "assets/img/Peças de PU/1008 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-9a86d7eb-6641-477a-98a4-6e087f223b6c.png",
+      "output": "recortes/1008 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "1010 PU",
+      "source": "assets/img/Peças de PU/1010 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-fef27edb-07d8-4adf-bf67-6e120a0be5fb.png",
+      "output": "recortes/1010 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "1069 PU",
+      "source": "assets/img/Peças de PU/1069 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-fbd69a9c-96f9-45c4-adfc-3693d5dfcf34.png",
+      "output": "recortes/1069 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "2010 PU",
+      "source": "assets/img/Peças de PU/2010 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-4fc7d33b-de7b-472e-90c8-856873a5b40b.png",
+      "output": "recortes/2010 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "2008 PU",
+      "source": "assets/img/Peças de PU/2008 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-43004780-5bf3-45f9-a3dc-4ea112d7fa4a.png",
+      "output": "recortes/2008 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "2095 PU",
+      "source": "assets/img/Peças de PU/2095 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-ce74ae2c-16c4-4b5e-b6e6-b3d85afa9cb0.png",
+      "output": "recortes/2095 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "2039 PU",
+      "source": "assets/img/Peças de PU/2039 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-4f4eed6d-dca1-411a-88f2-57701feb5730.png",
+      "output": "recortes/2039 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "2054 PU",
+      "source": "assets/img/Peças de PU/2054 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-135e31ed-9028-44d0-93c2-4f491c437197.png",
+      "output": "recortes/2054 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "2078C PU",
+      "source": "assets/img/Peças de PU/2078C PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-66d757a8-772e-4db5-82c1-05104d70df00.png",
+      "output": "recortes/2078C PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "2120 PU",
+      "source": "assets/img/Peças de PU/2120 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-d4c8936e-ea62-4c7f-a728-db138fcc104f.png",
+      "output": "recortes/2120 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    },
+    {
+      "code": "2121 PU",
+      "source": "assets/img/Peças de PU/2121 PU.jpg",
+      "generated": "/Users/felipefigueroa/.codex/generated_images/01a0ca93-d9ef-74d2-8331-026d9d09ac95/exec-e3cd43ce-eacb-46bd-a142-4fc7fc3f3635.png",
+      "output": "recortes/2121 PU.png",
+      "prompt_base": "Use case: background-extraction. Edit target: the single supplied real automotive part photograph. Remove ONLY tabletop, backdrop, external dust and cast shadow, producing an actual transparent alpha background. Keep the photographed product EXACTLY as supplied: identical silhouette, camera angle, proportions, number and shape of rims/grooves/holes, metal sleeves, blue material, color, lighting, focus, scratches and imperfections. Do NOT redraw, relight, smooth, sharpen or invent details. Keep dark bore interiors opaque. Closely crop around the entire part with 4% transparent margin, no clipping, no text, no new shadows. Factual technical catalog photo cutout."
+    }
+  ]
+}

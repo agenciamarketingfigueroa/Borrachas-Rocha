@@ -1,0 +1,1495 @@
+{
+  "paginas": 28,
+  "referencias": [
+    {
+      "code": "9017 PU",
+      "brand": "Chevrolet",
+      "page": 3,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "9020 PU",
+      "brand": "Chevrolet",
+      "page": 3,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "9022 PU",
+      "brand": "Chevrolet",
+      "page": 3,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "9023 PU",
+      "brand": "Chevrolet",
+      "page": 3,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "9024 PU",
+      "brand": "Chevrolet",
+      "page": 3,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "9026 PU",
+      "brand": "Chevrolet",
+      "page": 3,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "9027 PU",
+      "brand": "Chevrolet",
+      "page": 3,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "9028 PU",
+      "brand": "Chevrolet",
+      "page": 3,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "3039 PU",
+      "brand": "Ford",
+      "page": 4,
+      "source": "catalog.js"
+    },
+    {
+      "code": "3056 PU",
+      "brand": "Ford",
+      "page": 4,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "3058 PU",
+      "brand": "Ford",
+      "page": 4,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "3079 PU",
+      "brand": "Ford",
+      "page": 4,
+      "source": "catalog.js"
+    },
+    {
+      "code": "0610 PU",
+      "brand": "Iveco",
+      "page": 5,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0610A PU",
+      "brand": "Iveco",
+      "page": 5,
+      "source": "catalog.js"
+    },
+    {
+      "code": "0611 PU",
+      "brand": "Iveco",
+      "page": 5,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0611D PU",
+      "brand": "Iveco",
+      "page": 5,
+      "source": "catalog.js"
+    },
+    {
+      "code": "0614 PU",
+      "brand": "Iveco",
+      "page": 5,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0614A PU",
+      "brand": "Iveco",
+      "page": 5,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0614B PU",
+      "brand": "Iveco",
+      "page": 5,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0615 PU",
+      "brand": "Iveco",
+      "page": 5,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0616A PU",
+      "brand": "Iveco",
+      "page": 6,
+      "source": "catalog.js"
+    },
+    {
+      "code": "0627 PU",
+      "brand": "Iveco",
+      "page": 6,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0628 PU",
+      "brand": "Iveco",
+      "page": 6,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0630 PU",
+      "brand": "Iveco",
+      "page": 6,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0631 PU",
+      "brand": "Iveco",
+      "page": 6,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0632 PU",
+      "brand": "Iveco",
+      "page": 6,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0633 PU",
+      "brand": "Iveco",
+      "page": 6,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2008 PU",
+      "brand": "Mercedes-Benz",
+      "page": 7,
+      "source": "catalog.js"
+    },
+    {
+      "code": "2010 PU",
+      "brand": "Mercedes-Benz",
+      "page": 7,
+      "source": "catalog.js"
+    },
+    {
+      "code": "2015 PU",
+      "brand": "Mercedes-Benz",
+      "page": 7,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2039 PU",
+      "brand": "Mercedes-Benz",
+      "page": 7,
+      "source": "catalog.js"
+    },
+    {
+      "code": "2048 PU",
+      "brand": "Mercedes-Benz",
+      "page": 7,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2048A PU",
+      "brand": "Mercedes-Benz",
+      "page": 7,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2049 PU",
+      "brand": "Mercedes-Benz",
+      "page": 7,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2054 PU",
+      "brand": "Mercedes-Benz",
+      "page": 8,
+      "source": "catalog.js"
+    },
+    {
+      "code": "2062 PU",
+      "brand": "Mercedes-Benz",
+      "page": 8,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2063A PU",
+      "brand": "Mercedes-Benz",
+      "page": 8,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2063B PU",
+      "brand": "Mercedes-Benz",
+      "page": 8,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2063C PU",
+      "brand": "Mercedes-Benz",
+      "page": 8,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2074A PU",
+      "brand": "Mercedes-Benz",
+      "page": 8,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2074B PU",
+      "brand": "Mercedes-Benz",
+      "page": 9,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2074C PU",
+      "brand": "Mercedes-Benz",
+      "page": 9,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2078 PU",
+      "brand": "Mercedes-Benz",
+      "page": 9,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2078A PU",
+      "brand": "Mercedes-Benz",
+      "page": 9,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2078C PU",
+      "brand": "Mercedes-Benz",
+      "page": 9,
+      "source": "catalog.js"
+    },
+    {
+      "code": "2081B PU",
+      "brand": "Mercedes-Benz",
+      "page": 9,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2095 PU",
+      "brand": "Mercedes-Benz",
+      "page": 10,
+      "source": "catalog.js"
+    },
+    {
+      "code": "2108 PU",
+      "brand": "Mercedes-Benz",
+      "page": 10,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2112 PU",
+      "brand": "Mercedes-Benz",
+      "page": 10,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2114 PU",
+      "brand": "Mercedes-Benz",
+      "page": 10,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "2120 PU",
+      "brand": "Mercedes-Benz",
+      "page": 10,
+      "source": "catalog.js"
+    },
+    {
+      "code": "2121 PU",
+      "brand": "Mercedes-Benz",
+      "page": 10,
+      "source": "catalog.js"
+    },
+    {
+      "code": "0805 PU",
+      "brand": "Mitsubishi",
+      "page": 11,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0806 PU",
+      "brand": "Mitsubishi",
+      "page": 11,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0807 PU",
+      "brand": "Mitsubishi",
+      "page": 11,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0813 PU",
+      "brand": "Mitsubishi",
+      "page": 11,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0825 PU",
+      "brand": "Mitsubishi",
+      "page": 11,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0828 PU",
+      "brand": "Mitsubishi",
+      "page": 12,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0828A PU",
+      "brand": "Mitsubishi",
+      "page": 12,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0828C PU",
+      "brand": "Mitsubishi",
+      "page": 12,
+      "source": "catalog.js"
+    },
+    {
+      "code": "0836 PU",
+      "brand": "Mitsubishi",
+      "page": 12,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0904 PU",
+      "brand": "Nissan",
+      "page": 13,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0905 PU",
+      "brand": "Nissan",
+      "page": 13,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0906 PU",
+      "brand": "Nissan",
+      "page": 13,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0911 PU",
+      "brand": "Nissan",
+      "page": 13,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0912 PU",
+      "brand": "Nissan",
+      "page": 13,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0912A PU",
+      "brand": "Nissan",
+      "page": 13,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0913 PU",
+      "brand": "Nissan",
+      "page": 13,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "0914 PU",
+      "brand": "Nissan",
+      "page": 13,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "6002 PU",
+      "brand": "Scania",
+      "page": 14,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "6051 PU",
+      "brand": "Scania",
+      "page": 14,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "6052 PU",
+      "brand": "Scania",
+      "page": 14,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "6053 PU",
+      "brand": "Scania",
+      "page": 14,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "6054 PU",
+      "brand": "Scania",
+      "page": 14,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "6057 PU",
+      "brand": "Scania",
+      "page": 14,
+      "source": "catalog.js"
+    },
+    {
+      "code": "6058 PU",
+      "brand": "Scania",
+      "page": 14,
+      "source": "catalog.js"
+    },
+    {
+      "code": "5003 PU",
+      "brand": "Toyota",
+      "page": 15,
+      "source": "catalog.js"
+    },
+    {
+      "code": "5004 PU",
+      "brand": "Toyota",
+      "page": 15,
+      "source": "catalog.js"
+    },
+    {
+      "code": "5007 PU",
+      "brand": "Toyota",
+      "page": 15,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "5008 PU",
+      "brand": "Toyota",
+      "page": 15,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "5019 PU",
+      "brand": "Toyota",
+      "page": 15,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "5021 PU",
+      "brand": "Toyota",
+      "page": 15,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "5022 PU",
+      "brand": "Toyota",
+      "page": 16,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "5023 PU",
+      "brand": "Toyota",
+      "page": 16,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "5024 PU",
+      "brand": "Toyota",
+      "page": 16,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "5025 PU",
+      "brand": "Toyota",
+      "page": 16,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "5029 PU",
+      "brand": "Toyota",
+      "page": 16,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1008 PU",
+      "brand": "Volkswagen",
+      "page": 17,
+      "source": "catalog.js"
+    },
+    {
+      "code": "1010 PU",
+      "brand": "Volkswagen",
+      "page": 17,
+      "source": "catalog.js"
+    },
+    {
+      "code": "1011 PU",
+      "brand": "Volkswagen",
+      "page": 17,
+      "source": "catalog.js"
+    },
+    {
+      "code": "1013 PU",
+      "brand": "Volkswagen",
+      "page": 17,
+      "source": "catalog.js"
+    },
+    {
+      "code": "1014 PU",
+      "brand": "Volkswagen",
+      "page": 17,
+      "source": "catalog.js"
+    },
+    {
+      "code": "1020 PU",
+      "brand": "Volkswagen",
+      "page": 17,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1021 PU",
+      "brand": "Volkswagen",
+      "page": 17,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1024 PU",
+      "brand": "Volkswagen",
+      "page": 18,
+      "source": "catalog.js"
+    },
+    {
+      "code": "1026 PU",
+      "brand": "Volkswagen",
+      "page": 18,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1026A PU",
+      "brand": "Volkswagen",
+      "page": 18,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1027 PU",
+      "brand": "Volkswagen",
+      "page": 18,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1030 PU",
+      "brand": "Volkswagen",
+      "page": 18,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1033 PU",
+      "brand": "Volkswagen",
+      "page": 18,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1048 PU",
+      "brand": "Volkswagen",
+      "page": 19,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1048A PU",
+      "brand": "Volkswagen",
+      "page": 19,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1050 PU",
+      "brand": "Volkswagen",
+      "page": 19,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1053 PU",
+      "brand": "Volkswagen",
+      "page": 19,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1055 PU",
+      "brand": "Volkswagen",
+      "page": 19,
+      "source": "catalog.js"
+    },
+    {
+      "code": "1061 PU",
+      "brand": "Volkswagen",
+      "page": 19,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1062 PU",
+      "brand": "Volkswagen",
+      "page": 20,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1065 PU",
+      "brand": "Volkswagen",
+      "page": 20,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1066 PU",
+      "brand": "Volkswagen",
+      "page": 20,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1067 PU",
+      "brand": "Volkswagen",
+      "page": 20,
+      "source": "catalog.js"
+    },
+    {
+      "code": "1068 PU",
+      "brand": "Volkswagen",
+      "page": 20,
+      "source": "catalog.js"
+    },
+    {
+      "code": "1069 PU",
+      "brand": "Volkswagen",
+      "page": 20,
+      "source": "catalog.js"
+    },
+    {
+      "code": "7010 PU",
+      "brand": "Volvo",
+      "page": 21,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7010A PU",
+      "brand": "Volvo",
+      "page": 21,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7012 PU",
+      "brand": "Volvo",
+      "page": 21,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7014 PU",
+      "brand": "Volvo",
+      "page": 21,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7014A PU",
+      "brand": "Volvo",
+      "page": 21,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7015 PU",
+      "brand": "Volvo",
+      "page": 21,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7017A PU",
+      "brand": "Volvo",
+      "page": 21,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7019 PU",
+      "brand": "Volvo",
+      "page": 22,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7020 PU",
+      "brand": "Volvo",
+      "page": 22,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7025 PU",
+      "brand": "Volvo",
+      "page": 22,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7025A PU",
+      "brand": "Volvo",
+      "page": 22,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7033 PU",
+      "brand": "Volvo",
+      "page": 22,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "7037 PU",
+      "brand": "Volvo",
+      "page": 22,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "1046A PU",
+      "brand": "HBZ",
+      "page": 23,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "8023 PU",
+      "brand": "JOST",
+      "page": 24,
+      "source": "catalog.js"
+    },
+    {
+      "code": "8003 PU",
+      "brand": "Randon",
+      "page": 25,
+      "source": "catalog.js"
+    },
+    {
+      "code": "8004 PU",
+      "brand": "Randon",
+      "page": 25,
+      "source": "catalog.js"
+    },
+    {
+      "code": "8011 PU",
+      "brand": "Randon",
+      "page": 25,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "8001 PU",
+      "brand": "Rodoviária",
+      "page": 26,
+      "source": "catalog.js"
+    },
+    {
+      "code": "8002 PU",
+      "brand": "Rodoviária",
+      "page": 26,
+      "source": "catalog.js"
+    },
+    {
+      "code": "8012 PU",
+      "brand": "Suspensys",
+      "page": 27,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "8013 PU",
+      "brand": "Suspensys",
+      "page": 27,
+      "source": "PDF 2025"
+    },
+    {
+      "code": "8024 PU",
+      "brand": "Suspensys",
+      "page": 27,
+      "source": "PDF 2025"
+    }
+  ],
+  "pendentes": [
+    "1013A PU"
+  ],
+  "imagens": [
+    {
+      "code": "9017 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 120.7
+    },
+    {
+      "code": "9020 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 121.7
+    },
+    {
+      "code": "9022 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 122.9
+    },
+    {
+      "code": "9023 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 128.6
+    },
+    {
+      "code": "9024 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 121.7
+    },
+    {
+      "code": "9026 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 116.2
+    },
+    {
+      "code": "9027 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 128.2
+    },
+    {
+      "code": "9028 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 122.6
+    },
+    {
+      "code": "3039 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 103.3
+    },
+    {
+      "code": "3056 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 121.9
+    },
+    {
+      "code": "3058 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 124.8
+    },
+    {
+      "code": "3079 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 103.3
+    },
+    {
+      "code": "0610 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 134.6
+    },
+    {
+      "code": "0610A PU",
+      "effective_dpi": 993.1,
+      "height_pt": 103.3
+    },
+    {
+      "code": "0611 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 130.3
+    },
+    {
+      "code": "0611D PU",
+      "effective_dpi": 993.1,
+      "height_pt": 113.5
+    },
+    {
+      "code": "0614 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 122.2
+    },
+    {
+      "code": "0614A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 112.8
+    },
+    {
+      "code": "0614B PU",
+      "effective_dpi": 300.0,
+      "height_pt": 123.1
+    },
+    {
+      "code": "0615 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 124.8
+    },
+    {
+      "code": "0616A PU",
+      "effective_dpi": 993.1,
+      "height_pt": 113.8
+    },
+    {
+      "code": "0627 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 127.0
+    },
+    {
+      "code": "0628 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 132.7
+    },
+    {
+      "code": "0630 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 137.0
+    },
+    {
+      "code": "0631 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 143.0
+    },
+    {
+      "code": "0632 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 143.3
+    },
+    {
+      "code": "0633 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 137.3
+    },
+    {
+      "code": "2008 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 83.0
+    },
+    {
+      "code": "2010 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 83.0
+    },
+    {
+      "code": "2015 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 127.4
+    },
+    {
+      "code": "2039 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 54.1
+    },
+    {
+      "code": "2048 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 138.7
+    },
+    {
+      "code": "2048A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 138.7
+    },
+    {
+      "code": "2049 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 122.2
+    },
+    {
+      "code": "2054 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 54.1
+    },
+    {
+      "code": "2062 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 125.5
+    },
+    {
+      "code": "2063A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 130.6
+    },
+    {
+      "code": "2063B PU",
+      "effective_dpi": 300.0,
+      "height_pt": 141.8
+    },
+    {
+      "code": "2063C PU",
+      "effective_dpi": 300.0,
+      "height_pt": 122.6
+    },
+    {
+      "code": "2074A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 121.4
+    },
+    {
+      "code": "2074B PU",
+      "effective_dpi": 300.0,
+      "height_pt": 118.8
+    },
+    {
+      "code": "2074C PU",
+      "effective_dpi": 300.0,
+      "height_pt": 120.2
+    },
+    {
+      "code": "2078 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 121.9
+    },
+    {
+      "code": "2078A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 121.9
+    },
+    {
+      "code": "2078C PU",
+      "effective_dpi": 993.1,
+      "height_pt": 65.8
+    },
+    {
+      "code": "2081B PU",
+      "effective_dpi": 300.0,
+      "height_pt": 118.8
+    },
+    {
+      "code": "2095 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 83.0
+    },
+    {
+      "code": "2108 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 124.3
+    },
+    {
+      "code": "2112 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 125.5
+    },
+    {
+      "code": "2114 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 127.2
+    },
+    {
+      "code": "2120 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 65.8
+    },
+    {
+      "code": "2121 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 103.3
+    },
+    {
+      "code": "0805 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 137.5
+    },
+    {
+      "code": "0806 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 121.4
+    },
+    {
+      "code": "0807 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 125.0
+    },
+    {
+      "code": "0813 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 118.1
+    },
+    {
+      "code": "0825 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 117.8
+    },
+    {
+      "code": "0828 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 122.6
+    },
+    {
+      "code": "0828A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 122.6
+    },
+    {
+      "code": "0828C PU",
+      "effective_dpi": 173.0,
+      "height_pt": 65.8
+    },
+    {
+      "code": "0836 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 130.1
+    },
+    {
+      "code": "0904 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 124.8
+    },
+    {
+      "code": "0905 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 125.0
+    },
+    {
+      "code": "0906 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 118.6
+    },
+    {
+      "code": "0911 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 117.1
+    },
+    {
+      "code": "0912 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 120.2
+    },
+    {
+      "code": "0912A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 120.2
+    },
+    {
+      "code": "0913 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 120.7
+    },
+    {
+      "code": "0914 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 118.8
+    },
+    {
+      "code": "6002 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 134.9
+    },
+    {
+      "code": "6051 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 133.2
+    },
+    {
+      "code": "6052 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 119.5
+    },
+    {
+      "code": "6053 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 119.3
+    },
+    {
+      "code": "6054 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 128.4
+    },
+    {
+      "code": "6057 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 54.1
+    },
+    {
+      "code": "6058 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 103.3
+    },
+    {
+      "code": "5003 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 54.1
+    },
+    {
+      "code": "5004 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 54.1
+    },
+    {
+      "code": "5007 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 136.1
+    },
+    {
+      "code": "5008 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 131.8
+    },
+    {
+      "code": "5019 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 119.5
+    },
+    {
+      "code": "5021 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 122.9
+    },
+    {
+      "code": "5022 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 123.1
+    },
+    {
+      "code": "5023 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 121.4
+    },
+    {
+      "code": "5024 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 127.0
+    },
+    {
+      "code": "5025 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 124.6
+    },
+    {
+      "code": "5029 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 122.2
+    },
+    {
+      "code": "1008 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 83.0
+    },
+    {
+      "code": "1010 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 83.0
+    },
+    {
+      "code": "1011 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 83.0
+    },
+    {
+      "code": "1013 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 83.0
+    },
+    {
+      "code": "1014 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 83.0
+    },
+    {
+      "code": "1020 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 120.0
+    },
+    {
+      "code": "1021 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 118.3
+    },
+    {
+      "code": "1024 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 83.0
+    },
+    {
+      "code": "1026 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 117.4
+    },
+    {
+      "code": "1026A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 114.5
+    },
+    {
+      "code": "1027 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 127.0
+    },
+    {
+      "code": "1030 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 128.2
+    },
+    {
+      "code": "1033 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 113.8
+    },
+    {
+      "code": "1048 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 117.1
+    },
+    {
+      "code": "1048A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 125.0
+    },
+    {
+      "code": "1050 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 120.7
+    },
+    {
+      "code": "1053 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 129.1
+    },
+    {
+      "code": "1055 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 103.3
+    },
+    {
+      "code": "1061 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 141.1
+    },
+    {
+      "code": "1062 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 143.8
+    },
+    {
+      "code": "1065 PU",
+      "effective_dpi": 302.0,
+      "height_pt": 120.2
+    },
+    {
+      "code": "1066 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 120.0
+    },
+    {
+      "code": "1067 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 103.3
+    },
+    {
+      "code": "1068 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 103.3
+    },
+    {
+      "code": "1069 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 103.3
+    },
+    {
+      "code": "7010 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 127.0
+    },
+    {
+      "code": "7010A PU",
+      "effective_dpi": 302.6,
+      "height_pt": 121.1
+    },
+    {
+      "code": "7012 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 116.2
+    },
+    {
+      "code": "7014 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 112.8
+    },
+    {
+      "code": "7014A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 128.4
+    },
+    {
+      "code": "7015 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 123.6
+    },
+    {
+      "code": "7017A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 119.5
+    },
+    {
+      "code": "7019 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 124.3
+    },
+    {
+      "code": "7020 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 122.6
+    },
+    {
+      "code": "7025 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 123.6
+    },
+    {
+      "code": "7025A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 127.0
+    },
+    {
+      "code": "7033 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 129.1
+    },
+    {
+      "code": "7037 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 127.0
+    },
+    {
+      "code": "1046A PU",
+      "effective_dpi": 300.0,
+      "height_pt": 108.2
+    },
+    {
+      "code": "8023 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 54.1
+    },
+    {
+      "code": "8003 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 72.1
+    },
+    {
+      "code": "8004 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 72.1
+    },
+    {
+      "code": "8011 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 122.2
+    },
+    {
+      "code": "8001 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 72.1
+    },
+    {
+      "code": "8002 PU",
+      "effective_dpi": 993.1,
+      "height_pt": 72.1
+    },
+    {
+      "code": "8012 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 121.9
+    },
+    {
+      "code": "8013 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 119.0
+    },
+    {
+      "code": "8024 PU",
+      "effective_dpi": 300.0,
+      "height_pt": 118.3
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "original": "/Users/felipefigueroa/Desktop/[CATÁLOGO 2025][PU][DIGITAL].pdf",
+  "sha256": "679e353ee61041281d8ceece2ff9705e59ef927f15331ac6c372556afc9d150b",
+  "cadastro": "catalog.js",
+  "sha256_cadastro": "aab381e80e3dc6fd3503c77d93204249eede8d141b9ace707a9aee1490226f89",
+  "logos": {
+    "Volkswagen": {
+      "pagina_original": 2,
+      "recorte_pt": [
+        60,
+        72,
+        82,
+        84
+      ]
+    },
+    "HBZ": {
+      "pagina_original": 2,
+      "recorte_pt": [
+        325,
+        346,
+        350,
+        358
+      ]
+    },
+    "Mercedes-Benz": {
+      "pagina_original": 3,
+      "recorte_pt": [
+        301,
+        207,
+        325,
+        219
+      ]
+    },
+    "Toyota": {
+      "pagina_original": 5,
+      "recorte_pt": [
+        40,
+        493,
+        65,
+        505
+      ]
+    },
+    "Scania": {
+      "pagina_original": 5,
+      "recorte_pt": [
+        299,
+        493,
+        324,
+        505
+      ]
+    },
+    "Volvo": {
+      "pagina_original": 6,
+      "recorte_pt": [
+        324,
+        72,
+        348,
+        84
+      ]
+    },
+    "Randon": {
+      "pagina_original": 7,
+      "recorte_pt": [
+        299,
+        206,
+        324,
+        218
+      ]
+    },
+    "Suspensys": {
+      "pagina_original": 7,
+      "recorte_pt": [
+        299,
+        344,
+        324,
+        357
+      ]
+    },
+    "Chevrolet": {
+      "pagina_original": 8,
+      "recorte_pt": [
+        60,
+        73,
+        84,
+        86
+      ]
+    },
+    "Iveco": {
+      "pagina_original": 8,
+      "recorte_pt": [
+        324,
+        352,
+        349,
+        365
+      ]
+    },
+    "Mitsubishi": {
+      "pagina_original": 9,
+      "recorte_pt": [
+        299,
+        643,
+        323,
+        656
+      ]
+    },
+    "Nissan": {
+      "pagina_original": 10,
+      "recorte_pt": [
+        324,
+        72,
+        349,
+        85
+      ]
+    },
+    "Ford": {
+      "pagina_original": 11,
+      "recorte_pt": [
+        40,
+        66,
+        65,
+        78
+      ]
+    },
+    "JOST": {
+      "url": "https://service-and-parts.jost-world.com/fileadmin/templates/jostworld_t3bootstrap/images/logos/JOST_Dachmarke_Logo_mit_Flaeche.svg",
+      "validacao": "Somente svg, rect e path; sem scripts, eventos ou referências externas. DTD removido."
+    }
+  },
+  "decisoes": {
+    "0836 PU": "Mitsubishi Pajero TR4 / IO, como no PDF; confirmado pelo usuário.",
+    "6054 PU": "Manter em Scania e preservar aplicação DAF escrita no original; confirmado pelo usuário.",
+    "1046A PU": "HBZ, como no PDF; confirmado pelo usuário.",
+    "1013A PU": "Não incluir até o usuário fornecer foto.",
+    "0912A PU": "Corrigir a segunda etiqueta 0912 para 0912A, variante de 41,5 mm conforme cadastro e revisão anterior."
+  }
+}

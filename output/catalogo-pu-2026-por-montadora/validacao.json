@@ -1,0 +1,26 @@
+{
+  "paginas": 28,
+  "fichas_originais": 102,
+  "fichas_novas": 33,
+  "total": 135,
+  "marcas": 15,
+  "codigos_na_pagina_correta": true,
+  "codigos_e_descricoes_novos_visiveis": true,
+  "indice_links": 15,
+  "fontes_incorporadas": [
+    "AAAAAA+Arial-Black",
+    "AAAAAA+ArialRoundedMTBold",
+    "AAAAAA+Arial-BoldMT",
+    "AAAAAA+ArialMT"
+  ],
+  "contracapa_identica_ao_original": true,
+  "capa_preservada_fora_do_ano": true,
+  "sangria_mm": 3,
+  "formato_mm": [
+    209.97,
+    297.01
+  ],
+  "fichas_originais_dpi_minimo": 300.0,
+  "pendente": "1013A PU: não incluída, aguardando fotografia do usuário",
+  "cor": "RGB, como o original; sem certificação PDF/X ou perfil CMYK"
+}

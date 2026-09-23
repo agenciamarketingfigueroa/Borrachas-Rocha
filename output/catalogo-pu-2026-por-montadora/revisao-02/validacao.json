@@ -1,0 +1,196 @@
+{
+  "paginas": 28,
+  "fichas_originais": 102,
+  "fichas_novas": 33,
+  "total": 135,
+  "marcas": 15,
+  "codigos_na_pagina_correta": true,
+  "codigos_e_descricoes_novos_visiveis": true,
+  "indice_links": 15,
+  "fontes_incorporadas": [
+    "AAAAAA+Arial-Black",
+    "AAAAAA+ArialRoundedMTBold",
+    "AAAAAA+Arial-BoldMT",
+    "AAAAAA+ArialMT"
+  ],
+  "contracapa_identica_ao_original": true,
+  "capa_preservada_fora_do_ano": true,
+  "sangria_mm": 3,
+  "formato_mm": [
+    209.97,
+    297.01
+  ],
+  "fichas_originais_dpi_minimo": 300.0,
+  "pendente": "1013A PU: não incluída, aguardando fotografia do usuário",
+  "cor": "RGB, como o original; sem certificação PDF/X ou perfil CMYK",
+  "revisao": 2,
+  "fotos_com_transparencia": 33,
+  "conteudo_textual_identico": true,
+  "escala_proporcional": [
+    {
+      "code": "0828C PU",
+      "visible_width_pt": 71.72,
+      "visible_height_pt": 104.0
+    },
+    {
+      "code": "6058 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 75.99
+    },
+    {
+      "code": "8002 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 91.38
+    },
+    {
+      "code": "8003 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 95.23
+    },
+    {
+      "code": "6057 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 89.75
+    },
+    {
+      "code": "8001 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 88.17
+    },
+    {
+      "code": "8004 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 93.54
+    },
+    {
+      "code": "8023 PU",
+      "visible_width_pt": 79.39,
+      "visible_height_pt": 104.0
+    },
+    {
+      "code": "5003 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 88.44
+    },
+    {
+      "code": "5004 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 90.57
+    },
+    {
+      "code": "0611D PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 84.91
+    },
+    {
+      "code": "3079 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 91.1
+    },
+    {
+      "code": "3039 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 89.25
+    },
+    {
+      "code": "0616A PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 79.8
+    },
+    {
+      "code": "0610A PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 90.04
+    },
+    {
+      "code": "1024 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 88.99
+    },
+    {
+      "code": "1014 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 90.45
+    },
+    {
+      "code": "1013 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 90.09
+    },
+    {
+      "code": "1055 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 85.77
+    },
+    {
+      "code": "1011 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 89.42
+    },
+    {
+      "code": "1068 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 59.78
+    },
+    {
+      "code": "1067 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 100.78
+    },
+    {
+      "code": "1008 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 89.61
+    },
+    {
+      "code": "1010 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 88.86
+    },
+    {
+      "code": "1069 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 89.86
+    },
+    {
+      "code": "2010 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 89.36
+    },
+    {
+      "code": "2008 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 88.4
+    },
+    {
+      "code": "2095 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 69.58
+    },
+    {
+      "code": "2039 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 91.82
+    },
+    {
+      "code": "2054 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 88.6
+    },
+    {
+      "code": "2078C PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 84.51
+    },
+    {
+      "code": "2120 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 58.91
+    },
+    {
+      "code": "2121 PU",
+      "visible_width_pt": 91.0,
+      "visible_height_pt": 90.02
+    }
+  ]
+}
