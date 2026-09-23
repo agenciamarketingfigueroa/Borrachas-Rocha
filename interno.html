@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
-    <title>Pedido para Expedição | Borrachas Rocha</title>
+    <title>Área interna | Borrachas Rocha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -23,19 +23,43 @@
       <section id="internal-login" class="internal-login" aria-labelledby="login-heading">
         <div class="internal-login-card">
           <p class="eyebrow"><span class="eyebrow-line"></span> ÁREA DE VENDAS</p>
-          <h1 id="login-heading">Acessar pedidos<span>.</span></h1>
-          <p>Digite a senha de teste para montar um pedido para a Expedição.</p>
+          <h1 id="login-heading">Área interna<span>.</span></h1>
+          <p>Digite a senha de teste para acessar as ferramentas da equipe.</p>
           <form id="internal-login-form">
             <label for="internal-password">Senha</label>
             <input id="internal-password" type="password" inputmode="numeric" autocomplete="current-password" maxlength="4" required aria-describedby="internal-login-error" />
             <p id="internal-login-error" class="internal-login-error" role="alert"></p>
             <button type="submit">Entrar <span aria-hidden="true">→</span></button>
           </form>
-          <noscript>Ative o JavaScript para acessar o formulário de pedidos.</noscript>
+          <noscript>Ative o JavaScript para acessar as ferramentas internas.</noscript>
         </div>
       </section>
 
       <div id="internal-content" hidden>
+      <section id="internal-tools" class="internal-tools" aria-labelledby="internal-tools-heading">
+        <div class="internal-intro">
+          <p class="eyebrow"><span class="eyebrow-line"></span> ÁREA INTERNA</p>
+          <h1 id="internal-tools-heading">Ferramentas da <span>equipe.</span></h1>
+          <p>Escolha o que você precisa fazer.</p>
+        </div>
+        <div class="internal-tool-grid">
+          <button id="internal-open-order" class="internal-tool internal-tool-primary" type="button">
+            <span class="internal-tool-number">01</span><strong>Expedição</strong>
+            <small>Montar pedido para separação</small><span class="internal-tool-arrow" aria-hidden="true">→</span>
+          </button>
+          <a class="internal-tool" href="output/catalogo-pu-2026-por-montadora/revisao-02/Catalogo-PU-2026-Por-Montadora-A4.pdf" download="Catalogo-PU-2026-Impressao.pdf" type="application/pdf">
+            <span class="internal-tool-number">02</span><strong>Catálogo para impressão</strong>
+            <small>PDF em alta qualidade · 95 MB</small><span class="internal-tool-arrow" aria-hidden="true">↓</span>
+          </a>
+          <a class="internal-tool" href="output/pdf/Catalogo-PU-2026-Clientes.pdf" download="Catalogo-PU-2026-Clientes.pdf" type="application/pdf">
+            <span class="internal-tool-number">03</span><strong>Catálogo para cliente</strong>
+            <small>PDF comprimido · 5,6 MB</small><span class="internal-tool-arrow" aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </section>
+
+      <div id="internal-order" hidden>
+      <button id="internal-back" class="internal-back" type="button">← Voltar às ferramentas</button>
       <div class="internal-intro">
         <p class="eyebrow"><span class="eyebrow-line"></span> PEDIDO INTERNO</p>
         <h1>Pedido para <span>Expedição.</span></h1>
@@ -73,6 +97,7 @@
           <button id="internal-copy" class="internal-copy" type="button">Copiar resumo do pedido</button>
         </section>
       </form>
+      </div>
       </div>
     </main>
 

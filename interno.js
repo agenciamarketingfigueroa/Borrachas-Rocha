@@ -19,6 +19,18 @@
     document.querySelector('#internal-content').hidden = false;
     document.querySelector('#internal-logout').hidden = false;
   }
+  document.querySelector('#internal-open-order').addEventListener('click', function () {
+    document.querySelector('#internal-tools').hidden = true;
+    document.querySelector('#internal-order').hidden = false;
+    window.scrollTo(0, 0);
+    document.querySelector('#internal-back').focus();
+  });
+  document.querySelector('#internal-back').addEventListener('click', function () {
+    document.querySelector('#internal-order').hidden = true;
+    document.querySelector('#internal-tools').hidden = false;
+    window.scrollTo(0, 0);
+    document.querySelector('#internal-open-order').focus();
+  });
   try { if (sessionStorage.getItem(AUTH_SESSION_KEY) === '1') showInternalArea(); }
   catch (error) { /* O formulário continua disponível sem lembrar o acesso. */ }
   document.querySelector('#internal-login-form').addEventListener('submit', function (event) {
@@ -33,7 +45,7 @@
     input.value = '';
     document.querySelector('#internal-login-error').textContent = '';
     showInternalArea();
-    form.elements.customer.focus();
+    document.querySelector('#internal-open-order').focus();
   });
   document.querySelector('#internal-password').addEventListener('input', function () {
     document.querySelector('#internal-login-error').textContent = '';

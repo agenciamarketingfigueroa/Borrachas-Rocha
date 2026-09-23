@@ -127,6 +127,15 @@ const getBrands = function () {
     return a.localeCompare(b, 'pt-BR');
   });
 };
+const BRAND_LOGOS = {
+  'Agrale':'Agrale.png', 'Chevrolet':'Chevrolet.png', 'Fiat Ducato':'Fiat.svg',
+  'Ford':'Ford.png', 'Hyundai':'Hyundai.svg', 'Iveco':'Iveco.png',
+  'Jost':'JOST.png', 'Kia':'Kia.svg', 'Mercedes':'Mercedes-Benz.png',
+  'Mercedes-Benz Sprinter':'Mercedes-Benz.png', 'Mitsubishi':'Mitsubishi.png',
+  'Nissan Frontier':'Nissan.png', 'Randon':'Randon.png', 'Scania':'Scania.png',
+  'Suspensys':'Suspensys.png', 'Toyota':'Toyota.png', 'Volkswagen':'Volkswagen.png',
+  'Volvo':'Volvo.png'
+};
 const fillSelect = function (selector, label) {
   const select = $(selector);
   const active = select.value;
@@ -174,7 +183,9 @@ const productCard = function (product) {
 };
 const renderChips = function () {
   $('#brand-chips').innerHTML = getBrands().map(function(brand) {
-    return '<button class="brand-chip ' + (state.brand === brand ? 'active' : '') + '" type="button" data-brand="' + escapeHtml(brand) + '">' + escapeHtml(brand) + '</button>';
+    const logo = BRAND_LOGOS[brand];
+    const image = logo ? '<img class="brand-chip-logo" src="' + encodeURI('assets/img/montadoras/' + logo) + '" alt="" loading="lazy" decoding="async" />' : '';
+    return '<button class="brand-chip ' + (state.brand === brand ? 'active' : '') + '" type="button" data-brand="' + escapeHtml(brand) + '" aria-pressed="' + (state.brand === brand) + '">' + image + '<span class="brand-chip-label">' + escapeHtml(brand) + '</span></button>';
   }).join('');
 };
 const render = function (resetLimit) {

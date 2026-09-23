@@ -162,3 +162,37 @@ footer{display:flex;align-items:center;gap:35px;padding:35px max(5vw,calc((100vw
   .cart-toggle, .header-login { flex-basis: 36px; width: 36px; height: 36px; }
   .cart-toggle svg, .header-login svg { width: 20px; height: 20px; }
 }
+
+/* Apresentação centralizada nas capas. */
+.hero-main { justify-content: center; text-align: center; }
+.hero-copy { width: 100%; margin-inline: auto; }
+.hero .eyebrow { justify-content: center; }
+.hero h1 { margin-inline: auto; }
+.hero h1 em:after { margin-inline: auto; }
+.hero-text { margin: 26px auto 25px; }
+.hero-actions { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; }
+.hero-download { display: inline-flex; align-items: center; justify-content: center; gap: 14px; min-height: 43px; padding: 11px 17px; color: #fff; background: var(--red); font-size: 12px; font-weight: 800; line-height: 1.3; letter-spacing: .04em; text-align: center; text-decoration: none; text-transform: uppercase; transition: background .2s, transform .2s; }
+.hero-download:hover { background: #bf2036; transform: translateY(-2px); }
+.hero-download span { font-size: 21px; line-height: .7; }
+
+/* Logos nos filtros de montadora e título do catálogo. */
+.brand-chip { display: inline-flex; flex-direction: column; align-items: center; justify-content: center; gap: 7px; min-width: 104px; min-height: 78px; padding: 10px 13px; text-align: center; }
+.brand-chip-logo { display: block; width: 76px; height: 30px; object-fit: contain; }
+.brand-chip-label { line-height: 1.15; }
+.brand-chip.active { background: #edf2ff; border-color: var(--blue); color: var(--navy); box-shadow: inset 0 0 0 1px var(--blue); }
+.catalog-intro { position: relative; display: block; text-align: center; }
+.catalog-intro > div { max-width: 760px; margin: 0 auto; }
+.catalog-intro .eyebrow { justify-content: center; }
+.catalog-intro h2 { max-width: 760px; margin: 0 auto; }
+.catalog-intro .text-button { position: absolute; right: 0; bottom: 0; }
+@media (max-width: 850px) {
+  .catalog-intro .text-button { position: static; display: block; margin: 18px auto 0; }
+}
+@media (max-width: 600px) {
+  .brand-chip { min-width: 94px; min-height: 72px; padding: 9px 10px; }
+  .brand-chip-logo { width: 65px; height: 26px; }
+  .catalog-intro h2 { max-width: 100%; }
+}
+@media (max-width: 850px) {
+  input:not([type="password"]), select, textarea { font-size: 16px !important; }
+}
