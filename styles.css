@@ -48,8 +48,10 @@ footer{display:flex;align-items:center;gap:35px;padding:35px max(5vw,calc((100vw
 .hero-text { color: #e1e8fa; }
 
 /* Pedido */
-.cart-toggle { display: inline-flex; align-items: center; gap: 9px; padding: 10px 0 10px 12px; background: transparent; border: 0; color: white; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; white-space: nowrap; }
-.cart-toggle span { display: grid; place-items: center; min-width: 24px; height: 24px; padding: 0 5px; background: var(--red); border-radius: 50%; color: white; font-size: 10px; }
+.cart-toggle { position: relative; display: inline-flex; align-items: center; justify-content: center; flex: 0 0 42px; width: 42px; height: 42px; padding: 0; background: transparent; border: 1px solid #ffffff8c; color: white; }
+.cart-toggle:hover { background: white; color: var(--navy); }
+.cart-toggle svg { display: block; width: 22px; height: 22px; }
+.cart-toggle span { position: absolute; top: -8px; right: -8px; display: grid; place-items: center; min-width: 19px; height: 19px; padding: 0 4px; background: var(--red); border-radius: 50%; color: white; font-size: 10px; font-weight: 800; }
 .add-to-order { display: flex; align-items: center; justify-content: space-between; gap: 15px; width: 100%; margin-top: 25px; padding: 15px 16px; border: 0; background: var(--red); color: white; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
 .add-to-order:hover { background: #bf1728; }
 .add-to-order span { font-size: 20px; line-height: .5; }
@@ -136,18 +138,27 @@ footer{display:flex;align-items:center;gap:35px;padding:35px max(5vw,calc((100vw
 
 /* Logo branca, discreta e sem recorte */
 .site-header .brand {
-  width: 128px;
-  height: 66px;
+  width: 81px;
+  height: 45px;
   justify-content: center;
   overflow: hidden;
   background: transparent;
 }
-.site-header .brand img { width: 128px; height: 128px; }
+.site-header .brand img { width: 81px; height: 81px; }
+.header-login { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 42px; width: 42px; height: 42px; border: 1px solid #ffffff8c; color: white; text-decoration: none; }
+.header-login:hover { background: white; color: var(--navy); }
+.header-login svg { display: block; width: 22px; height: 22px; }
+.product-photo img[src*="/recortes/"] { width: 88%; height: 88%; mix-blend-mode: normal; }
+.dialog-image img[src*="/recortes/"] { width: 86%; height: 86%; mix-blend-mode: normal; }
+.cart-item-photo img[src*="/recortes/"] { width: 90%; height: 90%; mix-blend-mode: normal; }
 @media (max-width: 850px) {
-  .site-header .brand { width: 118px; height: 60px; }
-  .site-header .brand img { width: 118px; height: 118px; }
+  .site-header .brand { width: 75px; height: 42px; }
+  .site-header .brand img { width: 75px; height: 75px; }
 }
 @media (max-width: 600px) {
-  .site-header .brand { width: 108px; height: 56px; }
-  .site-header .brand img { width: 108px; height: 108px; }
+  .site-header { gap: 10px; }
+  .site-header .brand { width: 69px; height: 39px; }
+  .site-header .brand img { width: 69px; height: 69px; }
+  .cart-toggle, .header-login { flex-basis: 36px; width: 36px; height: 36px; }
+  .cart-toggle svg, .header-login svg { width: 20px; height: 20px; }
 }

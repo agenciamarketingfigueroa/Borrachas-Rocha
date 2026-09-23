@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Pedido para Expedição | Borrachas Rocha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="interno.css" />
+  </head>
+  <body class="internal-page">
+    <header class="internal-header">
+      <div class="internal-header-inner">
+        <a class="internal-brand" href="index.html" aria-label="Borrachas Rocha — voltar ao site"><img src="assets/img/Logos/Logo-Sem-Slogan-Variação-Branca-01.webp" alt="Borrachas Rocha" /></a>
+        <div class="internal-header-actions"><span class="internal-badge">Área de vendas</span><button id="internal-logout" class="internal-logout" type="button" hidden>Sair</button></div>
+      </div>
+    </header>
+
+    <main class="internal-main">
+      <section id="internal-login" class="internal-login" aria-labelledby="login-heading">
+        <div class="internal-login-card">
+          <p class="eyebrow"><span class="eyebrow-line"></span> ÁREA DE VENDAS</p>
+          <h1 id="login-heading">Acessar pedidos<span>.</span></h1>
+          <p>Digite a senha de teste para montar um pedido para a Expedição.</p>
+          <form id="internal-login-form">
+            <label for="internal-password">Senha</label>
+            <input id="internal-password" type="password" inputmode="numeric" autocomplete="current-password" maxlength="4" required aria-describedby="internal-login-error" />
+            <p id="internal-login-error" class="internal-login-error" role="alert"></p>
+            <button type="submit">Entrar <span aria-hidden="true">→</span></button>
+          </form>
+          <noscript>Ative o JavaScript para acessar o formulário de pedidos.</noscript>
+        </div>
+      </section>
+
+      <div id="internal-content" hidden>
+      <div class="internal-intro">
+        <p class="eyebrow"><span class="eyebrow-line"></span> PEDIDO INTERNO</p>
+        <h1>Pedido para <span>Expedição.</span></h1>
+        <p>Preencha os dados, adicione as peças e confira o resumo antes de enviar.</p>
+      </div>
+
+      <form id="internal-form" class="internal-layout">
+        <div class="internal-flow">
+          <section class="internal-card" aria-labelledby="customer-heading">
+            <div class="internal-section-head"><span class="internal-step">01</span><div><h2 id="customer-heading">Dados do pedido</h2><p>Três informações para a separação.</p></div></div>
+            <div class="internal-fields">
+              <label class="internal-field internal-field-wide">Nome do cliente <input name="customer" autocomplete="off" maxlength="120" placeholder="Ex.: Transportes Oliveira" required /></label>
+              <label class="internal-field">Prazo <input name="deadline" type="date" required /></label>
+              <label class="internal-field">Transportadora <input name="carrier" autocomplete="off" maxlength="120" placeholder="Nome da transportadora" required /></label>
+            </div>
+          </section>
+
+          <section class="internal-card" aria-labelledby="products-heading">
+            <div class="internal-section-head"><span class="internal-step">02</span><div><h2 id="products-heading">Adicionar peças</h2><p>Busque e toque em adicionar.</p></div></div>
+            <label class="internal-search-label" for="internal-search">Buscar peça</label>
+            <div class="internal-search-wrap"><span aria-hidden="true">⌕</span><input id="internal-search" type="search" autocomplete="off" placeholder="Código, peça, montadora ou descrição" aria-controls="internal-results" /></div>
+            <p id="internal-search-count" class="internal-search-count" role="status">Carregando peças...</p>
+            <div id="internal-results" class="internal-results"></div>
+          </section>
+        </div>
+
+        <section class="internal-summary internal-card" aria-labelledby="summary-heading">
+          <div class="internal-section-head"><span class="internal-step">03</span><div><h2 id="summary-heading">Resumo do pedido</h2><p>Confira quantidades e valores.</p></div></div>
+          <button id="internal-clear" class="internal-clear" type="button">Limpar pedido</button>
+          <div id="internal-items" class="internal-items" aria-live="polite"></div>
+          <div class="internal-totals"><div><span id="internal-quantity">0 peças</span><strong id="internal-total">R$ 0,00</strong></div><p id="internal-price-note">Os valores são opcionais nesta etapa.</p></div>
+          <p id="internal-status" class="internal-status" role="status"></p>
+          <button id="internal-submit" class="internal-submit" type="submit">Enviar para Expedição <span aria-hidden="true">↗</span></button>
+          <p class="internal-send-note">O WhatsApp abrirá com a mensagem pronta. Confira e toque em enviar.</p>
+          <button id="internal-copy" class="internal-copy" type="button">Copiar resumo do pedido</button>
+        </section>
+      </form>
+      </div>
+    </main>
+
+    <script src="catalog.js"></script>
+    <script src="interno.js"></script>
+  </body>
+</html>

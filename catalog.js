@@ -88,6 +88,7 @@ const state = { query:'', brand:'', material:'', year:'', limit:24, sort:'releva
 let products = [];
 let productByCode = new Map();
 window.getCatalogProduct = function (code) { return productByCode.get(code); };
+window.getCatalogProducts = function () { return products.slice(); };
 const $ = function (selector) { return document.querySelector(selector); };
 const normalize = function (value) {
   return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
@@ -97,7 +98,15 @@ const escapeHtml = function (value) {
     return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[char];
   });
 };
+const SITE_CUTOUT_CODES = new Set([
+  '0610A PU','0611D PU','0616A PU','0828C PU','1008 PU','1010 PU','1011 PU',
+  '1013 PU','1014 PU','1024 PU','1055 PU','1067 PU','1068 PU','1069 PU',
+  '2008 PU','2010 PU','2039 PU','2054 PU','2078C PU','2095 PU','2120 PU',
+  '2121 PU','3039 PU','3079 PU','5003 PU','5004 PU','6057 PU','6058 PU',
+  '8001 PU','8002 PU','8003 PU','8004 PU','8023 PU'
+]);
 const pathForImage = function (product) {
+  if (SITE_CUTOUT_CODES.has(product.code)) return encodeURI('assets/img/Peças de PU/recortes/' + product.code + '.png');
   if (!product.image) return '';
   if (product.material === 'PU') return encodeURI('assets/img/Peças de PU/' + product.image);
   return encodeURI('assets/img/Peças de Borracha/' + product.image);
@@ -220,11 +229,13 @@ const init = async function () {
     products = rubber.concat(PU_PRODUCTS);
   } catch (error) {
     products = PU_PRODUCTS;
-    $('#result-count').textContent = 'Não foi possível carregar a linha de borracha neste navegador.';
+    if ($('#result-count')) $('#result-count').textContent = 'Não foi possível carregar a linha de borracha neste navegador.';
   }
   productByCode = new Map(products.map(function(product) { return [product.code, product]; }));
-  fillSelect('#brand', 'Todas as montadoras'); fillSelect('#brand-side', 'Todas');
-  bind(); render(true);
+  if ($('#search-form')) {
+    fillSelect('#brand', 'Todas as montadoras'); fillSelect('#brand-side', 'Todas');
+    bind(); render(true);
+  }
   document.dispatchEvent(new Event('catalog-ready'));
 };
 init();
