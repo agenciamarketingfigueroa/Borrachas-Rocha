@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Outubro Rosa — Borrachas Rocha</title>
+  <style>
+    :root{--navy:#0b1534;--blue:#2149b6;--pink:#f0388d;--blush:#fff1f7;--soft:#ffd8e9}
+    *{box-sizing:border-box}
+    html,body{margin:0;width:1080px;height:1350px;overflow:hidden}
+    body{background:var(--navy);font-family:Arial,Helvetica,sans-serif}
+    .poster{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--blush);color:var(--navy)}
+    .poster:before{content:'';position:absolute;inset:0;background-image:linear-gradient(#2149b60b 1px,transparent 1px),linear-gradient(90deg,#2149b60b 1px,transparent 1px);background-size:90px 90px}
+    .poster:after{content:'';position:absolute;top:0;left:0;right:0;height:18px;background:var(--pink)}
+    .logo{position:absolute;z-index:5;top:51px;left:63px;width:260px;height:116px;overflow:hidden}
+    .logo img{position:absolute;top:-84px;left:0;width:260px;height:260px;object-fit:contain}
+    .eyebrow{position:absolute;top:230px;left:68px;margin:0;color:var(--blue);font-size:24px;font-weight:900;letter-spacing:.14em}
+    h1{position:absolute;z-index:4;top:287px;left:62px;margin:0;font:155px/.85 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.004em}
+    h1 span{display:block}
+    h1 em{display:block;margin-top:7px;color:var(--pink);font:230px/.85 Impact,'Arial Narrow',sans-serif;font-style:normal}
+    .slash{position:absolute;top:631px;left:69px;width:150px;height:12px;background:var(--pink);transform:skewX(-22deg)}
+    .message{position:absolute;z-index:5;top:687px;left:67px;width:555px;margin:0;font:78px/.94 Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+    .message em{font-style:normal;color:var(--pink)}
+    .medallion{position:absolute;z-index:2;top:524px;right:-100px;width:585px;height:585px;border-radius:50%;background:linear-gradient(145deg,#15265e,#0b1534);box-shadow:-28px 35px 0 #f0388d1d}
+    .medallion:before{content:'';position:absolute;inset:34px;border:2px solid #ffffff3b;border-radius:50%}
+    .ribbon{position:absolute;z-index:3;top:538px;right:-8px;width:515px;height:570px;overflow:visible;transform:rotate(9deg);filter:drop-shadow(17px 20px 13px #0205117d)}
+    .ribbon path{fill:none;stroke:url(#ribbon-gradient);stroke-width:97;stroke-linecap:butt}
+    .ribbon .edge{stroke:#ffb6d5;stroke-width:9;opacity:.7}
+    .bottom{position:absolute;z-index:6;left:0;right:0;bottom:0;height:306px;background:var(--navy);color:white;border-top:17px solid var(--pink);padding:35px 69px}
+    .bottom strong{display:block;color:var(--soft);font:48px/1 Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+    .bottom p{max-width:895px;margin:20px 0 0;font-size:34px;line-height:1.14;font-weight:800}
+    .footer{position:absolute;left:69px;right:69px;bottom:28px;display:flex;justify-content:space-between;gap:20px;font-size:18px;font-weight:900;letter-spacing:.04em}
+    .footer span:last-child{color:#f07bb2}
+  </style>
+</head>
+<body>
+  <main class="poster" aria-label="Post de Outubro Rosa da Borrachas Rocha">
+    <div class="logo"><img src="../../../assets/img/Logos/Logo.webp" alt="Borrachas Rocha"></div>
+    <p class="eyebrow">JUNTOS PELA CONSCIENTIZAÇÃO</p>
+    <h1><span>OUTUBRO</span><em>ROSA.</em></h1>
+    <div class="slash"></div>
+    <p class="message">CUIDAR É<br>UM GESTO<br><em>DE FORÇA.</em></p>
+    <div class="medallion"></div>
+    <svg class="ribbon" viewBox="0 0 600 780" role="img" aria-label="Laço rosa">
+      <defs><linearGradient id="ribbon-gradient"><stop offset="0" stop-color="#ff99c5"/><stop offset=".5" stop-color="#f0388d"/><stop offset="1" stop-color="#e22d7f"/></linearGradient></defs>
+      <path d="M 449 710 C 393 584,272 435,205 316 C 145 207,190 99,304 78 C 420 57,508 151,474 269 C 442 380,302 554,225 710"/>
+      <path class="edge" d="M 206 304 C 160 213,192 119,302 91 C 392 70,467 128,471 212"/>
+    </svg>
+    <section class="bottom">
+      <strong>A ATENÇÃO CONTINUA O ANO TODO</strong>
+      <p>Percebeu mudanças nas mamas? Procure um serviço de saúde.</p>
+      <div class="footer"><span>BORRACHASROCHA.COM.BR</span><span>OUTUBRO ROSA</span></div>
+    </section>
+  </main>
+</body>
+</html>

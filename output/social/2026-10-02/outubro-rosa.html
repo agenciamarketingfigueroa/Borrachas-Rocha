@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Outubro Rosa | Borrachas Rocha</title>
+  <style>
+    :root{--navy:#0b1534;--pink:#f64394;--soft:#ffd6e9;--blue:#2149b6}
+    *{box-sizing:border-box}
+    html,body{margin:0;width:1080px;height:1350px;overflow:hidden}
+    body{font-family:Arial,Helvetica,sans-serif;background:var(--soft)}
+    .poster{position:relative;width:1080px;height:1350px;overflow:hidden;color:#fff;background:radial-gradient(circle at 88% 62%,#34316c 0,#182453 35%,#0b1534 72%)}
+    .poster:before{content:'';position:absolute;inset:0;background-image:linear-gradient(#ffffff0d 1px,transparent 1px),linear-gradient(90deg,#ffffff0d 1px,transparent 1px);background-size:90px 90px}
+    .topline{position:absolute;top:0;left:0;width:100%;height:17px;background:var(--pink)}
+    .logo{position:absolute;z-index:6;left:65px;top:53px;width:260px;height:116px;overflow:hidden}
+    .logo img{position:absolute;top:-84px;left:0;width:260px;height:260px;object-fit:contain}
+    .index{position:absolute;top:219px;left:70px;color:var(--soft);font-size:24px;font-weight:900;letter-spacing:.15em}
+    h1{position:absolute;z-index:5;top:285px;left:62px;right:30px;margin:0;font:158px/.86 Impact,'Arial Narrow',sans-serif;letter-spacing:.005em;text-transform:uppercase}
+    h1 span{display:block}
+    h1 em{display:block;color:var(--pink);font-style:normal;font-size:248px;line-height:.82;margin-top:6px}
+    .rule{position:absolute;z-index:5;top:656px;left:70px;width:155px;height:12px;background:var(--pink);transform:skewX(-22deg)}
+    .statement{position:absolute;z-index:5;top:707px;left:68px;width:620px;margin:0;font:78px/.93 Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+    .statement em{font-style:normal;color:var(--soft)}
+    .ribbon{position:absolute;z-index:3;top:308px;right:-105px;width:655px;height:815px;overflow:visible;transform:rotate(-11deg);filter:drop-shadow(23px 25px 18px #0408177a)}
+    .ribbon .back{fill:none;stroke:#bc286e;stroke-width:103;stroke-linecap:butt}
+    .ribbon .front{fill:none;stroke:url(#pink-gradient);stroke-width:103;stroke-linecap:butt}
+    .ribbon .shine{fill:none;stroke:#ffb8d8;stroke-width:11;opacity:.6}
+    .road{position:absolute;z-index:1;right:-68px;bottom:231px;width:570px;height:490px;border:2px solid #ffb6d342;border-radius:50%;transform:rotate(-23deg)}
+    .road:before{content:'';position:absolute;inset:72px;border:24px solid #ffb6d315;border-radius:50%}
+    .info{position:absolute;z-index:7;left:0;right:0;bottom:0;height:276px;padding:32px 69px 0;background:var(--soft);color:var(--navy);border-top:15px solid var(--pink)}
+    .info strong{display:block;font:46px/1.02 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.01em}
+    .info p{max-width:900px;margin:15px 0 0;font-size:29px;line-height:1.14;font-weight:800}
+    .info .footer{position:absolute;left:69px;right:68px;bottom:30px;display:flex;justify-content:space-between;align-items:center;font-size:18px;font-weight:900;letter-spacing:.035em}
+    .info .footer span:last-child{color:#9e1959}
+  </style>
+</head>
+<body>
+  <main class="poster" aria-label="Post de Outubro Rosa da Borrachas Rocha">
+    <div class="topline"></div>
+    <div class="logo"><img src="../../../assets/img/Logos/Logo-Branca.webp" alt="Borrachas Rocha"></div>
+    <div class="index">BORRACHAS ROCHA APOIA</div>
+    <h1><span>OUTUBRO</span><em>ROSA.</em></h1>
+    <div class="rule"></div>
+    <p class="statement">O CUIDADO<br>TAMBÉM<br><em>MOVE A VIDA.</em></p>
+    <div class="road"></div>
+    <svg class="ribbon" viewBox="0 0 600 780" role="img" aria-label="Laço rosa, símbolo da campanha Outubro Rosa">
+      <defs><linearGradient id="pink-gradient" x1="0" x2="1"><stop offset="0" stop-color="#ff8dbe"/><stop offset=".46" stop-color="#f64394"/><stop offset="1" stop-color="#e62e7d"/></linearGradient></defs>
+      <path class="back" d="M 451 718 C 396 594,274 441,205 317 C 146 210,190 98,303 78 C 419 58,508 151,473 269 C 441 379,302 551,225 718"/>
+      <path class="front" d="M 225 718 C 308 557,447 395,473 269 C 508 151,419 58,303 78 C 190 98,146 210,205 317 C 274 441,396 594,451 718"/>
+      <path class="shine" d="M 210 303 C 158 205,193 111,302 89 C 401 71,474 135,469 224"/>
+    </svg>
+    <section class="info">
+      <strong>MANTENHA SEUS EXAMES EM DIA</strong>
+      <p>Não deixe o cuidado para depois. Converse com um profissional de saúde.</p>
+      <div class="footer"><span>BORRACHASROCHA.COM.BR</span><span>OUTUBRO ROSA</span></div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carrosséis Borrachas Rocha</title>
+  <style>
+    :root{--navy:#0b1534;--blue:#2149b6;--red:#e32635;--paper:#f6f6f2;--ink:#0c1531}
+    *{box-sizing:border-box}
+    html,body{margin:0}
+    body{background:#dce1e9;color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+    .gallery{max-width:1480px;margin:auto;padding:36px 20px 80px}
+    .gallery h1{font:64px/.92 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;margin:0 0 18px}
+    .gallery p{font-size:17px;line-height:1.45;margin:0 0 28px}
+    .gallery h2{font:36px/1 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;margin:50px 0 20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:20px}
+    .thumb{display:block;color:inherit;text-decoration:none}
+    .thumb .frame{width:100%;aspect-ratio:4/5;overflow:hidden;background:white;box-shadow:0 8px 26px #0b153426;position:relative}
+    .thumb .slide{transform:scale(var(--scale));transform-origin:top left}
+    .thumb span{display:block;margin-top:8px;font-weight:700}
+    .slide{width:1080px;height:1350px;position:relative;overflow:hidden;isolation:isolate;background:var(--paper);color:var(--ink)}
+    .slide::before{content:'';position:absolute;inset:0;z-index:-1;background-image:linear-gradient(#2149b610 1px,transparent 1px),linear-gradient(90deg,#2149b610 1px,transparent 1px);background-size:90px 90px}
+    .slide .topline{height:16px;width:100%;background:var(--red);position:absolute;top:0;left:0}
+    .logo{position:absolute;z-index:20;top:54px;left:64px;width:260px;height:116px;overflow:hidden}
+    .logo img{position:absolute;top:-84px;left:0;width:260px;height:260px;object-fit:contain}
+    .logo.light img{filter:none}
+    .kicker{font-size:25px;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+    .display{font-family:Impact,'Arial Narrow',sans-serif;letter-spacing:.005em;text-transform:uppercase;font-weight:400}
+    .footer{position:absolute;z-index:20;left:64px;right:64px;bottom:51px;display:flex;justify-content:space-between;align-items:center;font-size:19px;font-weight:800;letter-spacing:.03em}
+    .footer .count{font:30px/1 Impact,'Arial Narrow',sans-serif}
+    .accent-line{width:150px;height:12px;background:var(--red);transform:skewX(-22deg)}
+    .crop-ring{position:absolute;border:2px solid #ffffff52;border-radius:50%;width:840px;height:840px;right:-270px;bottom:110px}
+    .crop-ring:after{content:'';position:absolute;inset:105px;border:42px solid #ffffff14;border-radius:50%}
+    .cover{background:var(--navy);color:white}
+    .cover::before{background-image:linear-gradient(#ffffff0b 1px,transparent 1px),linear-gradient(90deg,#ffffff0b 1px,transparent 1px)}
+    .cover .eyebrow{position:absolute;top:223px;left:69px;color:#d8e0f6}
+    .cover h1{position:absolute;z-index:4;top:292px;left:65px;right:55px;margin:0;font:144px/.87 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;letter-spacing:.006em}
+    .cover h1 em{font-style:normal;color:var(--red)}
+    .cover .sub{position:absolute;z-index:6;top:695px;left:72px;width:530px;font-size:34px;line-height:1.15;font-weight:800}
+    .cover .accent-line{position:absolute;z-index:6;top:658px;left:72px}
+    .cover .product-art{position:absolute;z-index:3;width:780px;height:740px;object-fit:contain;right:-136px;bottom:86px;filter:drop-shadow(25px 36px 22px #01030d99)}
+    .cover .cover-cut{position:absolute;z-index:2;right:-210px;bottom:0;width:680px;height:650px;background:var(--blue);transform:skewX(-18deg)}
+    .cover .footer{color:#e4e8f4}
+    .product{background:var(--paper)}
+    .product::after{content:'';position:absolute;z-index:0;top:0;right:0;width:460px;height:730px;background:var(--blue);clip-path:polygon(100% 0,100% 100%,0 0)}
+    .product .logo{top:55px}
+    .product .product-top{height:820px;background:var(--navy);color:white;position:relative;overflow:hidden}
+    .product .product-top::before{content:'';position:absolute;inset:0;background-image:linear-gradient(#ffffff0d 1px,transparent 1px),linear-gradient(90deg,#ffffff0d 1px,transparent 1px);background-size:90px 90px}
+    .product .number{position:absolute;top:194px;left:63px;color:var(--red);font:52px/1 Impact,'Arial Narrow',sans-serif}
+    .product .code{position:absolute;z-index:5;top:264px;left:62px;padding:9px 18px;background:var(--red);font:46px/1 Impact,'Arial Narrow',sans-serif;letter-spacing:.025em}
+    .product h1{position:absolute;z-index:6;top:337px;left:61px;right:62px;max-width:770px;margin:0;font:83px/.94 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;text-wrap:balance}
+    .product .use{position:absolute;z-index:7;top:604px;left:62px;max-width:510px;color:#d9e3fa;font-size:28px;line-height:1.13;font-weight:800}
+    .product .image-stage{position:absolute;z-index:4;top:545px;right:5px;width:565px;height:535px;display:grid;place-items:center}
+    .product .image-stage::before{content:'';position:absolute;inset:13%;border:3px solid #fff7;border-radius:50%}
+    .product .image-stage img{position:relative;z-index:1;max-width:95%;max-height:95%;object-fit:contain;filter:drop-shadow(20px 23px 17px #01030d72)}
+    .product .image-stage.rubber{top:576px;right:33px;width:510px;height:430px;background:white;border:12px solid white;box-shadow:20px 20px 0 #2149b6}
+    .product .image-stage.rubber::before{display:none}
+    .product .image-stage.rubber img{width:100%;height:100%;max-width:none;max-height:none;object-fit:contain;filter:none}
+    .product .spec-block{position:absolute;top:1060px;left:62px;right:62px}
+    .product .spec-title{font:37px/1 Impact,'Arial Narrow',sans-serif;color:var(--red);letter-spacing:.03em;text-transform:uppercase;margin-bottom:18px}
+    .product .specs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .product .spec{border-top:5px solid var(--blue);padding-top:13px}
+    .product .spec b{display:block;font:53px/1 Impact,'Arial Narrow',sans-serif;white-space:nowrap}
+    .product .spec span{display:block;margin-top:10px;max-width:230px;font-size:20px;line-height:1.08;font-weight:800;text-transform:uppercase}
+    .product .footer{bottom:31px;color:#61708d;font-size:15px}
+    .product .footer .count{color:var(--navy)}
+    .outro{background:var(--red);color:white}
+    .outro::before{background-image:linear-gradient(#ffffff17 1px,transparent 1px),linear-gradient(90deg,#ffffff17 1px,transparent 1px)}
+    .outro .shape{position:absolute;right:-230px;top:210px;width:870px;height:870px;border:90px solid #ffffff1e;border-radius:50%}
+    .outro h1{position:absolute;top:360px;left:62px;right:60px;margin:0;font:151px/.86 Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+    .outro h1 em{font-style:normal;color:var(--navy)}
+    .outro p{position:absolute;top:846px;left:69px;width:760px;font-size:37px;line-height:1.15;font-weight:800;margin:0}
+    .outro .url{position:absolute;top:1023px;left:70px;padding:19px 23px;background:var(--navy);font:35px/1 Impact,'Arial Narrow',sans-serif}
+    .outro .footer{color:white}
+    .outro.catalog-outro p{top:945px}
+    .outro.catalog-outro .url{top:1077px}
+    .quality{background:var(--navy);color:#fff}
+    .quality::before{background-image:linear-gradient(#ffffff0b 1px,transparent 1px),linear-gradient(90deg,#ffffff0b 1px,transparent 1px)}
+    .quality .q-index{position:absolute;top:210px;left:68px;color:var(--red);font:60px/1 Impact,'Arial Narrow',sans-serif}
+    .quality .q-head{position:absolute;z-index:5;top:302px;left:64px;right:64px;margin:0;font:119px/.88 Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+    .quality .q-head em{font-style:normal;color:var(--red)}
+    .quality .q-body{position:absolute;z-index:5;top:668px;left:70px;right:70px;font-size:36px;line-height:1.16;font-weight:800;margin:0}
+    .quality .q-product{position:absolute;z-index:2;right:-138px;bottom:25px;width:735px;height:680px;object-fit:contain;filter:drop-shadow(26px 22px 20px #02040f92)}
+    .quality .q-product.left{right:auto;left:-145px;bottom:23px;width:710px}
+    .quality .q-card{position:absolute;z-index:4;left:68px;right:68px;bottom:158px;padding:27px 30px;background:var(--red);font:34px/1.05 Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+    .quality .footer{color:#d8e0f4}
+    .quality .steps{position:absolute;top:775px;left:68px;right:68px;z-index:5;display:flex;gap:12px}
+    .quality .steps div{flex:1;padding:17px 13px;background:#fff;color:var(--navy);min-height:178px}
+    .quality .steps b{display:block;color:var(--red);font:43px/1 Impact,'Arial Narrow',sans-serif}
+    .quality .steps span{display:block;margin-top:16px;font:27px/1.02 Impact,'Arial Narrow',sans-serif;text-transform:uppercase}
+    .quality .q-band{position:absolute;bottom:0;right:0;width:420px;height:475px;background:var(--blue);clip-path:polygon(0 100%,100% 0,100% 100%)}
+    .quality.light-theme{background:var(--paper);color:var(--navy)}
+    .quality.light-theme::before{background-image:linear-gradient(#2149b610 1px,transparent 1px),linear-gradient(90deg,#2149b610 1px,transparent 1px)}
+    .quality.light-theme .q-body{max-width:720px}
+    .quality.light-theme .footer{color:var(--navy)}
+    .quality.light-theme .q-product{width:570px;right:-50px;bottom:145px;filter:drop-shadow(14px 18px 12px #0b153449)}
+    .quality.light-theme .q-card{bottom:170px;background:var(--blue);color:white}
+    .quality.test-theme{background:var(--blue)}
+    .quality.test-theme .test-grid{position:absolute;top:710px;left:67px;right:67px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .quality.test-theme .test-grid div{height:160px;padding:22px;background:#fff;color:var(--navy);font:40px/.95 Impact,'Arial Narrow',sans-serif;text-transform:uppercase;display:flex;align-items:end;position:relative}
+    .quality.test-theme .test-grid div::before{content:'';width:46px;height:46px;border:9px solid var(--red);border-radius:50%;position:absolute;right:24px;top:24px}
+    .quality.test-theme .test-grid div:last-child{background:var(--red);color:#fff}
+    .quality.test-theme .test-grid div:last-child::before{border-color:#fff}
+    .quality.test-theme .q-head{font-size:112px}
+    .quality.intro-theme .q-body{top:670px;max-width:470px;font-size:34px}
+    .quality.intro-theme .q-product{width:650px;right:-115px;bottom:110px}
+    .quality.make-theme .q-head{font-size:102px}
+    .quality.make-theme .q-body{top:715px;max-width:900px;font-size:32px}
+    .quality.make-theme .steps{top:870px}
+    .quality.light-theme .q-body{top:670px;max-width:460px;font-size:32px}
+    .quality.test-theme .q-body{top:610px;max-width:890px;font-size:32px}
+    .quality.test-theme .test-grid{top:770px}
+    body.single{background:transparent;width:1080px;height:1350px;overflow:hidden}
+    body.single .gallery{display:none}
+    body.single>.slide{display:block}
+    body.batch{background:transparent;width:1080px;margin:0;overflow:hidden}
+    body.batch>.slide{display:block}
+    @media(max-width:650px){.gallery h1{font-size:46px}.gallery p{font-size:15px}}
+  </style>
+</head>
+<body>
+<script>
+const root='../../../assets/img/';
+const asset=(p)=>root+p;
+const logo=(dark=false)=>`<div class="logo ${dark?'':'light'}"><img src="${asset(dark?'Logos/Logo.webp':'Logos/Logo-Branca.webp')}" alt="Borrachas Rocha"></div>`;
+const footer=(name,n,total,dark=false)=>`<div class="footer"><span>${name}</span><span class="count">${String(n).padStart(2,'0')} / ${String(total).padStart(2,'0')}</span></div>`;
+const pu=[
+  {code:'BR 1068 PU',title:'Bucha da barra estabilizadora',use:'Dianteira superior · VW Meteor',image:'Peças de PU/recortes/1068 PU.png',specs:[['60 mm','Comprimento'],['65 mm','Ø externo do olhal'],['37 mm','Ø interno']]},
+  {code:'BR 0610A PU',title:'Bucha da ponta estabilizadora',use:'Dianteira · Iveco Stralis',image:'Peças de PU/recortes/0610A PU.png',specs:[['50 mm','Comprimento'],['61 mm','Ø externo'],['28 mm','Ø interno']]},
+  {code:'BR 6058 PU',title:'Separador antirruído da mola',use:'Dianteira · Scania NTG 2019+',image:'Peças de PU/recortes/6058 PU.png',specs:[['100 mm','Comprimento'],['90 mm','Largura'],['45 mm','Entre pinos']]}
+];
+const rubber=[
+  {code:'BR-2062',title:'Bucha do olho da mola',use:'Dianteira · Mercedes Atego',image:'Peças de Borracha/BR_2062.png',specs:[['96 mm','Comprimento'],['62 mm','Ø do corpo'],['18 mm','Ø interno']]},
+  {code:'BR-0612',title:'Bucha da mola dianteira',use:'Iveco Eurocargo',image:'Peças de Borracha/BR_0612.png',specs:[['85 mm','Comprimento'],['57,2 mm','Ø do corpo'],['20,2 mm','Ø interno']]},
+  {code:'BR-0904',title:'Bucha do jumelo da mola',use:'Traseira · Frontier / Xterra até 2011',image:'Peças de Borracha/BR_0904 2.png',specs:[['46 mm','Comprimento'],['32 mm','Ø do corpo'],['20 mm','Ø interno']]}
+];
+const productSlide=(p,n,name,material)=>`<section class="slide product"><div class="product-top"><div class="number">0${n} / DETALHE</div><div class="code">${p.code}</div><h1>${p.title}</h1><div class="use">${p.use}</div></div>${logo()}<div class="image-stage ${material==='rubber'?'rubber':''}"><img src="${asset(p.image)}" alt="${p.title}, código ${p.code}"></div><div class="spec-block"><div class="spec-title">Medidas de catálogo</div><div class="specs">${p.specs.map(([v,l])=>`<div class="spec"><b>${v}</b><span>${l}</span></div>`).join('')}</div></div>${footer(name,n,5)}<div class="topline"></div></section>`;
+const cover=(material)=>{let isPu=material==='pu';return `<section class="slide cover">${logo()}<div class="crop-ring"></div><div class="eyebrow kicker">CATÁLOGO EM DESTAQUE</div><h1>${isPu?'PEÇAS<br>DE <em>PU.</em>':'PEÇAS DE<br><em>BORRACHA.</em>'}</h1><div class="accent-line"></div><div class="sub">Fotos reais. Códigos claros.<br>Medidas na mão.</div><div class="cover-cut"></div><img class="product-art" src="${asset(isPu?'Peças de PU/recortes/1068 PU.png':'Peças de Borracha/BR_2062.png')}" alt="Peça de ${isPu?'PU':'borracha'} do catálogo">${footer(isPu?'LINHA PU':'LINHA BORRACHA',1,5)}<div class="topline"></div></section>`};
+const outro=(material)=>`<section class="slide outro catalog-outro">${logo()}<div class="shape"></div><h1>ACHOU A<br>PEÇA?<br><em>CHAME<br>A ROCHA.</em></h1><p>Envie o código e confirme a aplicação com nossa equipe.</p><div class="url">BORRACHASROCHA.COM.BR</div>${footer(material==='pu'?'LINHA PU':'LINHA BORRACHA',5,5)}<div class="topline"></div></section>`;
+const quality=[
+  `<section class="slide quality intro-theme">${logo()}<div class="crop-ring"></div><div class="q-index">01 / PU POR DENTRO</div><h1 class="q-head">O QUE FAZ<br>O <em>PU</em><br>RESISTIR?</h1><p class="q-body">Da escolha do material à verificação final: cada etapa conta.</p><img class="q-product" src="${asset('Peças de PU/recortes/0610A PU.png')}" alt="Bucha de PU">${footer('RESISTÊNCIA EM FOCO',1,5)}<div class="topline"></div></section>`,
+  `<section class="slide quality make-theme">${logo()}<div class="q-index">02 / FABRICAÇÃO</div><h1 class="q-head">COMO<br>NASCE<br>UMA PEÇA<br><em>DE PU?</em></h1><p class="q-body">O processo transforma componentes líquidos em uma peça moldada e pronta para uso.</p><div class="steps"><div><b>01</b><span>Formulação</span></div><div><b>02</b><span>Moldagem</span></div><div><b>03</b><span>Cura</span></div><div><b>04</b><span>Acabamento</span></div></div>${footer('RESISTÊNCIA EM FOCO',2,5)}<div class="topline"></div></section>`,
+  `<section class="slide quality light-theme">${logo(true)}<div class="q-index">03 / DESEMPENHO</div><h1 class="q-head">PRONTA<br>PARA O<br><em>TRABALHO.</em></h1><p class="q-body">Resistência ao desgaste e comportamento sob carga ajudam o PU a enfrentar a rotina da estrada.</p><img class="q-product" src="${asset('Peças de PU/recortes/1068 PU.png')}" alt="Bucha de PU">${footer('RESISTÊNCIA EM FOCO',3,5)}<div class="topline"></div></section>`,
+  `<section class="slide quality test-theme">${logo()}<div class="q-index">04 / CONTROLE</div><h1 class="q-head">TESTE DE<br><em>DUREZA.</em></h1><p class="q-body">O ensaio mede quanto o PU cede à pressão de uma ponta de teste. A leitura ajuda a conferir o padrão da peça.</p><div class="test-grid"><div>Aplicar</div><div>Medir</div><div>Comparar</div><div>Conferir</div></div>${footer('RESISTÊNCIA EM FOCO',4,5)}<div class="topline"></div></section>`,
+  `<section class="slide outro">${logo()}<div class="shape"></div><h1>PU PARA<br><em>SEGUIR<br>EM FRENTE.</em></h1><p>Encontre a peça certa para sua aplicação.</p><div class="url">BORRACHASROCHA.COM.BR</div>${footer('RESISTÊNCIA EM FOCO',5,5)}<div class="topline"></div></section>`
+];
+const posts={pu:[cover('pu'),...pu.map((p,i)=>productSlide(p,i+2,'LINHA PU','pu')),outro('pu')],borracha:[cover('rubber'),...rubber.map((p,i)=>productSlide(p,i+2,'LINHA BORRACHA','rubber')),outro('rubber')],qualidade:quality};
+const params=new URLSearchParams(location.search),post=params.get('post'),slide=Number(params.get('slide'));
+if(posts[post]&&params.get('batch')==='1'){document.body.className='batch';document.body.innerHTML=posts[post].join('')}
+else if(posts[post]&&slide>=1&&slide<=5){document.body.className='single';document.body.innerHTML=posts[post][slide-1]}
+else{document.body.innerHTML=`<main class="gallery"><h1>Carrosséis Borrachas Rocha</h1><p>Três posts em formato 4:5 (1080 × 1350). Clique em um slide para vê-lo em tamanho integral.</p>${Object.entries(posts).map(([id,arr])=>`<h2>${id==='pu'?'01 · Peças de PU':id==='borracha'?'02 · Peças de borracha':'03 · Resistência e qualidade do PU'}</h2><div class="grid">${arr.map((html,i)=>`<a class="thumb" href="?post=${id}&slide=${i+1}"><div class="frame">${html}</div><span>Slide ${i+1}</span></a>`).join('')}</div>`).join('')}</main>`;const resize=()=>document.querySelectorAll('.frame').forEach(x=>x.style.setProperty('--scale',x.clientWidth/1080));window.addEventListener('resize',resize);resize()}
+</script>
+</body>
+</html>
