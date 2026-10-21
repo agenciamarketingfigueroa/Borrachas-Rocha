@@ -23,7 +23,7 @@ FONT_DIR=Path('C:/Windows/Fonts') if Path('C:/Windows/Fonts').exists() else Path
 for name,win,mac in [('Arial','arial.ttf','Arial.ttf'),('Bold','arialbd.ttf','Arial Bold.ttf'),('Black','ariblk.ttf','Arial Black.ttf'),('Rounded','ARLRDBD.TTF','Arial Rounded Bold.ttf')]:
     pdfmetrics.registerFont(TTFont(name,str(FONT_DIR/(win if (FONT_DIR/win).exists() else mac))))
 items=json.loads((OUT/'produtos.json').read_text(encoding='utf-8'))
-approved=fitz.open(BASE/'revisao-02/Catalogo-PU-2026-Por-Montadora-A4.pdf')
+approved=fitz.open(BASE/'fontes/capas-aprovadas.pdf')
 checks=[]
 
 def draw_img(c,file,x,y,width,height,**kwargs):

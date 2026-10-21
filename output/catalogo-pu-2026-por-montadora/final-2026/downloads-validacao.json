@@ -1,0 +1,36 @@
+{
+  "downloads": [
+    {
+      "page": "index.html",
+      "href": "output/pdf/Catalogo-PU-2026-Final-Clientes.pdf?v=20261021-recortes",
+      "pages": 22
+    },
+    {
+      "page": "index.html",
+      "href": "output/pdf/Catalogo-Buchas-do-Amortecedor-2026-Clientes.pdf?v=20261021",
+      "pages": 4
+    },
+    {
+      "page": "interno.html",
+      "href": "output/pdf/Catalogo-PU-2026-Final-A4.pdf?v=20261021-recortes",
+      "pages": 22
+    },
+    {
+      "page": "interno.html",
+      "href": "output/pdf/Catalogo-PU-2026-Final-Clientes.pdf?v=20261021-recortes",
+      "pages": 22
+    },
+    {
+      "page": "interno.html",
+      "href": "output/pdf/Catalogo-Buchas-do-Amortecedor-2026-A4.pdf",
+      "pages": 4
+    },
+    {
+      "page": "interno.html",
+      "href": "output/pdf/Catalogo-Buchas-do-Amortecedor-2026-Clientes.pdf",
+      "pages": 4
+    }
+  ],
+  "fontes_das_141_referencias_preservadas": true,
+  "pdfs_vigentes": 6
+}

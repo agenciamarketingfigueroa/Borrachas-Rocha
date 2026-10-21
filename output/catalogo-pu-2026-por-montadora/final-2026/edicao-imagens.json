@@ -1,0 +1,102 @@
+{
+  "tool": "image_gen.imagegen (integrada)",
+  "use_case": "background-extraction",
+  "transparent_background": true,
+  "prompts": [
+    "Remove ONLY the light tabletop/background and its cast shadow, leaving actual transparent alpha. Preserve the exact photographed part: geometry, proportions, perspective, number of pieces, holes, metal sleeves and pins, blue polyurethane, surface texture, small imperfections and original lighting. Do not redraw, redesign, sharpen into a different shape, recolor, add text, watermark, or add a ground/shadow. Keep the entire part uncropped, with a small transparent margin. Respect the upright EXIF orientation.",
+    "Preserve all objects (BR 2068 has TWO separate bushings).",
+    "Keep the actual photographed auto part identical in shape, proportions, perspective, holes, asymmetrical flanges, cutouts, metal sleeves, blue polyurethane, original colors, texture, imperfections and lighting. No redesign, no invented details, no sharpening or color enhancement."
+  ],
+  "images": [
+    {
+      "original": "BR 2062 B PU.JPG",
+      "code": "2062B",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-7881ba0e-a95c-48ab-bed3-aff003ff413f.png",
+      "output": "assets/img/Peças de PU/recortes-final/2062B PU.png"
+    },
+    {
+      "original": "BR 2081 C PU .JPG",
+      "code": "2081C",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-1cbfbbcd-094b-4e05-a1e6-ae67660ffbf1.png",
+      "output": "assets/img/Peças de PU/recortes-final/2081C PU.png"
+    },
+    {
+      "original": "BR 2119 PU.JPG",
+      "code": "2119",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-e4140892-30ae-496c-9b56-2df8a7b9b0e7.png",
+      "output": "assets/img/Peças de PU/recortes-final/2119 PU.png"
+    },
+    {
+      "original": "BR 8010 PU.JPG",
+      "code": "8010",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-a8b81962-5415-4805-a2fb-d84210d2bb44.png",
+      "output": "assets/img/Peças de PU/recortes-final/8010 PU.png"
+    },
+    {
+      "original": "BR 2066 PU.JPG",
+      "code": "2066",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-7d05d42e-891a-426e-8775-8e6ca1151ce8.png",
+      "output": "assets/img/Peças de PU/recortes-final/2066 PU.png"
+    },
+    {
+      "original": "BR 0613 PU.JPG",
+      "code": "0613",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-a07a83d7-e766-4e0b-9c32-99ee41c9eeee.png",
+      "output": "assets/img/Peças de PU/recortes-final/0613 PU.png"
+    },
+    {
+      "original": "BR 2068 PU.JPG",
+      "code": "2068",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-6f4c1b04-2c2d-4aa7-9341-8d7a2f10232b.png",
+      "output": "assets/img/Peças de PU/recortes-final/2068 PU.png"
+    },
+    {
+      "original": "BR 2051 PU.JPG",
+      "code": "2051",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-7e713af7-03a1-4dbf-b70d-32f4b7ca1665.png",
+      "output": "assets/img/Peças de PU/recortes-final/2051 PU.png"
+    },
+    {
+      "original": "BR 7034 PU.JPG",
+      "code": "7034",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-5548cbc8-cda9-494f-ae64-81cdbf63f561.png",
+      "output": "assets/img/Peças de PU/recortes-final/7034 PU.png"
+    },
+    {
+      "original": "BR 1056 PU.JPG",
+      "code": "1056",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-58b3e86d-4b74-4f2c-a1f5-93ffe17882e6.png",
+      "output": "assets/img/Peças de PU/recortes-final/1056 PU.png"
+    },
+    {
+      "original": "BR 2065 PU.JPG",
+      "code": "2065",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-969166dd-87db-49de-b670-d4c2eaef15b5.png",
+      "output": "assets/img/Peças de PU/recortes-final/2065 PU.png"
+    },
+    {
+      "original": "BR 7038 PU.JPG",
+      "code": "7038",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-0e515488-f2ff-4628-8d61-bcbc2eda7ab8.png",
+      "output": "assets/img/Peças de PU/recortes-final/7038 PU.png"
+    },
+    {
+      "original": "BR 6056 PU.JPG",
+      "code": "6056",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-43d0adea-979b-4059-8c23-62e9afa23e68.png",
+      "output": "assets/img/Peças de PU/recortes-final/6056 PU.png"
+    },
+    {
+      "original": "BR 7039 PU .JPG",
+      "code": "7039",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-4338ced9-5c34-4e0d-996c-7c598f607719.png",
+      "output": "assets/img/Peças de PU/recortes-final/7039 PU.png"
+    },
+    {
+      "original": "BR 7035 PU.JPG",
+      "code": "7035",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a16078-4050-7531-b55e-5841456d5f21\\exec-8c699ecd-7a57-4457-b1ff-c3235a9562d9.png",
+      "output": "assets/img/Peças de PU/recortes-final/7035 PU.png"
+    }
+  ]
+}

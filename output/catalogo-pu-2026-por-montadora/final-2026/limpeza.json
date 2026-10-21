@@ -1,0 +1,190 @@
+﻿{
+    "date":  "2026-10-21",
+    "removed":  [
+                    {
+                        "path":  "catalogo-pu-a4.html",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  19041
+                    },
+                    {
+                        "path":  "catalogo-pu-a4.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  3192137
+                    },
+                    {
+                        "path":  "catálogos de PU\\Catálogo de PU - Borrachas Rocha - Impressão A4 - 2026.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  3669543
+                    },
+                    {
+                        "path":  "catálogos de PU\\catalogo-pu-impressao-2026.html",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  25624
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026\\Catalogo-PU-2026-A4.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  8728811
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026\\Catalogo-PU-2026-Grafica-Sangria-3mm.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  8769623
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026\\visao-geral.jpg",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  384572
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\Catalogo-PU-2026-Por-Montadora-A4.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  34317264
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\Catalogo-PU-2026-Por-Montadora-Sangria-3mm.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  34380972
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-02\\Catalogo-PU-2026-Por-Montadora-A4.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  95369282
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-02\\Catalogo-PU-2026-Por-Montadora-Sangria-3mm.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  95432897
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-02\\Comparativo-Antes-Depois.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  14368392
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-02\\visao-geral.jpg",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  903178
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-03\\amortecedor-visao-geral.jpg",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  110536
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-03\\Catalogo-Buchas-do-Amortecedor-2026-A4.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  3744739
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-03\\Catalogo-Buchas-do-Amortecedor-2026-Clientes.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  1328838
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-03\\Catalogo-Buchas-do-Amortecedor-2026-Sangria-3mm.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  3755211
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-03\\Catalogo-PU-2026-A4.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  36769781
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-03\\Catalogo-PU-2026-Clientes.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  8056645
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-03\\Catalogo-PU-2026-Sangria-3mm.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  36815945
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-03\\geral-visao-geral.jpg",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  652059
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-03\\previas",
+                        "directory":  true,
+                        "files":  34,
+                        "bytes":  9245003
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-04\\previas",
+                        "directory":  true,
+                        "files":  22,
+                        "bytes":  6616027
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\revisao-04\\visao-geral.jpg",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  769934
+                    },
+                    {
+                        "path":  "output\\catalogo-pu-2026-por-montadora\\visao-geral.jpg",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  890691
+                    },
+                    {
+                        "path":  "output\\pdf\\Borrachas Rocha - Buchas do Amortecedor 2026.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  1328838
+                    },
+                    {
+                        "path":  "output\\pdf\\Borrachas Rocha - Catalogo PU 2026.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  8056645
+                    },
+                    {
+                        "path":  "output\\pdf\\Catálogo de PU - Borrachas Rocha - Impressão A4 - 2026 atualizado.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  3669543
+                    },
+                    {
+                        "path":  "output\\pdf\\Catalogo-PU-2026-Revisao-04-PREVIA.pdf",
+                        "directory":  false,
+                        "files":  1,
+                        "bytes":  35473559
+                    }
+                ],
+    "kept":  [
+                 "C:\\Users\\Felipe\\Documents\\GitHub\\Borrachas Rocha\\output\\pdf\\Catalogo-PU-2026-Final-A4.pdf",
+                 "C:\\Users\\Felipe\\Documents\\GitHub\\Borrachas Rocha\\output\\pdf\\Catalogo-PU-2026-Final-Clientes.pdf",
+                 "C:\\Users\\Felipe\\Documents\\GitHub\\Borrachas Rocha\\output\\pdf\\Catalogo-PU-2026-Final-Sangria-3mm.pdf",
+                 "C:\\Users\\Felipe\\Documents\\GitHub\\Borrachas Rocha\\output\\pdf\\Catalogo-Buchas-do-Amortecedor-2026-A4.pdf",
+                 "C:\\Users\\Felipe\\Documents\\GitHub\\Borrachas Rocha\\output\\pdf\\Catalogo-Buchas-do-Amortecedor-2026-Clientes.pdf",
+                 "C:\\Users\\Felipe\\Documents\\GitHub\\Borrachas Rocha\\output\\pdf\\Catalogo-Buchas-do-Amortecedor-2026-Sangria-3mm.pdf",
+                 "C:\\Users\\Felipe\\Documents\\GitHub\\Borrachas Rocha\\output\\catalogo-pu-2026-por-montadora\\fontes\\capas-aprovadas.pdf"
+             ],
+    "totalFiles":  83,
+    "totalBytes":  456845330
+}

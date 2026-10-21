@@ -7,13 +7,12 @@ OUT=Path(__file__).resolve().parent
 ROOT=OUT.parents[2]
 sys.path.insert(0,str(ROOT/'tmp/pdf-final-deps'))
 import fitz
-from PIL import Image, ImageDraw, ImageOps
+from PIL import Image, ImageDraw
 spec=importlib.util.spec_from_file_location('base_final',OUT.parent/'revisao-03/gerar.py')
 base=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(base)
 from reportlab.platypus import Paragraph
 from reportlab.lib.styles import ParagraphStyle
-from reportlab.lib.utils import ImageReader
 
 PDF=ROOT/'output/pdf'
 ORDER=json.loads((OUT.parent/'revisao-04/ordem-diretoria.json').read_text(encoding='utf-8'))
@@ -42,23 +41,8 @@ def logo(c,brand,x,y,w=29,h=17):
     else: original_logo(c,brand,x,y,w,h)
 base.logo=logo
 
-# Enquadramento no PDF das fotografias originais; nenhum produto é redesenhado.
-# Coordenadas normalizadas da área fotográfica, com margem em torno de cada peça.
-FRAMES={
- '2062B':(.14,.12,.80,.83),'2081C':(.19,.16,.80,.90),'2119':(.13,.15,.85,.86),
- '8010':(.08,.22,.90,.84),'2066':(.26,.25,.74,.76),'0613':(.20,.20,.78,.82),
- '2068':(.20,.28,.80,.77),'2051':(.24,.24,.76,.78),'7034':(.20,.24,.80,.81),
- '1056':(.23,.25,.77,.79),'2065':(.23,.27,.77,.80),'7038':(.22,.25,.76,.79),
- '6056':(.20,.22,.78,.80),'7039':(.24,.22,.72,.90),'7035':(.15,.18,.81,.84),
-}
+CUTOUT_CODES={i['code'].split()[0] for i in NEW}
 checks=[]
-def draw_photo(c,file,x,y,width,height):
-    # Respeita a orientação registrada pela câmera antes da incorporação ao PDF.
-    with Image.open(file) as source:
-        im=ImageOps.exif_transpose(source).convert('RGB')
-        im.thumbnail((round(width*450/72),round(height*450/72)),Image.Resampling.LANCZOS)
-        stream=BytesIO();im.save(stream,format='JPEG',quality=95)
-    c.drawImage(ImageReader(stream),x,y,width=width,height=height)
 
 def new_body(c,item,x,y):
     escape=lambda s:html.escape(s).replace(' | ','<br/>')
@@ -86,32 +70,19 @@ def new_body(c,item,x,y):
 
 def card(c,item,x,y):
     code=item['code'].split()[0]
-    if code not in FRAMES and not item.get('photoOverride'):
+    if code not in CUTOUT_CODES and not item.get('photoOverride'):
         return base.card(c,item,x,y)
     base.tag(c,item,x,y)
-    if item.get('photoOverride'):
-        f=OUT.parent/item['photoOverride']
-        with Image.open(f) as im:
-            iw,ih=im.size
-            bounds=im.getchannel('A').point(lambda a:255 if a>16 else 0).getbbox() if im.mode=='RGBA' else (0,0,iw,ih)
-        bx,by,br,bb=bounds
-        vw,vh=br-bx,bb-by
-        s=min(91/vw,94/vh)
-        vx=x+(92-vw*s)/2;vy=y+22+(96-vh*s)/2
-        base.draw_img(c,str(f),vx-bx*s,base.H-(vy-by*s)-ih*s,width=iw*s,height=ih*s,mask='auto')
-    else:
-        f=ROOT/'assets/img/Peças de PU'/item['image']
-        with Image.open(f) as im: iw,ih=im.size
-        l,t,r,b=FRAMES[code]
-        vw,vh=iw*(r-l),ih*(b-t)
-        s=min(91/vw,94/vh)
-        dw,dh=vw*s,vh*s
-        vx=x+(92-dw)/2;vy=y+22+(96-dh)/2
-        c.saveState()
-        clip=c.beginPath();clip.rect(vx,base.H-vy-dh,dw,dh)
-        c.clipPath(clip,stroke=0,fill=0)
-        draw_photo(c,str(f),vx-iw*l*s,base.H-vy-ih*(1-t)*s,width=iw*s,height=ih*s)
-        c.restoreState()
+    f=(OUT.parent/item['photoOverride']) if item.get('photoOverride') else ROOT/'assets/img/Peças de PU/recortes-final'/f'{code} PU.png'
+    with Image.open(f) as im:
+        iw,ih=im.size
+        assert im.mode=='RGBA' and im.getchannel('A').getextrema()==(0,255),str(f)
+        bounds=im.getchannel('A').point(lambda a:255 if a>16 else 0).getbbox()
+    bx,by,br,bb=bounds
+    vw,vh=br-bx,bb-by
+    s=min(91/vw,94/vh)
+    vx=x+(92-vw*s)/2;vy=y+22+(96-vh*s)/2
+    base.draw_img(c,str(f),vx-bx*s,base.H-(vy-by*s)-ih*s,width=iw*s,height=ih*s,mask='auto')
     new_body(c,item,x,y)
     if item.get('originalCode'):
         para(c,'Cód. original: '+html.escape(item['originalCode']),x,y+124,257,align=1)

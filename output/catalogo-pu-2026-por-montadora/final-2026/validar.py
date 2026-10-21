@@ -5,6 +5,7 @@ OUT=Path(__file__).resolve().parent
 ROOT=OUT.parents[2]
 sys.path.insert(0,str(ROOT/'tmp/pdf-final-deps'))
 import fitz
+from PIL import Image
 
 manifest=json.loads((OUT/'conferencia.json').read_text(encoding='utf-8'))
 entries=manifest['referencias']
@@ -24,6 +25,9 @@ assert len(doc.get_toc())==14
 full='\n'.join(p.get_text() for p in doc)
 assert 'FICHA PENDENTE' not in full and 'PRÉVIA' not in full and '7036 PU' not in full
 new={i['code'].split()[0]:i for i in json.loads((OUT/'novas-fichas.json').read_text(encoding='utf-8'))}
+for code in new:
+    with Image.open(ROOT/'assets/img/Peças de PU/recortes-final'/f'{code} PU.png') as image:
+        assert image.mode=='RGBA' and image.getchannel('A').getextrema()==(0,255),code
 oem_count=0
 photographs={}
 for entry in entries:
@@ -34,6 +38,10 @@ for entry in entries:
     text=p.get_text(clip=rect)
     assert code+' PU' in text,(code,text)
     if code in new:
+        photo_rect=fitz.Rect(x,y+20,x+94,y+120)
+        image_refs={im['xref'] for im in p.get_image_info(xrefs=True)
+                    if fitz.Rect(im['bbox']).intersects(photo_rect) and im['width']>100}
+        assert any(im[0] in image_refs and im[1]>0 for im in p.get_images(full=True)),(code,'alpha ausente no PDF')
         for field in ['name','specs','application','secondTitle','secondApplication']:
             for value in new[code].get(field,'').split(' | '):
                 assert norm(value) in norm(text),(code,field,value,text)
@@ -77,6 +85,7 @@ for suffix in ['Clientes','Sangria-3mm']:
             assert abs(page.trimbox.width-595.2)<.02
             assert abs(page.trimbox.x0-3*72/25.4)<.02
 report=dict(paginas=22,referencias=141,novas_fichas=15,ordem_conferida=True,
+            recortes_transparentes=15,mascaras_transparencia_no_pdf=True,
             excluida_7036=True,foto_0616_identica_0616A=True,dois_titulos_7039=True,
             codigos_originais_9pt_preto_negrito=oem_count,links_indice=11,
             textos_dentro_das_paginas=True,medidas_aplicacoes_conferidas=True,

@@ -3,6 +3,8 @@
   "referencias": 141,
   "novas_fichas": 15,
   "ordem_conferida": true,
+  "recortes_transparentes": 15,
+  "mascaras_transparencia_no_pdf": true,
   "excluida_7036": true,
   "foto_0616_identica_0616A": true,
   "dois_titulos_7039": true,
