@@ -1,0 +1,28 @@
+{
+  "solicitadas": 142,
+  "disponiveis": 126,
+  "pendentes": [
+    "1056",
+    "2051",
+    "2062B",
+    "2065",
+    "2066",
+    "2068",
+    "2081C",
+    "2119",
+    "6056",
+    "7034",
+    "7035",
+    "7036",
+    "7038",
+    "7039",
+    "8010",
+    "0613"
+  ],
+  "fora_da_lista": [
+    "1046A PU",
+    "0611D PU",
+    "1055 PU"
+  ],
+  "foto_8016": "Não existe ficha 8016 PU na revisão 03. BR-8016 no site tem image:null. Necessário identificar o arquivo relatado e receber foto correta."
+}
