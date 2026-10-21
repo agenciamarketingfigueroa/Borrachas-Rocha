@@ -1,0 +1,103 @@
+{
+  "paginas": 4,
+  "referencias": [
+    {
+      "code": "3056 PU",
+      "brand": "Ford",
+      "section": "Buchas do amortecedor",
+      "page": 2,
+      "slot": 1
+    },
+    {
+      "code": "3058 PU",
+      "brand": "Ford",
+      "section": "Buchas do amortecedor",
+      "page": 2,
+      "slot": 2
+    },
+    {
+      "code": "3079 PU",
+      "brand": "Ford",
+      "section": "Buchas do amortecedor",
+      "page": 2,
+      "slot": 3
+    },
+    {
+      "code": "5021 PU",
+      "brand": "Toyota",
+      "section": "Buchas do amortecedor",
+      "page": 2,
+      "slot": 4
+    },
+    {
+      "code": "5022 PU",
+      "brand": "Toyota",
+      "section": "Buchas do amortecedor",
+      "page": 2,
+      "slot": 5
+    },
+    {
+      "code": "5023 PU",
+      "brand": "Toyota",
+      "section": "Buchas do amortecedor",
+      "page": 2,
+      "slot": 6
+    },
+    {
+      "code": "5029 PU",
+      "brand": "Toyota",
+      "section": "Buchas do amortecedor",
+      "page": 2,
+      "slot": 7
+    },
+    {
+      "code": "9028 PU",
+      "brand": "Chevrolet",
+      "section": "Buchas do amortecedor",
+      "page": 2,
+      "slot": 8
+    },
+    {
+      "code": "0828 PU",
+      "brand": "Mitsubishi",
+      "section": "Buchas do amortecedor",
+      "page": 2,
+      "slot": 9
+    },
+    {
+      "code": "0828A PU",
+      "brand": "Mitsubishi",
+      "section": "Buchas do amortecedor",
+      "page": 2,
+      "slot": 10
+    },
+    {
+      "code": "0828C PU",
+      "brand": "Mitsubishi",
+      "section": "Buchas do amortecedor",
+      "page": 3,
+      "slot": 1
+    },
+    {
+      "code": "0836 PU",
+      "brand": "Mitsubishi",
+      "section": "Buchas do amortecedor",
+      "page": 3,
+      "slot": 2
+    },
+    {
+      "code": "0912 PU",
+      "brand": "Nissan",
+      "section": "Buchas do amortecedor",
+      "page": 3,
+      "slot": 3
+    },
+    {
+      "code": "0912A PU",
+      "brand": "Nissan",
+      "section": "Buchas do amortecedor",
+      "page": 3,
+      "slot": 4
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "tool": "image_gen.imagegen",
+  "prompt": "Remove ONLY the gray/white background and cast shadow to real alpha transparency. Preserve the exact single part, angle, silhouette, hole diameters, metal pins, cutouts, texture, original color and original lighting. Do not redesign, recolor, beautify, repair, add or remove any part of the product. No text, no logo, no added elements. Center the entire unchanged part with a narrow transparent margin, fully visible, at the same perspective.",
+  "images": [
+    {
+      "code": "0819 PU",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a15f05-01d2-7a71-b438-6cdcde3dc378\\exec-f8359538-e6e8-4925-8933-f00e6b849efc.png",
+      "output": "assets/img/Peças de PU/recortes/0819 PU.png"
+    },
+    {
+      "code": "1012 PU",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a15f05-01d2-7a71-b438-6cdcde3dc378\\exec-a01382dc-cbd3-42e3-bb6b-8359acd71f66.png",
+      "output": "assets/img/Peças de PU/recortes/1012 PU.png"
+    },
+    {
+      "code": "0605 PU",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a15f05-01d2-7a71-b438-6cdcde3dc378\\exec-a44c367a-7e21-46ac-834a-d115f0cbf110.png",
+      "output": "assets/img/Peças de PU/recortes/0605 PU.png"
+    },
+    {
+      "code": "1034 PU",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a15f05-01d2-7a71-b438-6cdcde3dc378\\exec-9e07189c-ab8c-4f4c-be82-e3e3e71f9c04.png",
+      "output": "assets/img/Peças de PU/recortes/1034 PU.png"
+    },
+    {
+      "code": "0636 PU",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a15f05-01d2-7a71-b438-6cdcde3dc378\\exec-3f5fae35-135a-46e4-bf98-4facb9c80c55.png",
+      "output": "assets/img/Peças de PU/recortes/0636 PU.png"
+    },
+    {
+      "code": "0616 PU",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a15f05-01d2-7a71-b438-6cdcde3dc378\\exec-61507079-c7c3-46be-9dee-011809d71e0d.png",
+      "output": "assets/img/Peças de PU/recortes/0616 PU.png"
+    },
+    {
+      "code": "1013A PU",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a15f05-01d2-7a71-b438-6cdcde3dc378\\exec-cc29c564-73cf-4373-8253-d0eb4bb740e7.png",
+      "output": "assets/img/Peças de PU/recortes/1013A PU.png"
+    },
+    {
+      "code": "8027 PU",
+      "generated": "C:\\Users\\Felipe\\.codex\\generated_images\\01a15f05-01d2-7a71-b438-6cdcde3dc378\\exec-32358736-fdd8-4dcd-ad0d-b0ba5c4a6578.png",
+      "output": "assets/img/Peças de PU/recortes/8027 PU.png"
+    }
+  ]
+}

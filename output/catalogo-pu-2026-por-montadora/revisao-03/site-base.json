@@ -1,0 +1,538 @@
+[
+  [
+    "1026 PU",
+    "Volkswagen",
+    "Bucha do feixe de mola dianteira",
+    "VW 6.90 / 8.100 / 8.120 / 8.150"
+  ],
+  [
+    "1030 PU",
+    "Volkswagen",
+    "Calço do feixe de molas",
+    "VW L80 / 6.90 / 7.90 / 7.100 / 7.110 / 8.100 / 8.150 e MB Accelo"
+  ],
+  [
+    "1046A PU",
+    "Agrale",
+    "Bucha do quarto eixo traseiro",
+    "HBZ"
+  ],
+  [
+    "1048 PU",
+    "Volkswagen",
+    "Bucha central da barra estabilizadora dianteira",
+    "VW 9.170 / 11.180 Delivery 2018 em diante"
+  ],
+  [
+    "1048A PU",
+    "Volkswagen",
+    "Bucha central da barra estabilizadora traseira",
+    "VW 9.170 / 11.180 Delivery 2018 em diante"
+  ],
+  [
+    "1053 PU",
+    "Volkswagen",
+    "Bucha da ponta da barra estabilizadora traseira",
+    "VW 11.180 / 9.170 / Delivery"
+  ],
+  [
+    "1061 PU",
+    "Volkswagen",
+    "Bucha do feixe de molas e suporte traseiro",
+    "VW 9.170 / 11.180 Delivery 2018 em diante"
+  ],
+  [
+    "1062 PU",
+    "Volkswagen",
+    "Bucha do feixe de molas e suporte traseiro",
+    "VW 6.160 / 4.150 / 4.160 / Express 2018 em diante"
+  ],
+  [
+    "2062 PU",
+    "Mercedes",
+    "Bucha do feixe de molas dianteiro",
+    "MB Atego"
+  ],
+  [
+    "2063A PU",
+    "Mercedes",
+    "Bucha do feixe de molas dianteiro - parte traseira",
+    "MB Atego"
+  ],
+  [
+    "2063B PU",
+    "Mercedes",
+    "Bucha do feixe de molas dianteiro - parte traseira",
+    "MB Atego"
+  ],
+  [
+    "2063C PU",
+    "Mercedes",
+    "Bucha do feixe de molas dianteiro - parte traseira",
+    "MB Atego"
+  ],
+  [
+    "2074A PU",
+    "Mercedes",
+    "Bucha do suporte da mola dianteira",
+    "MB Atego / Sprinter"
+  ],
+  [
+    "2074B PU",
+    "Mercedes",
+    "Bucha do suporte da mola dianteira",
+    "MB Atego / Sprinter"
+  ],
+  [
+    "2074C PU",
+    "Mercedes",
+    "Bucha do suporte da mola dianteira",
+    "MB Atego"
+  ],
+  [
+    "2078A PU",
+    "Mercedes",
+    "Bucha do suporte da mola dianteira e traseira",
+    "MB Accelo 815 / 915 / 1016"
+  ],
+  [
+    "2081B PU",
+    "Mercedes",
+    "Bucha do feixe de mola traseira",
+    "MB Atego"
+  ],
+  [
+    "2108 PU",
+    "Mercedes",
+    "Bucha da barra estabilizadora dianteira",
+    "MB Actros 2031 / 2655 / 33315"
+  ],
+  [
+    "2112 PU",
+    "Mercedes",
+    "Bucha da ponta da barra estabilizadora dianteira",
+    "MB Actros / Axor"
+  ],
+  [
+    "2114 PU",
+    "Mercedes",
+    "Bucha da ponta da barra estabilizadora traseira",
+    "MB Actros / Axor"
+  ],
+  [
+    "0627 PU",
+    "Iveco",
+    "Bucha da barra de torção dianteira",
+    "Iveco Daily 70C16 / 70C17 / 70C17 HD 65-170 / 70-170 / 2019 em diante"
+  ],
+  [
+    "0628 PU",
+    "Iveco",
+    "Bucha da barra de torção dianteira",
+    "Iveco Daily 70C16 / 70C17 / 70C17 HD 65-170 / 70-170 / 2019 em diante"
+  ],
+  [
+    "0630 PU",
+    "Iveco",
+    "Kit de buchas da barra de torção dianteira",
+    "Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12"
+  ],
+  [
+    "0631 PU",
+    "Iveco",
+    "Bucha superior da barra de torção dianteira",
+    "Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12"
+  ],
+  [
+    "0632 PU",
+    "Iveco",
+    "Bucha inferior da barra de torção dianteira",
+    "Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12"
+  ],
+  [
+    "0633 PU",
+    "Iveco",
+    "Bucha superior da barra de torção dianteira",
+    "Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12"
+  ],
+  [
+    "6002 PU",
+    "Scania",
+    "Bucha da barra estabilizadora dianteira",
+    "Scania 124"
+  ],
+  [
+    "6052 PU",
+    "Scania",
+    "Bucha do feixe de molas parte traseira",
+    "Scania suspensão a ar"
+  ],
+  [
+    "7010 PU",
+    "Volvo",
+    "Bucha do feixe de molas dianteiro",
+    "Volvo VM 240 / 260"
+  ],
+  [
+    "7014 PU",
+    "Volvo",
+    "Bucha do feixe de molas dianteiro",
+    "Volvo VM 240 / 260 / 330"
+  ],
+  [
+    "8011 PU",
+    "Randon",
+    "Bucha do tensor do motor",
+    "Randon 2300"
+  ],
+  [
+    "8024 PU",
+    "Suspensys",
+    "Bucha da balança",
+    "Suspensys"
+  ],
+  [
+    "3056 PU",
+    "Ford",
+    "Bucha inferior do amortecedor dianteiro",
+    "Ranger 2012 a 2022"
+  ],
+  [
+    "3058 PU",
+    "Ford",
+    "Bucha inferior do amortecedor dianteiro",
+    "Ranger 2012 a 2022"
+  ],
+  [
+    "5021 PU",
+    "Toyota",
+    "Bucha inferior do amortecedor dianteiro",
+    "Hilux 2005 a 2022"
+  ],
+  [
+    "5022 PU",
+    "Toyota",
+    "Bucha inferior do amortecedor dianteiro",
+    "Hilux 2005 a 2022"
+  ],
+  [
+    "5023 PU",
+    "Toyota",
+    "Bucha inferior do amortecedor dianteiro",
+    "Hilux 2005 a 2022"
+  ],
+  [
+    "5029 PU",
+    "Toyota",
+    "Bucha inferior do amortecedor dianteiro",
+    "Hilux 2005 a 2022"
+  ],
+  [
+    "9028 PU",
+    "Chevrolet",
+    "Bucha inferior do amortecedor dianteiro",
+    "S10 2012 a 2022"
+  ],
+  [
+    "0828 PU",
+    "Mitsubishi",
+    "Bucha inferior do amortecedor dianteiro",
+    "L200 Triton 2008 a 2022"
+  ],
+  [
+    "0828A PU",
+    "Mitsubishi",
+    "Bucha inferior do amortecedor dianteiro",
+    "L200 Triton 2008 a 2022"
+  ],
+  [
+    "0828C PU",
+    "Mitsubishi",
+    "Bucha inferior do amortecedor dianteiro",
+    "Pajero / L200 Triton 2008 a 2022"
+  ],
+  [
+    "0912 PU",
+    "Nissan Frontier",
+    "Bucha inferior do amortecedor dianteiro",
+    "Frontier 2008 a 2022"
+  ],
+  [
+    "0912A PU",
+    "Nissan Frontier",
+    "Bucha inferior do amortecedor dianteiro",
+    "Frontier 2008 a 2022"
+  ],
+  [
+    "6058 PU",
+    "Scania",
+    "Separador anti ruído da mola dianteira",
+    "Scania NTG 2019 em diante",
+    "Comprimento: 100 mm | Largura: 90 mm | Entre pinos: 45 mm",
+    "6058 PU.jpg"
+  ],
+  [
+    "8002 PU",
+    "Rodoviária",
+    "Borracha rodoviária com aba",
+    "",
+    "Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm",
+    "8002 PU.jpg"
+  ],
+  [
+    "8003 PU",
+    "Randon",
+    "Borracha Randon sem aba",
+    "",
+    "Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm",
+    "8003 PU.jpg"
+  ],
+  [
+    "6057 PU",
+    "Scania",
+    "Bucha tranca da cabine traseira",
+    "Scania NTG 2019 em diante",
+    "",
+    "6057 PU.jpg"
+  ],
+  [
+    "8001 PU",
+    "Rodoviária",
+    "Borracha rodoviária sem aba",
+    "",
+    "Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm",
+    "8001 PU.jpg"
+  ],
+  [
+    "8004 PU",
+    "Randon",
+    "Borracha Randon com aba",
+    "",
+    "Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm",
+    "8004 PU.jpg"
+  ],
+  [
+    "8023 PU",
+    "Jost",
+    "Coxim da 5ª roda (2 polegadas)",
+    "Jost",
+    "",
+    "8023 PU.jpg"
+  ],
+  [
+    "5003 PU",
+    "Toyota",
+    "Borracha da mola dianteira",
+    "Toyota Band 1992 em diante",
+    "",
+    "5003 PU.jpg"
+  ],
+  [
+    "5004 PU",
+    "Toyota",
+    "Borracha da mola traseira",
+    "Toyota Band 1992 em diante",
+    "",
+    "5004 PU.jpg"
+  ],
+  [
+    "0611D PU",
+    "Iveco",
+    "Bucha da barra estabilizadora dianteira",
+    "Iveco Tector / Stralis",
+    "Comprimento total: 82 mm | Diâmetro do corpo: 70 mm | Entre abas: 71 mm | Interno do furo: 48 mm",
+    "0611D PU.jpg"
+  ],
+  [
+    "3079 PU",
+    "Ford",
+    "Borracha do amortecedor dianteiro inferior",
+    "Ranger",
+    "Comprimento: 50 mm | Diâmetro externo: 54 mm | Interno do furo: 20 mm",
+    "3079 PU.jpg"
+  ],
+  [
+    "3039 PU",
+    "Ford",
+    "Borracha da ponta estabilizadora dianteira",
+    "Ford 815",
+    "Comprimento: 45 mm | Diâmetro externo: 34 mm | Interno do furo: 12 mm",
+    "3039 PU.jpg"
+  ],
+  [
+    "0616A PU",
+    "Iveco",
+    "Bucha da mola e suporte traseiro",
+    "Iveco Daily; aplicar em mola com 70 mm de largura",
+    "Comprimento: 80 mm | Diâmetro: 40 mm | Interno do furo: 16 mm",
+    "0616A PU.jpg"
+  ],
+  [
+    "0610A PU",
+    "Iveco",
+    "Bucha da ponta estabilizadora dianteira",
+    "Iveco Stralis",
+    "Comprimento: 50 mm | Diâmetro: 61 mm | Interno do furo: 28 mm",
+    "0610A PU.jpg"
+  ],
+  [
+    "0836 PU",
+    "Iveco",
+    "Bucha da mola dianteira e traseira",
+    "Iveco ônibus Mascarello",
+    "Comprimento: 80 mm | Diâmetro: 60 mm | Interno do furo: 16 mm",
+    "0836 PU.jpg"
+  ],
+  [
+    "1024 PU",
+    "Volkswagen",
+    "Bucha da barra estabilizadora dianteira",
+    "VW 13.190",
+    "Interno do furo: 35 mm",
+    "1024 PU.jpg"
+  ],
+  [
+    "1014 PU",
+    "Volkswagen",
+    "Borracha da barra estabilizadora dianteira",
+    "VW 12.140 - 24.250",
+    "Interno do furo: 44 mm",
+    "1014 PU.jpg"
+  ],
+  [
+    "1013 PU",
+    "Volkswagen",
+    "Borracha da barra estabilizadora traseira",
+    "VW 6.90 - 8.150",
+    "Interno do furo: 32 mm",
+    "1013 PU.jpg"
+  ],
+  [
+    "1013A PU",
+    "Volkswagen",
+    "Borracha da barra estabilizadora traseira",
+    "VW 6.90 - 8.150",
+    "Interno do furo: 30 mm",
+    ""
+  ],
+  [
+    "1055 PU",
+    "Volkswagen",
+    "Bucha silenciosa da mola traseira",
+    "VW 11.180 - Delivery",
+    "Comprimento: 88 mm | Diâmetro externo: 53 mm | Interno do furo: 18 mm",
+    "1055 PU.jpg"
+  ],
+  [
+    "1011 PU",
+    "Volkswagen",
+    "Borracha da ponta estabilizadora dianteira",
+    "VW 12.140 - 24.250",
+    "Olhal: 43 mm",
+    "1011 PU.jpg"
+  ],
+  [
+    "1068 PU",
+    "Volkswagen",
+    "Bucha da barra estabilizadora dianteira superior",
+    "VW Meteor",
+    "Comprimento: 60 mm | Diâmetro externo (olhal): 65 mm | Interno do furo: 37 mm",
+    "1068 PU.jpg"
+  ],
+  [
+    "1067 PU",
+    "Volkswagen",
+    "Bucha da barra estabilizadora dianteira inferior",
+    "VW Meteor",
+    "Altura: 60 mm | Diâmetro externo: 85 mm | Interno do furo: 49 mm",
+    "1067 PU.jpg"
+  ],
+  [
+    "1008 PU",
+    "Volkswagen",
+    "Borracha estabilizadora dianteira",
+    "VW 6.90 - 8.150",
+    "Olhal: 28 mm",
+    "1008 PU.jpg"
+  ],
+  [
+    "1010 PU",
+    "Volkswagen",
+    "Borracha da ponta estabilizadora traseira",
+    "VW 6.90 - 8.150",
+    "Olhal: 35 mm",
+    "1010 PU.jpg"
+  ],
+  [
+    "1069 PU",
+    "Volkswagen",
+    "Bucha da ponta estabilizadora dianteira",
+    "VW Meteor",
+    "Comprimento: 64 mm | Diâmetro externo: 58 mm | Interno do furo: 20 mm",
+    "1069 PU.jpg"
+  ],
+  [
+    "2010 PU",
+    "Mercedes",
+    "Borracha da barra estabilizadora com tubo dianteiro/traseiro",
+    "MB 710",
+    "Olhal: 30 mm",
+    "2010 PU.jpg"
+  ],
+  [
+    "2008 PU",
+    "Mercedes",
+    "Borracha da barra estabilizadora com tubo dianteiro/traseiro",
+    "MB 608",
+    "Olhal: 26 mm",
+    "2008 PU.jpg"
+  ],
+  [
+    "2095 PU",
+    "Mercedes",
+    "Batente guia do grampo da mola dianteira",
+    "MB Axor (fora de estrada)",
+    "Altura: 109 mm",
+    "2095 PU.jpg"
+  ],
+  [
+    "2039 PU",
+    "Mercedes",
+    "Borracha da mola dianteira",
+    "MB 608",
+    "",
+    "2039 PU.jpg"
+  ],
+  [
+    "2054 PU",
+    "Mercedes",
+    "Borracha da mola da cabine",
+    "MB 1620",
+    "",
+    "2054 PU.jpg"
+  ],
+  [
+    "2078C PU",
+    "Mercedes",
+    "Bucha silenciosa do olho da mola traseira/dianteira",
+    "MB Accelo",
+    "",
+    "2078C PU.jpg"
+  ],
+  [
+    "2120 PU",
+    "Mercedes",
+    "Bucha da ponta estabilizadora traseira inferior",
+    "MB Arocs",
+    "",
+    "2120 PU.jpg"
+  ],
+  [
+    "2121 PU",
+    "Mercedes",
+    "Bucha da ponta estabilizadora dianteira inferior",
+    "MB Arocs",
+    "Comprimento: 57 mm | Diâmetro do olhal: 75 mm | Interno do furo: 20 mm",
+    "2121 PU.jpg"
+  ]
+]

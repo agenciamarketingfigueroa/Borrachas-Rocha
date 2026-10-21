@@ -1,0 +1,78 @@
+{
+  "Catalogo-PU-2026-A4.pdf": {
+    "paginas": 21,
+    "referencias": 129,
+    "bytes": 36769781,
+    "codigos_originais_verificados": 79
+  },
+  "Catalogo-PU-2026-Clientes.pdf": {
+    "paginas": 21,
+    "referencias": 129,
+    "bytes": 8056645,
+    "codigos_originais_verificados": 79
+  },
+  "Catalogo-PU-2026-Sangria-3mm.pdf": {
+    "paginas": 21,
+    "referencias": 129,
+    "bytes": 36815945,
+    "codigos_originais_verificados": 79
+  },
+  "geral": {
+    "contagem_por_pagina": {
+      "3": 10,
+      "4": 10,
+      "5": 8,
+      "6": 10,
+      "7": 10,
+      "8": 5,
+      "9": 1,
+      "10": 7,
+      "11": 7,
+      "12": 10,
+      "13": 3,
+      "14": 10,
+      "15": 1,
+      "16": 7,
+      "17": 10,
+      "18": 8,
+      "19": 6,
+      "20": 6
+    },
+    "cinco_fichas_por_coluna": true
+  },
+  "Catalogo-Buchas-do-Amortecedor-2026-A4.pdf": {
+    "paginas": 4,
+    "referencias": 14,
+    "bytes": 3744739,
+    "codigos_originais_verificados": 0
+  },
+  "Catalogo-Buchas-do-Amortecedor-2026-Clientes.pdf": {
+    "paginas": 4,
+    "referencias": 14,
+    "bytes": 1328838,
+    "codigos_originais_verificados": 0
+  },
+  "Catalogo-Buchas-do-Amortecedor-2026-Sangria-3mm.pdf": {
+    "paginas": 4,
+    "referencias": 14,
+    "bytes": 3755211,
+    "codigos_originais_verificados": 0
+  },
+  "amortecedor": {
+    "contagem_por_pagina": {
+      "2": 10,
+      "3": 4
+    },
+    "cinco_fichas_por_coluna": true
+  },
+  "pendencias_pu": [
+    "1056",
+    "2051",
+    "2081C",
+    "2119",
+    "8010"
+  ],
+  "imagens_novas": 8,
+  "total_pu_site": 143,
+  "codigos_originais_dos_anexos": 79
+}

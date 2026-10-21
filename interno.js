@@ -149,7 +149,9 @@
     }
     const terms = query.split(/\s+/).filter(Boolean);
     const matches = products.filter(function (product) {
-      const text = normalize([product.code, product.name, product.brand, product.application, product.specs].join(' '));
+      const compactCode = function (value) { return normalize(value || '').replace(/[^a-z0-9]/g, ''); };
+      if ((product.originalCode || '').split(' / ').some(function (code) { return code && compactCode(code) === compactCode(query); })) return true;
+      const text = normalize([product.code, product.originalCode, product.name, product.brand, product.application, product.specs].join(' '));
       return terms.every(function (term) { return text.includes(term); });
     }).sort(function (a, b) {
       const aCode = normalize(a.code), bCode = normalize(b.code);

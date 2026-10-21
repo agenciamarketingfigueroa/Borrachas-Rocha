@@ -1,0 +1,2810 @@
+[
+  {
+    "code": "1020 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1020.png",
+    "source_page": 2,
+    "source_rect": [
+      48,
+      67,
+      304,
+      201
+    ],
+    "crop_pixels": [
+      1013,
+      500
+    ],
+    "name": "Bucha do Feixe de Mola Dianteiro e Suporte Dianteiro",
+    "application": "VW 12.140 / 15.180",
+    "specs": "Comprimento: 90,0mm | Diâm. Externo: 53,5mm | Diâm. Interno: 19,2mm",
+    "originalCode": "TJG411171",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1021 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1021.png",
+    "source_page": 2,
+    "source_rect": [
+      48,
+      202,
+      304,
+      340
+    ],
+    "crop_pixels": [
+      961,
+      493
+    ],
+    "name": "Coxim da Cabine Traseiro",
+    "application": "VW 8.100 / 8.120 / 8.140 8.150 / 9.150",
+    "specs": "",
+    "originalCode": "TJ6899397",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1026 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1026.png",
+    "source_page": 2,
+    "source_rect": [
+      48,
+      341,
+      304,
+      487
+    ],
+    "crop_pixels": [
+      1008,
+      489
+    ],
+    "name": "Bucha do feixe de mola dianteira",
+    "application": "VW 6.90 / 8.100 / 8.120 / 8.150",
+    "specs": "",
+    "originalCode": "T20411171",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1026A PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1026A.png",
+    "source_page": 2,
+    "source_rect": [
+      48,
+      488,
+      304,
+      645
+    ],
+    "crop_pixels": [
+      979,
+      477
+    ],
+    "name": "Bucha do Suporte da Mola Dianteira",
+    "application": "VW 8.100 / 8.120 / 8.140 8.150 / 9.150",
+    "specs": "Comprimento: 88 mm | Diâmetro externo: 42 mm | Diâmetro interno: 16 mm",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1027 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1027.png",
+    "source_page": 2,
+    "source_rect": [
+      48,
+      646,
+      318,
+      781
+    ],
+    "crop_pixels": [
+      1049,
+      529
+    ],
+    "name": "Bucha do Feixe de Mola Dianteiro e Suporte Dianteiro",
+    "application": "VW 8.100 / 8.120 / 8.140 8.150 / 9.150",
+    "specs": "Comprimento: 90,0mm | Diâm. Externo: 58,0mm | Diâm. Interno: 30,2mm",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1030 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1030.png",
+    "source_page": 2,
+    "source_rect": [
+      304,
+      70,
+      590,
+      201
+    ],
+    "crop_pixels": [
+      1023,
+      534
+    ],
+    "name": "Calço do feixe de molas",
+    "application": "VW L80 / 6.90 / 7.90 / 7.100 / 7.110 / 8.100 / 8.150 e MB Accelo",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1033 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1033.png",
+    "source_page": 2,
+    "source_rect": [
+      304,
+      202,
+      590,
+      341
+    ],
+    "crop_pixels": [
+      982,
+      474
+    ],
+    "name": "Calço do Feixe de Molas Dianteiro (Pastilha Antirruído)",
+    "application": "VW 8.100 / 8.120 / 8.140 8.150",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1046A PU",
+    "brand": "HBZ",
+    "original": true,
+    "image": "fichas/1046A.png",
+    "source_page": 2,
+    "source_rect": [
+      304,
+      342,
+      590,
+      487
+    ],
+    "crop_pixels": [
+      992,
+      451
+    ],
+    "name": "Bucha do quarto eixo traseiro",
+    "application": "HBZ",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Trucks e Carretas"
+  },
+  {
+    "code": "1048 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1048.png",
+    "source_page": 2,
+    "source_rect": [
+      304,
+      488,
+      590,
+      644
+    ],
+    "crop_pixels": [
+      1028,
+      488
+    ],
+    "name": "Bucha central da barra estabilizadora dianteira",
+    "application": "VW 9.170 / 11.180 Delivery 2018 em diante",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1048A PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1048A.png",
+    "source_page": 2,
+    "source_rect": [
+      318,
+      645,
+      590,
+      781
+    ],
+    "crop_pixels": [
+      1024,
+      521
+    ],
+    "name": "Bucha central da barra estabilizadora traseira",
+    "application": "VW 9.170 / 11.180 Delivery 2018 em diante",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1050 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1050.png",
+    "source_page": 3,
+    "source_rect": [
+      27,
+      68,
+      297,
+      202
+    ],
+    "crop_pixels": [
+      1007,
+      503
+    ],
+    "name": "Coxim da Cabine Traseiro",
+    "application": "VW Delivery 11.180 / 9.170 6.170 / 6.160 / 2018 em diante",
+    "specs": "",
+    "originalCode": "23B899397",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1053 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1053.png",
+    "source_page": 3,
+    "source_rect": [
+      27,
+      203,
+      297,
+      341
+    ],
+    "crop_pixels": [
+      1005,
+      538
+    ],
+    "name": "Bucha da ponta da barra estabilizadora traseira",
+    "application": "VW 11.180 / 9.170 / Delivery",
+    "specs": "",
+    "originalCode": "23B511473",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1061 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1061.png",
+    "source_page": 3,
+    "source_rect": [
+      27,
+      342,
+      297,
+      494
+    ],
+    "crop_pixels": [
+      1010,
+      588
+    ],
+    "name": "Bucha do feixe de molas e suporte traseiro",
+    "application": "VW 9.170 / 11.180 Delivery 2018 em diante",
+    "specs": "",
+    "originalCode": "23B411719B",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1062 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1062.png",
+    "source_page": 3,
+    "source_rect": [
+      27,
+      495,
+      297,
+      645
+    ],
+    "crop_pixels": [
+      1067,
+      599
+    ],
+    "name": "Bucha do feixe de molas e suporte traseiro",
+    "application": "VW 6.160 / 4.150 / 4.160 / Express 2018 em diante",
+    "specs": "",
+    "originalCode": "23B411719C",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1065 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1065.png",
+    "source_page": 3,
+    "source_rect": [
+      27,
+      646,
+      297,
+      781
+    ],
+    "crop_pixels": [
+      1078,
+      504
+    ],
+    "name": "Bucha do Feixe de Mola Dianteiro Parte Dianteira",
+    "application": "VW 13.180 / 13.190",
+    "specs": "Comprimento: 90,0mm | Diâm. Externo: 58,0mm | Diâm. Interno: 20,2mm",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1066 PU",
+    "brand": "Volkswagen",
+    "original": true,
+    "image": "fichas/1066.png",
+    "source_page": 3,
+    "source_rect": [
+      297,
+      68,
+      549,
+      202
+    ],
+    "crop_pixels": [
+      1046,
+      500
+    ],
+    "name": "Bucha do Feixe de Mola Dianteiro Parte Traseira",
+    "application": "VW 13.180 / 13.190",
+    "specs": "Comprimento: 90,0mm | Diâm. Externo: 53,5mm | Diâm. Interno: 20,2mm",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "2015 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2015.png",
+    "source_page": 3,
+    "source_rect": [
+      297,
+      203,
+      549,
+      341
+    ],
+    "crop_pixels": [
+      1025,
+      531
+    ],
+    "name": "Bucha da Ponta do Estabilizador Dianteiro e Traseiro",
+    "application": "MB 1418 / 1620 / 1721",
+    "specs": "",
+    "originalCode": "A3843207050",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2048 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2048.png",
+    "source_page": 3,
+    "source_rect": [
+      297,
+      342,
+      549,
+      494
+    ],
+    "crop_pixels": [
+      1023,
+      578
+    ],
+    "name": "Bucha da Barra Estabilizadora Traseira",
+    "application": "MB 1418 / 1620",
+    "specs": "Comprimento: 90,0mm | Diâm. Externo: 84,0mm | Diâm. Interno 49,0mm | Entre Abas: 80,0mm",
+    "originalCode": "A6343260281",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2048A PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2048A.png",
+    "source_page": 3,
+    "source_rect": [
+      297,
+      495,
+      549,
+      645
+    ],
+    "crop_pixels": [
+      1025,
+      578
+    ],
+    "name": "Bucha da Barra Estabilizadora Traseira",
+    "application": "Ônibus OF 1418 / 1620 / 1721",
+    "specs": "Comprimento: 110,0mm | Diâm. Externo: 84,0mm | Diâm. Interno 49,0mm | Entre Abas: 100,0mm",
+    "originalCode": "A6343260281",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2049 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2049.png",
+    "source_page": 3,
+    "source_rect": [
+      297,
+      646,
+      549,
+      781
+    ],
+    "crop_pixels": [
+      1035,
+      509
+    ],
+    "name": "Bucha da Barra Estabilizadora Dianteira",
+    "application": "MB 1418 / 1620 / 1721",
+    "specs": "Comprimento: 72,0mm | Diâm. Externo: 64,0mm | Diâm. Interno 38,0mm | Entre Abas: 60,0mm",
+    "originalCode": "A3843237081",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2062 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2062.png",
+    "source_page": 4,
+    "source_rect": [
+      48,
+      68,
+      315,
+      201
+    ],
+    "crop_pixels": [
+      978,
+      523
+    ],
+    "name": "Bucha do feixe de molas dianteiro",
+    "application": "MB Atego",
+    "specs": "",
+    "originalCode": "A9743200044",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2063A PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2063A.png",
+    "source_page": 4,
+    "source_rect": [
+      48,
+      202,
+      318,
+      351
+    ],
+    "crop_pixels": [
+      976,
+      544
+    ],
+    "name": "Bucha do feixe de molas dianteiro - parte traseira",
+    "application": "MB Atego",
+    "specs": "",
+    "originalCode": "A9703200344",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2063B PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2063B.png",
+    "source_page": 4,
+    "source_rect": [
+      48,
+      352,
+      318,
+      507
+    ],
+    "crop_pixels": [
+      1058,
+      591
+    ],
+    "name": "Bucha do feixe de molas dianteiro - parte traseira",
+    "application": "MB Atego",
+    "specs": "",
+    "originalCode": "A9703200344",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2063C PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2063C.png",
+    "source_page": 4,
+    "source_rect": [
+      48,
+      508,
+      318,
+      647
+    ],
+    "crop_pixels": [
+      1045,
+      511
+    ],
+    "name": "Bucha do feixe de molas dianteiro - parte traseira",
+    "application": "MB Atego",
+    "specs": "",
+    "originalCode": "A9703200344",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2074A PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2074A.png",
+    "source_page": 4,
+    "source_rect": [
+      48,
+      648,
+      318,
+      781
+    ],
+    "crop_pixels": [
+      1015,
+      506
+    ],
+    "name": "Bucha do suporte da mola dianteira",
+    "application": "MB Atego / Sprinter",
+    "specs": "",
+    "originalCode": "A9583200344",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2074B PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2074B.png",
+    "source_page": 4,
+    "source_rect": [
+      315,
+      69,
+      590,
+      201
+    ],
+    "crop_pixels": [
+      1021,
+      495
+    ],
+    "name": "Bucha do suporte da mola dianteira",
+    "application": "MB Atego / Sprinter",
+    "specs": "",
+    "originalCode": "A9583200344",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2074C PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2074C.png",
+    "source_page": 4,
+    "source_rect": [
+      318,
+      202,
+      590,
+      351
+    ],
+    "crop_pixels": [
+      997,
+      501
+    ],
+    "name": "Bucha do suporte da mola dianteira",
+    "application": "MB Atego",
+    "specs": "",
+    "originalCode": "A9583200344",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2078 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2078.png",
+    "source_page": 4,
+    "source_rect": [
+      318,
+      352,
+      590,
+      507
+    ],
+    "crop_pixels": [
+      958,
+      508
+    ],
+    "name": "Bucha do Feixe de Molas Dianteiro e Traseiro",
+    "application": "MB Accelo 915 / 1016",
+    "specs": "Comprimento: 86,0mm | Diâm. Externo: 55,0mm | Diâm. Interno: 19,0mm",
+    "originalCode": "A9793200544",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2078A PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2078A.png",
+    "source_page": 4,
+    "source_rect": [
+      318,
+      508,
+      590,
+      647
+    ],
+    "crop_pixels": [
+      988,
+      508
+    ],
+    "name": "Bucha do suporte da mola dianteira e traseira",
+    "application": "MB Accelo 815 / 915 / 1016",
+    "specs": "",
+    "originalCode": "A6703200444",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2081B PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2081B.png",
+    "source_page": 4,
+    "source_rect": [
+      318,
+      648,
+      590,
+      781
+    ],
+    "crop_pixels": [
+      1008,
+      495
+    ],
+    "name": "Bucha do feixe de mola traseira",
+    "application": "MB Atego",
+    "specs": "",
+    "originalCode": "A9583200204",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2108 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2108.png",
+    "source_page": 5,
+    "source_rect": [
+      27,
+      69,
+      297,
+      202
+    ],
+    "crop_pixels": [
+      958,
+      518
+    ],
+    "name": "Bucha da barra estabilizadora dianteira",
+    "application": "MB Actros 2031 / 2655 / 33315",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2112 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2112.png",
+    "source_page": 5,
+    "source_rect": [
+      27,
+      203,
+      297,
+      341
+    ],
+    "crop_pixels": [
+      1029,
+      523
+    ],
+    "name": "Bucha da ponta da barra estabilizadora dianteira",
+    "application": "MB Actros / Axor",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2114 PU",
+    "brand": "Mercedes-Benz",
+    "original": true,
+    "image": "fichas/2114.png",
+    "source_page": 5,
+    "source_rect": [
+      27,
+      342,
+      297,
+      488
+    ],
+    "crop_pixels": [
+      1024,
+      530
+    ],
+    "name": "Bucha da ponta da barra estabilizadora traseira",
+    "application": "MB Actros / Axor",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "5007 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5007.png",
+    "source_page": 5,
+    "source_rect": [
+      27,
+      489,
+      297,
+      646
+    ],
+    "crop_pixels": [
+      984,
+      567
+    ],
+    "name": "Bucha do Suporte da Mola Traseira (Jumelo)",
+    "application": "Hilux até 2016",
+    "specs": "Comprimento: 55,0mm | Diâm. Externo: 30,0mm | Diâm. Interno: 18,0mm",
+    "originalCode": "9038518007",
+    "catalog": "geral",
+    "section": "Toyota"
+  },
+  {
+    "code": "5008 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5008.png",
+    "source_page": 5,
+    "source_rect": [
+      27,
+      647,
+      297,
+      781
+    ],
+    "crop_pixels": [
+      1015,
+      549
+    ],
+    "name": "Bucha da Mola Traseira parte Traseira",
+    "application": "Hilux até 2016",
+    "specs": "Comprimento: 35,0mm | Diâm. Externo: 30,0mm | Diâm. Interno: 18,0mm",
+    "originalCode": "9038518046",
+    "catalog": "geral",
+    "section": "Toyota"
+  },
+  {
+    "code": "5019 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5019.png",
+    "source_page": 5,
+    "source_rect": [
+      297,
+      69,
+      549,
+      202
+    ],
+    "crop_pixels": [
+      1031,
+      498
+    ],
+    "name": "Bucha da Mola Traseira parte Dianteira",
+    "application": "Hilux",
+    "specs": "Comprimento: 70,0mm | Diâm. Externo: 40,0mm | Diâm. Interno: 14,0mm",
+    "originalCode": "9038914004",
+    "catalog": "geral",
+    "section": "Toyota"
+  },
+  {
+    "code": "5024 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5024.png",
+    "source_page": 5,
+    "source_rect": [
+      297,
+      203,
+      549,
+      341
+    ],
+    "crop_pixels": [
+      1004,
+      529
+    ],
+    "name": "Bucha do Suporte da Mola Traseira (Jumelo)",
+    "application": "Hilux 2017 em diante",
+    "specs": "Comprimento: 55,0mm | Diâm. Externo: 30,0mm | Diâm. Interno: 20,0mm",
+    "catalog": "geral",
+    "section": "Toyota"
+  },
+  {
+    "code": "5025 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5025.png",
+    "source_page": 5,
+    "source_rect": [
+      297,
+      342,
+      549,
+      488
+    ],
+    "crop_pixels": [
+      1032,
+      519
+    ],
+    "name": "Bucha da Mola Traseira parte Traseira",
+    "application": "Hilux 2017 em diante",
+    "specs": "Comprimento: 35,0mm | Diâm. Externo: 30,0mm | Diâm. Interno: 20,0mm",
+    "catalog": "geral",
+    "section": "Toyota"
+  },
+  {
+    "code": "6002 PU",
+    "brand": "Scania",
+    "original": true,
+    "image": "fichas/6002.png",
+    "source_page": 5,
+    "source_rect": [
+      297,
+      489,
+      549,
+      645
+    ],
+    "crop_pixels": [
+      975,
+      562
+    ],
+    "name": "Bucha da barra estabilizadora dianteira",
+    "application": "Scania 124",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Scania"
+  },
+  {
+    "code": "6051 PU",
+    "brand": "Scania",
+    "original": true,
+    "image": "fichas/6051.png",
+    "source_page": 5,
+    "source_rect": [
+      297,
+      646,
+      549,
+      781
+    ],
+    "crop_pixels": [
+      1042,
+      555
+    ],
+    "name": "Bucha da Barra Estabilizadora Dianteira",
+    "application": "Scania NTG",
+    "specs": "6051: Diâm. Interno: 60,0mm | 6051A: Diâm. Interno: 55,0mm | 6051B: Diâm. Interno: 37,0mm",
+    "catalog": "geral",
+    "section": "Scania"
+  },
+  {
+    "code": "6052 PU",
+    "brand": "Scania",
+    "original": true,
+    "image": "fichas/6052.png",
+    "source_page": 6,
+    "source_rect": [
+      48,
+      67,
+      318,
+      201
+    ],
+    "crop_pixels": [
+      1038,
+      498
+    ],
+    "name": "Bucha do feixe de molas parte traseira",
+    "application": "Scania suspensão a ar",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Scania"
+  },
+  {
+    "code": "6053 PU",
+    "brand": "Scania",
+    "original": true,
+    "image": "fichas/6053.png",
+    "source_page": 6,
+    "source_rect": [
+      48,
+      202,
+      318,
+      348
+    ],
+    "crop_pixels": [
+      1000,
+      497
+    ],
+    "name": "Bucha do Feixe de Molas Dianteiro",
+    "application": "Scania NTG",
+    "specs": "Comprimento: 96,0mm | Diâm. Externo: 60,0mm | Diâm. Interno: 24,0mm",
+    "originalCode": "2031367 / 2470850",
+    "catalog": "geral",
+    "section": "Scania"
+  },
+  {
+    "code": "6054 PU",
+    "brand": "Scania",
+    "original": true,
+    "image": "fichas/6054.png",
+    "source_page": 6,
+    "source_rect": [
+      48,
+      349,
+      318,
+      500
+    ],
+    "crop_pixels": [
+      1061,
+      535
+    ],
+    "name": "Bucha da Barra Estabilizadora Dianteira",
+    "application": "DAF XP / CF",
+    "specs": "6054: Diâm. Interno: 38,0mm | 6054A: Diâm. Interno: 40,0mm | 6054B: Diâm. Interno: 44,0mm",
+    "originalCode": "1854592",
+    "catalog": "geral",
+    "section": "Scania"
+  },
+  {
+    "code": "7010 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7010.png",
+    "source_page": 6,
+    "source_rect": [
+      48,
+      501,
+      318,
+      648
+    ],
+    "crop_pixels": [
+      1029,
+      529
+    ],
+    "name": "Bucha do feixe de molas dianteiro",
+    "application": "Volvo VM 240 / 260",
+    "specs": "",
+    "originalCode": "20553083",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7010A PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7010A.png",
+    "source_page": 6,
+    "source_rect": [
+      48,
+      649,
+      315,
+      781
+    ],
+    "crop_pixels": [
+      1080,
+      509
+    ],
+    "name": "Bucha do Feixe de Molas Dianteiro",
+    "application": "Volvo VM 240 / 260",
+    "specs": "Aplicável em Olhais com | Diâm. Interno 54,0mm | Diâm. Interno (Furo): 16,0mm",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7012 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7012.png",
+    "source_page": 6,
+    "source_rect": [
+      318,
+      68,
+      590,
+      202
+    ],
+    "crop_pixels": [
+      1042,
+      484
+    ],
+    "name": "Bucha da Barra Estabilizadora Dianteira",
+    "application": "Volvo FH / Volvo VM traçado",
+    "specs": "7012A: Diâm. interno: 34 mm | 7012B: Diâm. interno: 39 mm | 7012C: Diâm. interno: 44 mm",
+    "originalCode": "20428160 / 20428167",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7014 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7014.png",
+    "source_page": 6,
+    "source_rect": [
+      318,
+      203,
+      590,
+      348
+    ],
+    "crop_pixels": [
+      1012,
+      470
+    ],
+    "name": "Bucha do feixe de molas dianteiro",
+    "application": "Volvo VM 240 / 260 / 330",
+    "specs": "",
+    "originalCode": "20498774",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7014A PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7014A.png",
+    "source_page": 6,
+    "source_rect": [
+      318,
+      349,
+      590,
+      501
+    ],
+    "crop_pixels": [
+      1016,
+      535
+    ],
+    "name": "Bucha do Feixe de Molas Dianteiro",
+    "application": "Volvo VM 260 / 270 / 310",
+    "specs": "Aplicável em Olhais com | Diâm. Interno 54mm | Diâm. Interno (Furo): 20mm",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7015 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7015.png",
+    "source_page": 6,
+    "source_rect": [
+      318,
+      502,
+      590,
+      648
+    ],
+    "crop_pixels": [
+      1039,
+      515
+    ],
+    "name": "Calço do Feixe de Molas (Pastilha Antirruído)",
+    "application": "Volvo VM",
+    "specs": "Diâm. do Pino: 15,0mm",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7017A PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7017A.png",
+    "source_page": 6,
+    "source_rect": [
+      315,
+      649,
+      590,
+      781
+    ],
+    "crop_pixels": [
+      1031,
+      498
+    ],
+    "name": "Bucha do Suporte da Mola Dianteira (Adaptação)",
+    "application": "Volvo FH até 2014",
+    "specs": "Comprimento: 96,0mm | Diâm. Externo: 50,0mm | Diâm. Interno (Furo): 20mm",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7019 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7019.png",
+    "source_page": 7,
+    "source_rect": [
+      27,
+      67,
+      287,
+      201
+    ],
+    "crop_pixels": [
+      1046,
+      518
+    ],
+    "name": "Bucha da Barra Estabilizadora Traseira Inferior",
+    "application": "Volvo VM 210 / 230 / 310 B270F",
+    "specs": "Diâm. Interno (Furo): 49,0mm",
+    "originalCode": "20587455",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7020 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7020.png",
+    "source_page": 7,
+    "source_rect": [
+      27,
+      202,
+      297,
+      342
+    ],
+    "crop_pixels": [
+      1060,
+      511
+    ],
+    "name": "Bucha da Barra Estabilizadora Traseira Superior",
+    "application": "Volvo VM 260 / 270 / 310 B270F",
+    "specs": "Diâm. Interno (Furo): 38,0mm",
+    "originalCode": "20542833",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7025 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7025.png",
+    "source_page": 7,
+    "source_rect": [
+      27,
+      343,
+      289,
+      488
+    ],
+    "crop_pixels": [
+      1050,
+      515
+    ],
+    "name": "Bucha do Suporte da Mola Dianteira",
+    "application": "Volvo VM 260 / 270 / 310",
+    "specs": "Comprimento: 94,0mm | Diâmetro Externo: 42,0mm | Diâm. Interno (Furo): 16,0mm",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7025A PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7025A.png",
+    "source_page": 7,
+    "source_rect": [
+      27,
+      489,
+      297,
+      638
+    ],
+    "crop_pixels": [
+      1051,
+      529
+    ],
+    "name": "Bucha do Suporte da Mola Dianteira",
+    "application": "Volvo VM 270 / 310",
+    "specs": "Comprimento: 90,0mm | Diâmetro Externo: 42,0mm | Diâm. Interno (Furo): 20,0mm",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7033 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7033.png",
+    "source_page": 7,
+    "source_rect": [
+      27,
+      639,
+      297,
+      781
+    ],
+    "crop_pixels": [
+      1055,
+      538
+    ],
+    "name": "Bucha do Feixe de Molas Dianteiro",
+    "application": "Volvo FH 2015 em diante DAF XF / XP",
+    "specs": "Comprimento: 96,0mm | Diâm. Externo: 61,0mm | Diâm. Interno (Furo): 24,0mm",
+    "originalCode": "21175831",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "7037 PU",
+    "brand": "Volvo",
+    "original": true,
+    "image": "fichas/7037.png",
+    "source_page": 7,
+    "source_rect": [
+      288,
+      69,
+      549,
+      201
+    ],
+    "crop_pixels": [
+      1052,
+      529
+    ],
+    "name": "Bucha do Suporte da Articulação Cabine Dianteira",
+    "application": "Volvo VM 210 / 220 / 310 (2008 em diante)",
+    "specs": "Comprimento: 84,0mm | Diâm. Externo: 32,0mm | Diâm. Interno (Furo): 16,0mm",
+    "originalCode": "20881775",
+    "catalog": "geral",
+    "section": "Volvo"
+  },
+  {
+    "code": "8011 PU",
+    "brand": "Randon",
+    "original": true,
+    "image": "fichas/8011.png",
+    "source_page": 7,
+    "source_rect": [
+      297,
+      202,
+      549,
+      339
+    ],
+    "crop_pixels": [
+      1006,
+      509
+    ],
+    "name": "Bucha do tensor do truck",
+    "application": "Randon 2000",
+    "specs": "Comprimento: 63 mm | Diâmetro externo: 58,5 mm | Interno do furo: 24 mm",
+    "originalCode": "208006277 / R71000018",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Trucks e Carretas"
+  },
+  {
+    "code": "8012 PU",
+    "brand": "Suspensys",
+    "original": true,
+    "image": "fichas/8012.png",
+    "source_page": 7,
+    "source_rect": [
+      288,
+      340,
+      549,
+      488
+    ],
+    "crop_pixels": [
+      1033,
+      508
+    ],
+    "name": "Bucha do Tensor Suspensys com Pino",
+    "application": "VW / Ford / Volvo / MB",
+    "specs": "Comprimento: 63,0mm | Diâm. Externo: 63,0mm | Entre Furos: 101,5mm",
+    "originalCode": "717000009",
+    "catalog": "geral",
+    "section": "Trucks e Carretas"
+  },
+  {
+    "code": "8013 PU",
+    "brand": "Suspensys",
+    "original": true,
+    "image": "fichas/8013.png",
+    "source_page": 7,
+    "source_rect": [
+      288,
+      489,
+      549,
+      639
+    ],
+    "crop_pixels": [
+      1024,
+      496
+    ],
+    "name": "Bucha do Tensor Suspensys sem Pino",
+    "application": "VW / Ford / Volvo / MB",
+    "specs": "Comprimento: 63,0mm | Diâm. Externo: 63,0mm | Diâm. Interno (Furo): 24,0mm",
+    "originalCode": "341502-5 / 9583250150",
+    "catalog": "geral",
+    "section": "Trucks e Carretas"
+  },
+  {
+    "code": "8024 PU",
+    "brand": "Suspensys",
+    "original": true,
+    "image": "fichas/8024.png",
+    "source_page": 7,
+    "source_rect": [
+      297,
+      640,
+      549,
+      781
+    ],
+    "crop_pixels": [
+      1000,
+      493
+    ],
+    "name": "Bucha da balança",
+    "application": "Suspensys",
+    "specs": "",
+    "originalCode": "212008921",
+    "catalog": "geral",
+    "section": "Trucks e Carretas"
+  },
+  {
+    "code": "9017 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9017.png",
+    "source_page": 8,
+    "source_rect": [
+      48,
+      69,
+      318,
+      202
+    ],
+    "crop_pixels": [
+      1032,
+      503
+    ],
+    "name": "Calço do Feixe de Molas (Pastilha Antirruído)",
+    "application": "S10 2002 a 2011 Blazer 2002 até 2011",
+    "specs": "Trava Oblonga",
+    "catalog": "geral",
+    "section": "Chevrolet"
+  },
+  {
+    "code": "9020 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9020.png",
+    "source_page": 8,
+    "source_rect": [
+      48,
+      203,
+      318,
+      348
+    ],
+    "crop_pixels": [
+      1050,
+      507
+    ],
+    "name": "Bucha do Feixe de Mola e Algema Traseira até 2011",
+    "application": "S10 até 2011",
+    "specs": "Comprimento: 76 mm | Diâmetro externo: 40 mm | Interno do furo: 14 mm",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Chevrolet"
+  },
+  {
+    "code": "9022 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9022.png",
+    "source_page": 8,
+    "source_rect": [
+      48,
+      349,
+      318,
+      501
+    ],
+    "crop_pixels": [
+      1038,
+      512
+    ],
+    "name": "Bucha do Feixe de Mola Traseiro parte Traseira",
+    "application": "S10 2012 em diante",
+    "specs": "Comprimento: 36 mm | Diâmetro externo: 30 mm | Interno do furo: 18 mm",
+    "originalCode": "973557492",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Chevrolet"
+  },
+  {
+    "code": "9023 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9023.png",
+    "source_page": 8,
+    "source_rect": [
+      48,
+      502,
+      318,
+      647
+    ],
+    "crop_pixels": [
+      1005,
+      536
+    ],
+    "name": "Bucha da Algema Traseira (jumelo)",
+    "application": "S10 2012 em diante",
+    "specs": "Comprimento: 50 mm | Diâmetro externo: 30 mm | Interno do furo: 18 mm",
+    "originalCode": "97946545",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Chevrolet"
+  },
+  {
+    "code": "9024 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9024.png",
+    "source_page": 8,
+    "source_rect": [
+      48,
+      648,
+      318,
+      781
+    ],
+    "crop_pixels": [
+      1036,
+      507
+    ],
+    "name": "Calço do Feixe de Molas (Pastilha Antirruído) (Redonda Menor)",
+    "application": "S10 2012 em diante",
+    "specs": "",
+    "originalCode": "52144770",
+    "catalog": "geral",
+    "section": "Chevrolet"
+  },
+  {
+    "code": "9026 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9026.png",
+    "source_page": 8,
+    "source_rect": [
+      318,
+      69,
+      590,
+      201
+    ],
+    "crop_pixels": [
+      1056,
+      484
+    ],
+    "name": "Bucha do Feixe de Mola Dianteiro Parte Dianteira",
+    "application": "S10 2012 em diante",
+    "specs": "Comprimento: 70,0mm | Diâm. Externo: 40,0mm | Diâm. Interno: 14,0mm",
+    "originalCode": "94773365",
+    "catalog": "geral",
+    "section": "Chevrolet"
+  },
+  {
+    "code": "9027 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9027.png",
+    "source_page": 8,
+    "source_rect": [
+      318,
+      202,
+      590,
+      347
+    ],
+    "crop_pixels": [
+      1033,
+      534
+    ],
+    "name": "Calço do Feixe de Molas (Pastilha Antirruído) (Redonda Maior)",
+    "application": "S10 2012 em diante F250",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Chevrolet"
+  },
+  {
+    "code": "0610 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0610.png",
+    "source_page": 8,
+    "source_rect": [
+      318,
+      348,
+      590,
+      500
+    ],
+    "crop_pixels": [
+      1031,
+      561
+    ],
+    "name": "Bucha da Ponta do Estabilizador Dianteiro",
+    "application": "Iveco Tector / Eurotech Stralis",
+    "specs": "Comprimento: 62,0mm | Diâm. Externo: 50,0mm | Diâm. Interno: 20,0mm",
+    "originalCode": "8162306",
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0611 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0611.png",
+    "source_page": 8,
+    "source_rect": [
+      318,
+      501,
+      590,
+      646
+    ],
+    "crop_pixels": [
+      1049,
+      543
+    ],
+    "name": "Bucha da Barra Estabilizadora Dianteira",
+    "application": "Iveco Tector / Stralis",
+    "specs": "A: Diâm. Interno: 40,0mm | B: Diâm. Interno: 44,0mm | C: Diâm. Interno: 46,0mm | Comprimento: 82,0mm | Diâmetro externo: 72,0mm | Entre abas: 70,0m",
+    "originalCode": "98469635",
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0614 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0614.png",
+    "source_page": 8,
+    "source_rect": [
+      318,
+      647,
+      590,
+      781
+    ],
+    "crop_pixels": [
+      1042,
+      509
+    ],
+    "name": "Bucha do Feixe de Mola Dianteiro Parte Dianteira",
+    "application": "Iveco Vertice / 90V16 / 90V18 / Tector 11.190",
+    "specs": "Comprimento: 82,0mm | Diâm. Externo: 55,0mm | Diâm. Interno: 20,0mm",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0614A PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0614A.png",
+    "source_page": 9,
+    "source_rect": [
+      27,
+      61,
+      297,
+      203
+    ],
+    "crop_pixels": [
+      1038,
+      470
+    ],
+    "name": "Bucha do Feixe de Mola Dianteiro Parte Traseira",
+    "application": "Iveco Vertice / 90V16 / 90V18 / Tector 11.190",
+    "specs": "Comprimento: 82,0mm | Diâm. Externo: 45,0mm | Diâm. Interno: 20,0mm",
+    "originalCode": "070641170",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0614B PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0614B.png",
+    "source_page": 9,
+    "source_rect": [
+      27,
+      204,
+      297,
+      353
+    ],
+    "crop_pixels": [
+      1061,
+      513
+    ],
+    "name": "Bucha do Suporte do Feixe de Mola Dianteiro",
+    "application": "Iveco Vertice / 90V16 / 90V18 / Tector 11.190",
+    "specs": "Comprimento: 82,0mm | Diâm. Externo: 45,0mm | Diâm. Interno: 16,0mm",
+    "originalCode": "5949895134",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0615 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0615.png",
+    "source_page": 9,
+    "source_rect": [
+      27,
+      354,
+      297,
+      498
+    ],
+    "crop_pixels": [
+      1061,
+      520
+    ],
+    "name": "Bucha da Barra Estabilizadora Dianteira",
+    "application": "Iveco Vertice / 90V16 / 90V18 / Tector 11.190",
+    "specs": "A: Diâm. Interno: 36,0mm | B: Diâm. Interno: 34,0mm | C: Diâm. Interno: 41,0mm",
+    "originalCode": "8127910",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0627 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0627.png",
+    "source_page": 9,
+    "source_rect": [
+      27,
+      499,
+      297,
+      639
+    ],
+    "crop_pixels": [
+      1024,
+      529
+    ],
+    "name": "Bucha da barra de torção dianteira",
+    "application": "Iveco Daily 70C16 / 70C17 / 70C17 HD 65-170 / 70-170 / 2019 em diante",
+    "specs": "Altura: 32 mm | Diâmetro externo: 65 mm | Interno do furo: 33 mm",
+    "originalCode": "500350342",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0628 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0628.png",
+    "source_page": 9,
+    "source_rect": [
+      27,
+      640,
+      297,
+      781
+    ],
+    "crop_pixels": [
+      1025,
+      553
+    ],
+    "name": "Bucha da barra de torção dianteira",
+    "application": "Iveco Daily 70C16 / 70C17 / 70C17 HD 65-170 / 70-170 / 2019 em diante",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0630 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0630.png",
+    "source_page": 9,
+    "source_rect": [
+      297,
+      61,
+      549,
+      202
+    ],
+    "crop_pixels": [
+      1040,
+      571
+    ],
+    "name": "Kit de buchas da barra de torção dianteira",
+    "application": "Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12 / 50-13 / 59-12",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0631 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0631.png",
+    "source_page": 9,
+    "source_rect": [
+      297,
+      203,
+      549,
+      353
+    ],
+    "crop_pixels": [
+      1044,
+      596
+    ],
+    "name": "Bucha superior da barra de torção dianteira",
+    "application": "Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0632 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0632.png",
+    "source_page": 9,
+    "source_rect": [
+      297,
+      354,
+      549,
+      499
+    ],
+    "crop_pixels": [
+      1038,
+      597
+    ],
+    "name": "Bucha inferior da barra de torção dianteira",
+    "application": "Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0633 PU",
+    "brand": "Iveco",
+    "original": true,
+    "image": "fichas/0633.png",
+    "source_page": 9,
+    "source_rect": [
+      297,
+      500,
+      551,
+      638
+    ],
+    "crop_pixels": [
+      1058,
+      572
+    ],
+    "name": "Bucha superior da barra de torção dianteira",
+    "application": "Iveco Daily 35-140 / 35-13 / 38-13 / 40-12 / 40-13 / 49-10 / 49-12",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0805 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0805.png",
+    "source_page": 9,
+    "source_rect": [
+      297,
+      639,
+      549,
+      781
+    ],
+    "crop_pixels": [
+      1010,
+      573
+    ],
+    "name": "Bucha do Suporte do Feixe de Mola Traseiro",
+    "application": "L200 GL / GLS / Outdoor L200 Triton",
+    "specs": "Comprimento: 52,0mm | Diâm. Externo: 28,0mm | Diâm. Interno (Furo): 16,0mm",
+    "originalCode": "MB584530",
+    "catalog": "geral",
+    "section": "Mitsubishi"
+  },
+  {
+    "code": "0806 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0806.png",
+    "source_page": 10,
+    "source_rect": [
+      48,
+      69,
+      318,
+      200
+    ],
+    "crop_pixels": [
+      990,
+      506
+    ],
+    "name": "Bucha Do Feixe de Mola Traseiro Parte Traseira",
+    "application": "L200 GL / GLS / Outdoor L200 Triton",
+    "specs": "Comprimento 42,0mm | Diâmetro Externo 28,0mm | Interno do Furo 16,0mm",
+    "originalCode": "MB584531",
+    "catalog": "geral",
+    "section": "Mitsubishi"
+  },
+  {
+    "code": "0807 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0807.png",
+    "source_page": 10,
+    "source_rect": [
+      48,
+      201,
+      318,
+      347
+    ],
+    "crop_pixels": [
+      988,
+      521
+    ],
+    "name": "Bucha do Feixe de Mola Traseiro parte Dianteira",
+    "application": "L200 GL / GLS / Outdoor (Exceto Triton)",
+    "specs": "Comprimento 80,0mm | Diâmetro Externo 35,5mm | Diâm. Interno: 14,5mm",
+    "catalog": "geral",
+    "section": "Mitsubishi"
+  },
+  {
+    "code": "0813 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0813.png",
+    "source_page": 10,
+    "source_rect": [
+      48,
+      348,
+      318,
+      502
+    ],
+    "crop_pixels": [
+      986,
+      492
+    ],
+    "name": "Bucha do Feixe de Mola Traseiro parte Dianteira",
+    "application": "L200 Triton (2008 a 2022)",
+    "specs": "Comprimento 80,0mm | Diâmetro Externo 41,5mm | Diâm. Interno: 14,2mm",
+    "catalog": "geral",
+    "section": "Mitsubishi"
+  },
+  {
+    "code": "0825 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0825.png",
+    "source_page": 10,
+    "source_rect": [
+      48,
+      503,
+      318,
+      647
+    ],
+    "crop_pixels": [
+      1033,
+      491
+    ],
+    "name": "Calço do Feixe de Molas (Pastilha Antirruído)",
+    "application": "L200 Triton (2008 a 2022)",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Mitsubishi"
+  },
+  {
+    "code": "0904 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0904.png",
+    "source_page": 10,
+    "source_rect": [
+      48,
+      648,
+      318,
+      781
+    ],
+    "crop_pixels": [
+      961,
+      520
+    ],
+    "name": "Bucha da Algema Traseira (jumelo)",
+    "application": "Frontier / Xterra (até 2011)",
+    "specs": "Comprimento: 46,0mm | Diâm. Externo: 32,0mm | Diâm. Interno: 20,0mm",
+    "catalog": "geral",
+    "section": "Nissan"
+  },
+  {
+    "code": "0905 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0905.png",
+    "source_page": 10,
+    "source_rect": [
+      318,
+      68,
+      590,
+      201
+    ],
+    "crop_pixels": [
+      991,
+      521
+    ],
+    "name": "Bucha do Feixe de Mola Traseiro parte Dianteira",
+    "application": "Xterra (até 2011) Frontier",
+    "specs": "Comprimento 70,0mm | Diâmetro Externo 40,0mm | Diâm. Interno 14,0mm",
+    "catalog": "geral",
+    "section": "Nissan"
+  },
+  {
+    "code": "0906 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0906.png",
+    "source_page": 10,
+    "source_rect": [
+      318,
+      202,
+      590,
+      348
+    ],
+    "crop_pixels": [
+      990,
+      494
+    ],
+    "name": "Bucha do Feixe de Mola Traseiro parte Traseira",
+    "application": "Frontier até 2011",
+    "specs": "Comprimento 70,0mm | Diâmetro Externo 32,0mm | Diâm. Interno 13,0mm",
+    "catalog": "geral",
+    "section": "Nissan"
+  },
+  {
+    "code": "0911 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0911.png",
+    "source_page": 10,
+    "source_rect": [
+      318,
+      349,
+      590,
+      500
+    ],
+    "crop_pixels": [
+      1049,
+      488
+    ],
+    "name": "Calço do Feixe de Molas (Pastilha Antirruído)",
+    "application": "Frontier 2008 em diante Ranger 2012 em diante",
+    "specs": "",
+    "catalog": "geral",
+    "section": "Nissan"
+  },
+  {
+    "code": "0913 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0913.png",
+    "source_page": 10,
+    "source_rect": [
+      318,
+      501,
+      590,
+      647
+    ],
+    "crop_pixels": [
+      962,
+      503
+    ],
+    "name": "Bucha da Algema Traseira (jumelo)",
+    "application": "Frontier 2012 em diante",
+    "specs": "Comprimento: 55,0mm | Diâm. Externo: 32,0mm | Diâm. Interno: 20,0mm",
+    "catalog": "geral",
+    "section": "Nissan"
+  },
+  {
+    "code": "0914 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0914.png",
+    "source_page": 10,
+    "source_rect": [
+      318,
+      648,
+      590,
+      781
+    ],
+    "crop_pixels": [
+      1031,
+      495
+    ],
+    "name": "Bucha do Feixe de Mola Traseiro parte Traseira",
+    "application": "Frontier 2012 em diante",
+    "specs": "Comprimento: 36,0mm | Diâm. Externo: 32,0mm | Diâm. Interno: 20,0mm",
+    "catalog": "geral",
+    "section": "Nissan"
+  },
+  {
+    "code": "3056 PU",
+    "brand": "Ford",
+    "original": true,
+    "image": "fichas/3056.png",
+    "source_page": 11,
+    "source_rect": [
+      27,
+      62,
+      297,
+      202
+    ],
+    "crop_pixels": [
+      969,
+      508
+    ],
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "Ranger 2012 a 2022",
+    "specs": "",
+    "catalog": "amortecedor",
+    "section": "Ford"
+  },
+  {
+    "code": "3058 PU",
+    "brand": "Ford",
+    "original": true,
+    "image": "fichas/3058.png",
+    "source_page": 11,
+    "source_rect": [
+      27,
+      203,
+      297,
+      354
+    ],
+    "crop_pixels": [
+      971,
+      520
+    ],
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "Ranger 2012 a 2022",
+    "specs": "",
+    "catalog": "amortecedor",
+    "section": "Ford"
+  },
+  {
+    "code": "5021 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5021.png",
+    "source_page": 11,
+    "source_rect": [
+      27,
+      355,
+      297,
+      499
+    ],
+    "crop_pixels": [
+      990,
+      512
+    ],
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "Hilux 2005 a 2022",
+    "specs": "",
+    "catalog": "amortecedor",
+    "section": "Toyota"
+  },
+  {
+    "code": "5022 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5022.png",
+    "source_page": 11,
+    "source_rect": [
+      27,
+      500,
+      297,
+      638
+    ],
+    "crop_pixels": [
+      983,
+      513
+    ],
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "Hilux 2005 a 2022",
+    "specs": "",
+    "catalog": "amortecedor",
+    "section": "Toyota"
+  },
+  {
+    "code": "5023 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5023.png",
+    "source_page": 11,
+    "source_rect": [
+      27,
+      639,
+      297,
+      781
+    ],
+    "crop_pixels": [
+      985,
+      506
+    ],
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "Hilux 2005 a 2022",
+    "specs": "",
+    "catalog": "amortecedor",
+    "section": "Toyota"
+  },
+  {
+    "code": "5029 PU",
+    "brand": "Toyota",
+    "original": true,
+    "image": "fichas/5029.png",
+    "source_page": 11,
+    "source_rect": [
+      297,
+      62,
+      549,
+      203
+    ],
+    "crop_pixels": [
+      1039,
+      509
+    ],
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "Hilux 2005 a 2022",
+    "specs": "",
+    "catalog": "amortecedor",
+    "section": "Toyota"
+  },
+  {
+    "code": "9028 PU",
+    "brand": "Chevrolet",
+    "original": true,
+    "image": "fichas/9028.png",
+    "source_page": 11,
+    "source_rect": [
+      297,
+      204,
+      549,
+      353
+    ],
+    "crop_pixels": [
+      1033,
+      511
+    ],
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "S10 2012 a 2022",
+    "specs": "",
+    "catalog": "amortecedor",
+    "section": "Chevrolet"
+  },
+  {
+    "code": "0828 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0828.png",
+    "source_page": 11,
+    "source_rect": [
+      297,
+      354,
+      549,
+      498
+    ],
+    "crop_pixels": [
+      1037,
+      511
+    ],
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "L200 Triton 2008 a 2022",
+    "specs": "",
+    "catalog": "amortecedor",
+    "section": "Mitsubishi"
+  },
+  {
+    "code": "0828A PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0828A.png",
+    "source_page": 11,
+    "source_rect": [
+      297,
+      499,
+      549,
+      638
+    ],
+    "crop_pixels": [
+      1036,
+      511
+    ],
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "L200 Triton 2008 a 2022",
+    "specs": "",
+    "catalog": "amortecedor",
+    "section": "Mitsubishi"
+  },
+  {
+    "code": "0836 PU",
+    "brand": "Mitsubishi",
+    "original": true,
+    "image": "fichas/0836.png",
+    "source_page": 11,
+    "source_rect": [
+      297,
+      639,
+      549,
+      781
+    ],
+    "crop_pixels": [
+      1005,
+      542
+    ],
+    "name": "Bucha do braço transversal traseiro",
+    "application": "Pajero TR4 / Pajero IO (2002 a 2015)",
+    "specs": "A: Diâmetro interno: 12 mm | B: Diâmetro interno: 14 mm",
+    "recompose": true,
+    "catalog": "amortecedor",
+    "section": "Mitsubishi"
+  },
+  {
+    "code": "0912 PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0912.png",
+    "source_page": 12,
+    "source_rect": [
+      48,
+      68,
+      318,
+      201
+    ],
+    "crop_pixels": [
+      1025,
+      501
+    ],
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "Frontier 2008 a 2022",
+    "specs": "",
+    "catalog": "amortecedor",
+    "section": "Nissan"
+  },
+  {
+    "code": "0912A PU",
+    "brand": "Nissan",
+    "original": true,
+    "image": "fichas/0912A.png",
+    "source_page": 12,
+    "source_rect": [
+      48,
+      202,
+      318,
+      335
+    ],
+    "crop_pixels": [
+      1025,
+      501
+    ],
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "Frontier 2008 a 2022",
+    "specs": "",
+    "catalog": "amortecedor",
+    "section": "Nissan"
+  },
+  {
+    "code": "0828C PU",
+    "brand": "Mitsubishi",
+    "name": "Bucha inferior do amortecedor dianteiro",
+    "application": "Pajero / L200 Triton 2008 a 2022",
+    "specs": "",
+    "image": "0828C PU.png",
+    "original": false,
+    "catalog": "amortecedor",
+    "section": "Mitsubishi"
+  },
+  {
+    "code": "6058 PU",
+    "brand": "Scania",
+    "name": "Separador anti ruído da mola dianteira",
+    "application": "Scania NTG 2019 em diante",
+    "specs": "Comprimento: 100 mm | Largura: 90 mm | Entre pinos: 45 mm",
+    "image": "6058 PU.jpg",
+    "original": false,
+    "originalCode": "36006117",
+    "catalog": "geral",
+    "section": "Scania"
+  },
+  {
+    "code": "8002 PU",
+    "brand": "Rodoviária",
+    "name": "Borracha rodoviária com aba",
+    "application": "",
+    "specs": "Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm",
+    "image": "8002 PU.jpg",
+    "original": false,
+    "originalCode": "20200051",
+    "catalog": "geral",
+    "section": "Trucks e Carretas"
+  },
+  {
+    "code": "8003 PU",
+    "brand": "Randon",
+    "name": "Borracha Randon sem aba",
+    "application": "",
+    "specs": "Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm",
+    "image": "8003 PU.jpg",
+    "original": false,
+    "originalCode": "20200052",
+    "catalog": "geral",
+    "section": "Trucks e Carretas"
+  },
+  {
+    "code": "6057 PU",
+    "brand": "Scania",
+    "name": "Bucha tranca da cabine traseira",
+    "application": "Scania NTG 2019 em diante",
+    "specs": "",
+    "image": "6057 PU.jpg",
+    "original": false,
+    "originalCode": "2773898",
+    "catalog": "geral",
+    "section": "Scania"
+  },
+  {
+    "code": "8001 PU",
+    "brand": "Rodoviária",
+    "name": "Borracha rodoviária sem aba",
+    "application": "",
+    "specs": "Altura: 50 mm | Diâmetro: 62 mm | Interno do furo: 36 mm",
+    "image": "8001 PU.jpg",
+    "original": false,
+    "originalCode": "20200039",
+    "catalog": "geral",
+    "section": "Trucks e Carretas"
+  },
+  {
+    "code": "8004 PU",
+    "brand": "Randon",
+    "name": "Borracha Randon com aba",
+    "application": "",
+    "specs": "Altura: 50 mm | Diâmetro: 71 mm | Interno do furo: 38 mm",
+    "image": "8004 PU.jpg",
+    "original": false,
+    "originalCode": "20200052",
+    "catalog": "geral",
+    "section": "Trucks e Carretas"
+  },
+  {
+    "code": "8023 PU",
+    "brand": "JOST",
+    "name": "Coxim da 5ª roda (2 polegadas)",
+    "application": "Jost",
+    "specs": "",
+    "image": "8023 PU.jpg",
+    "original": false,
+    "originalCode": "6933165972",
+    "catalog": "geral",
+    "section": "Trucks e Carretas"
+  },
+  {
+    "code": "5003 PU",
+    "brand": "Toyota",
+    "name": "Borracha da mola dianteira",
+    "application": "Toyota Bandeirante 1992 em diante",
+    "specs": "Comprimento: 45 mm | Diâmetro externo: 35 mm | Interno do furo: 18 mm",
+    "image": "5003 PU.jpg",
+    "original": false,
+    "originalCode": "9038598001",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Toyota"
+  },
+  {
+    "code": "5004 PU",
+    "brand": "Toyota",
+    "name": "Borracha da mola traseira",
+    "application": "Toyota Bandeirante 1992 em diante",
+    "specs": "Comprimento: 45 mm | Diâmetro externo: 40 mm | Interno do furo: 18 mm",
+    "image": "5004 PU.jpg",
+    "original": false,
+    "originalCode": "9038598002",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Toyota"
+  },
+  {
+    "code": "0611D PU",
+    "brand": "Iveco",
+    "name": "Bucha da barra estabilizadora dianteira",
+    "application": "Iveco Tector / Stralis",
+    "specs": "Comprimento total: 82 mm | Diâmetro do corpo: 70 mm | Entre abas: 71 mm | Interno do furo: 48 mm",
+    "image": "0611D PU.jpg",
+    "original": false,
+    "originalCode": "98469635",
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "3079 PU",
+    "brand": "Ford",
+    "name": "Borracha do amortecedor dianteiro inferior",
+    "application": "Ranger",
+    "specs": "Comprimento: 50 mm | Diâmetro externo: 54 mm | Interno do furo: 20 mm",
+    "image": "3079 PU.jpg",
+    "original": false,
+    "catalog": "amortecedor",
+    "section": "Ford"
+  },
+  {
+    "code": "3039 PU",
+    "brand": "Ford",
+    "name": "Borracha da ponta estabilizadora dianteira",
+    "application": "Ford 815",
+    "specs": "Comprimento: 45 mm | Diâmetro externo: 34 mm | Interno do furo: 12 mm",
+    "image": "3039 PU.jpg",
+    "original": false,
+    "catalog": "geral",
+    "section": "Ford"
+  },
+  {
+    "code": "0616A PU",
+    "brand": "Iveco",
+    "name": "Bucha da mola e suporte traseiro",
+    "application": "Iveco Daily; aplicar em mola com 70 mm de largura",
+    "specs": "Comprimento: 80 mm | Diâmetro: 40 mm | Interno do furo: 16 mm",
+    "image": "0616A PU.jpg",
+    "original": false,
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0610A PU",
+    "brand": "Iveco",
+    "name": "Bucha da ponta estabilizadora dianteira",
+    "application": "Iveco Stralis",
+    "specs": "Comprimento: 50 mm | Diâmetro: 61 mm | Interno do furo: 28 mm",
+    "image": "0610A PU.jpg",
+    "original": false,
+    "originalCode": "8162306",
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "1024 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha da barra estabilizadora dianteira",
+    "application": "VW 13.190",
+    "specs": "Interno do furo: 35 mm",
+    "image": "1024 PU.jpg",
+    "original": false,
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1014 PU",
+    "brand": "Volkswagen",
+    "name": "Borracha da barra estabilizadora dianteira",
+    "application": "VW 12.140 - 24.250",
+    "specs": "Interno do furo: 44 mm",
+    "image": "1014 PU.jpg",
+    "original": false,
+    "originalCode": "TAR411041",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1013 PU",
+    "brand": "Volkswagen",
+    "name": "Borracha da barra estabilizadora traseira",
+    "application": "VW 6.90 - 8.150",
+    "specs": "Interno do furo: 32 mm",
+    "image": "1013 PU.jpg",
+    "original": false,
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1055 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha silenciosa da mola traseira",
+    "application": "VW 11.180 - Delivery",
+    "specs": "Comprimento: 88 mm | Diâmetro externo: 53 mm | Interno do furo: 18 mm",
+    "image": "1055 PU.jpg",
+    "original": false,
+    "originalCode": "23B411719B",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1011 PU",
+    "brand": "Volkswagen",
+    "name": "Borracha da ponta estabilizadora dianteira",
+    "application": "VW 12.140 - 24.250",
+    "specs": "Olhal: 43 mm",
+    "image": "1011 PU.jpg",
+    "original": false,
+    "originalCode": "T21411045",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1068 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha da barra estabilizadora dianteira superior",
+    "application": "VW Meteor",
+    "specs": "Comprimento: 60 mm | Diâmetro externo (olhal): 65 mm | Interno do furo: 37 mm",
+    "image": "1068 PU.jpg",
+    "original": false,
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1067 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha da barra estabilizadora dianteira inferior",
+    "application": "VW Meteor",
+    "specs": "Altura: 60 mm | Diâmetro externo: 85 mm | Interno do furo: 49 mm",
+    "image": "1067 PU.jpg",
+    "original": false,
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1008 PU",
+    "brand": "Volkswagen",
+    "name": "Borracha estabilizadora dianteira",
+    "application": "VW 6.90 - 8.150",
+    "specs": "Olhal: 28 mm",
+    "image": "1008 PU.jpg",
+    "original": false,
+    "originalCode": "T06411045",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1010 PU",
+    "brand": "Volkswagen",
+    "name": "Borracha da ponta estabilizadora traseira",
+    "application": "VW 6.90 - 8.150",
+    "specs": "Olhal: 35 mm",
+    "image": "1010 PU.jpg",
+    "original": false,
+    "originalCode": "600511421",
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1069 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha da ponta estabilizadora dianteira",
+    "application": "VW Meteor",
+    "specs": "Comprimento: 64 mm | Diâmetro externo: 58 mm | Interno do furo: 20 mm",
+    "image": "1069 PU.jpg",
+    "original": false,
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "2010 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Borracha da barra estabilizadora com tubo dianteiro/traseiro",
+    "application": "MB 710",
+    "specs": "Olhal: 30 mm",
+    "image": "2010 PU.jpg",
+    "original": false,
+    "originalCode": "A6883207173",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2008 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Borracha da barra estabilizadora com tubo dianteiro/traseiro",
+    "application": "MB 608",
+    "specs": "Olhal: 26 mm",
+    "image": "2008 PU.jpg",
+    "original": false,
+    "originalCode": "3143260481",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2095 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Batente guia do grampo da mola dianteira",
+    "application": "MB Axor (fora de estrada)",
+    "specs": "Altura: 109 mm",
+    "image": "2095 PU.jpg",
+    "original": false,
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2039 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Borracha da mola dianteira",
+    "application": "MB 608",
+    "specs": "",
+    "image": "2039 PU.jpg",
+    "original": false,
+    "originalCode": "A3193240750",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2054 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Borracha da mola da cabine",
+    "application": "MB 1620",
+    "specs": "Diâmetro externo: 40 mm | Interno do furo: 22 mm",
+    "image": "2054 PU.jpg",
+    "original": false,
+    "originalCode": "A3843177051",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2078C PU",
+    "brand": "Mercedes-Benz",
+    "name": "Bucha silenciosa do olho da mola traseira/dianteira",
+    "application": "MB Accelo",
+    "specs": "Comprimento: 86 mm | Diâmetro externo: 55 mm | Interno do furo: 18 mm",
+    "image": "2078C PU.jpg",
+    "original": false,
+    "originalCode": "A9793200544",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2120 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Bucha da ponta estabilizadora traseira inferior",
+    "application": "MB Arocs",
+    "specs": "Comprimento: 50 mm | Diâmetro do olhal: 75 mm | Interno do tubo: 35 mm",
+    "image": "2120 PU.jpg",
+    "original": false,
+    "originalCode": "A9603264781",
+    "recompose": true,
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "2121 PU",
+    "brand": "Mercedes-Benz",
+    "name": "Bucha da ponta estabilizadora dianteira inferior",
+    "application": "MB Arocs",
+    "specs": "Comprimento: 57 mm | Diâmetro do olhal: 75 mm | Interno do furo: 20 mm",
+    "image": "2121 PU.jpg",
+    "original": false,
+    "originalCode": "9603231885",
+    "catalog": "geral",
+    "section": "Mercedes-Benz"
+  },
+  {
+    "code": "0819 PU",
+    "brand": "Mitsubishi",
+    "name": "Bucha da barra estabilizadora dianteira",
+    "application": "Pajero TR4",
+    "specs": "Interno do furo: 23 mm",
+    "image": "BR 0819 PU.JPG",
+    "material": "PU",
+    "originalCode": "MR455699",
+    "original": false,
+    "new": true,
+    "catalog": "geral",
+    "section": "Mitsubishi"
+  },
+  {
+    "code": "8027 PU",
+    "brand": "Truck",
+    "name": "Bucha do 4º eixo do cavalo mecânico",
+    "application": "",
+    "specs": "Comprimento: 122 mm | Diâmetro externo: 62 mm | Interno do furo: 24 mm",
+    "image": "BR 8027 PU.JPG",
+    "material": "PU",
+    "originalCode": "",
+    "original": false,
+    "new": true,
+    "catalog": "geral",
+    "section": "Trucks e Carretas"
+  },
+  {
+    "code": "1012 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha da barra estabilizadora dianteira",
+    "application": "VW 6.90 ao 8.160",
+    "specs": "Interno do furo: 26 mm",
+    "image": "BR 1012 PU.JPG",
+    "material": "PU",
+    "originalCode": "TO6411041",
+    "original": false,
+    "new": true,
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "0605 PU",
+    "brand": "Iveco",
+    "name": "Bucha da ponta estabilizadora traseira",
+    "application": "Iveco Daily 70C16 / 70C17",
+    "specs": "A: Interno do furo: 28 mm | B: Interno do furo: 34 mm",
+    "image": "BR 0605 PU.JPG",
+    "material": "PU",
+    "originalCode": "8560291",
+    "original": false,
+    "new": true,
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "1034 PU",
+    "brand": "Volkswagen",
+    "name": "Bucha da barra estabilizadora dianteira",
+    "application": "VW 17.230 / 24.280",
+    "specs": "Interno do furo: 38 mm",
+    "image": "BR 1034 PU.JPG",
+    "material": "PU",
+    "originalCode": "2T2411041",
+    "original": false,
+    "new": true,
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "1013A PU",
+    "brand": "Volkswagen",
+    "name": "Bucha da barra estabilizadora traseira",
+    "application": "VW 6.90 ao 8.160",
+    "specs": "Interno do furo: 30 mm",
+    "image": "BR 1013 A PU.JPG",
+    "material": "PU",
+    "originalCode": "600511413A",
+    "original": false,
+    "new": true,
+    "catalog": "geral",
+    "section": "Volkswagen"
+  },
+  {
+    "code": "0636 PU",
+    "brand": "Iveco",
+    "name": "Bucha da mola dianteira e traseira",
+    "application": "Iveco 150E21 Ônibus",
+    "specs": "Comprimento: 80 mm | Diâmetro externo: 60 mm | Interno do furo: 16 mm",
+    "image": "BR 0636 PU.JPG",
+    "material": "PU",
+    "originalCode": "500090937",
+    "original": false,
+    "new": true,
+    "catalog": "geral",
+    "section": "Iveco"
+  },
+  {
+    "code": "0616 PU",
+    "brand": "Iveco",
+    "name": "Bucha de mola e suporte traseiro",
+    "application": "Iveco Daily; aplicar em mola com olhal de 60 mm de largura",
+    "specs": "Comprimento: 70 mm | Diâmetro externo: 40 mm | Interno do furo: 16 mm",
+    "image": "BR 0616 PU.JPG",
+    "material": "PU",
+    "originalCode": "93808935",
+    "original": false,
+    "new": true,
+    "catalog": "geral",
+    "section": "Iveco"
+  }
+]

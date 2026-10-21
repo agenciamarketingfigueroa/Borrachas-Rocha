@@ -1,0 +1,952 @@
+{
+    "5021":  [
+                 "5021 PU",
+                 "Bucha Inferior do",
+                 "Amortecedor Dianteil",
+                 "Diâm. Externo 40,0mm",
+                 "Diâm. Interno 14,2mm",
+                 "Hilux 2005 a 2022"
+             ],
+    "7019":  [
+                 "7019 PU",
+                 "Bucha da Barra",
+                 "Estabilizadora Traseira",
+                 "Inferior",
+                 "Diâm. Interno (Furo): 49,0mm",
+                 "Volvo VM 210 / 230 / 310",
+                 "B270F"
+             ],
+    "7033":  [
+                 "7033 PU",
+                 "Bucha do Feixe de",
+                 "Molas Dianteiro",
+                 "Comprimento: 96,0mm",
+                 "Diâm. Externo: 61,0mm",
+                 "Diâm. Interno (Furo): 24,0mm",
+                 "Volvo FH 2015 em diante",
+                 "DAF XF / XP"
+             ],
+    "5023":  [
+                 "5023 PU",
+                 "Bucha Inferior do",
+                 "Amortecedor Diantei",
+                 "Diâm. Externo 38,0mm",
+                 "Diâm. Interno 14,2mm",
+                 "Hilux 2005 a 2022"
+             ],
+    "1026A":  [
+                  "1026A PU",
+                  "Bucha do Suporte da",
+                  "Mola Dianteira",
+                  "Comprimento 88,0mm",
+                  "Diâm. Externo 42 Omm",
+                  "Diâm. Interno 16,bmm",
+                  "VW 8.100 / 8.120 / 8.140",
+                  "8.150 / 9.150"
+              ],
+    "0614":  [
+                 "0614 PU",
+                 "Bucha do Feixe de Mola",
+                 "Dianteiro Parte Dianteira",
+                 "Comprimento: 82,0mm",
+                 "Diâm. Externo: 55,0mm",
+                 "Diâm. Interno: 20,0mm",
+                 "Iveco Vertice / 90\\/16 / 90./18"
+             ],
+    "0905":  [
+                 "0905 PU",
+                 "Bucha do Feixe de",
+                 "Mola Traseiro parte",
+                 "Dianteira",
+                 "Comprimento 70,0mm",
+                 "Diâmetro Externo 40,0mm",
+                 "Diâm. Interno 14,0mm",
+                 "Xterra (até 2011)",
+                 "Frontier"
+             ],
+    "2112":  [
+                 "2112 PU",
+                 "Bucha da Ponta da Barra",
+                 "Estabilizadora Dianteira",
+                 "Código original 000.323.7985",
+                 "MB Actros / Axor"
+             ],
+    "6054":  [
+                 "6054 PU",
+                 "Bucha da Barra",
+                 "Estabilizadora Dianteira",
+                 "6054: Diâm. Interno: 38,0mm",
+                 "6054A: Diâm. Interno: 40,0mm",
+                 "6054B: Diâm. Interno: 44,0mm",
+                 "DAF XP / CF"
+             ],
+    "6051":  [
+                 "OSCANI.A",
+                 "6051 PU",
+                 "Bucha da Barra",
+                 "Estabilizadora Dianteira",
+                 "Cód. Original: 2296839",
+                 "A: 2392177 / B: 2392175",
+                 "6051: Diâm. Interno: 60,0mm",
+                 "6051A: Diâm. Interno: 55,0mm",
+                 "6051B: Diâm. Interno: 37,0mm",
+                 "Scania NTG"
+             ],
+    "2081B":  [
+                  "20818 PU",
+                  "Bucha do Feixe de",
+                  "Mola Traseiro",
+                  "Aplicável em Olhais com",
+                  "Diâmetro 61,0mm",
+                  "Diâm. Interno (Furo): 22,0mm",
+                  "MB Atego"
+              ],
+    "2074B":  [
+                  "0 20748 PU",
+                  "oe",
+                  "Bucha do Suporte da",
+                  "Mola Dianteira",
+                  "Aplicável em Suporte com",
+                  "Diâm. Interno 46,0mm",
+                  "MB Atego"
+              ],
+    "9020":  [
+                 "9020 PU",
+                 "Bucha do Feixe de Mola",
+                 "e Algema Traseira",
+                 "até 2011"
+             ],
+    "2049":  [
+                 "2049 PU",
+                 "Bucha da Barra",
+                 "Estabilizadora Dianteira",
+                 "Comprimento: 72,0mm",
+                 "Diâm. Externo: 64,0mm",
+                 "Diâm. Interno 38,0mm",
+                 "Entre Abas: 60,0mm",
+                 "MB 1418 / 1620 / 1721"
+             ],
+    "8013":  [
+                 "uspensys•",
+                 "8013 PU",
+                 "Bucha do Tensor",
+                 "Suspensys sem Pino",
+                 "Comprimento: 63,0mm",
+                 "Diâm. Externo: 63,0mm",
+                 "Diâm. Interno (Furo): 24,0mm",
+                 "VW / Ford / Volvo / MB"
+             ],
+    "0610":  [
+                 "0610 PU",
+                 "Bucha da Ponta do",
+                 "Estabilizador Dianteiro",
+                 "Comprimento: 62,0mm",
+                 "Diâm. Externo: 50,0mm",
+                 "Diâm. Interno: 20,0mm",
+                 "Iveco Tector / Eurotech",
+                 "Strallis"
+             ],
+    "6053":  [
+                 "6053 PU",
+                 "Bucha do Feixe de",
+                 "Molas Dianteiro",
+                 "Comprimento: 96,0m",
+                 "Diâm. Externo: 60,0mm",
+                 "Diâm. Interno: 24,0mm",
+                 "Scania NTG"
+             ],
+    "0614B":  [
+                  "06148 PU",
+                  "Bucha do Suporte do",
+                  "Feixe de Mola Dianteiro",
+                  "Comprimento: 82,0mm",
+                  "Diâm. Externo: 45,0mm",
+                  "Diâm. Interno: 16,0mm",
+                  "Iveco Vertice / 90V16 /"
+              ],
+    "7020":  [
+                 "7020 PU",
+                 "Bucha da Barra",
+                 "Estabilizadora Traseira",
+                 "Superior",
+                 "Diâm. Interno (Furo): 38,0mm",
+                 "Volvo VM 260 / 270 / 310",
+                 "B270F"
+             ],
+    "0807":  [
+                 "0807 PU",
+                 "Bucha do Feixe de",
+                 "Mola Traseiro parte",
+                 "Dianteira",
+                 "Comprimento 80,0mm",
+                 "Diâmetro Externo 35,5mm",
+                 "Diâm. Interno: 14,5mm",
+                 "L200 GL / GLS / Outdoor",
+                 "(Exceto Triton)"
+             ],
+    "2078A":  [
+                  "2078A PU",
+                  "Bucha do Suporte da",
+                  "Mola Dianteira",
+                  "e Traseira",
+                  "Comprimento: 86,0mm",
+                  "Diâm. Externo: 48,0mm",
+                  "Diâm. Interno: 18,2mm",
+                  "MB Accelo 815 / 915 / 1016"
+              ],
+    "0611":  [
+                 "0611 PU",
+                 "Bucha da Barra",
+                 "Estabilizadora Dianteira",
+                 "A: Diâm. Interno: 40,0mm",
+                 "B: Diâm. Interno: 44,0mm",
+                 "C: Diâm. Interno: 46,0mm",
+                 "Comprimento: 82,0mm",
+                 "Diâmetro externo: 72,0mm",
+                 "Entre abas: 70,0m",
+                 "Iveco Tector / Strallis"
+             ],
+    "1020":  [
+                 "1020 PU",
+                 "Bucha do Feixe de Mola",
+                 "Dianteiro e Suporte",
+                 "Dianteiro",
+                 "Código original: TJG.411.171",
+                 "Comprimento: 90,0mm",
+                 "Diâm. Externo: 53,5mm",
+                 "Diâm. Interno: 19,2mm",
+                 "VW 12.140 / 15.180"
+             ],
+    "2063B":  [
+                  "0 20638 PU",
+                  "Bucha do Feixe de Molas",
+                  "Dianteiro Parte Traseira",
+                  "Aplicável em Olhais com",
+                  "Diâm. Interno 55,0mm",
+                  "MB Atego"
+              ],
+    "0825":  [
+                 "0825 PU",
+                 "Calço do Feixe de Molas",
+                 "(Pastilha Antirruído)",
+                 "L200 Triton (2008 a 2022)"
+             ],
+    "1026":  [
+                 "1026 PU",
+                 "Bucha do Feixe de Mola",
+                 "Dianteira",
+                 "Comprimento 90,0mm",
+                 "Diâm. Externo 45 Omm",
+                 "Diâm. Interno 16,bmm",
+                 "VW 6.90 / 8.100",
+                 "8.120 / 8.150"
+             ],
+    "0912":  [
+                 "0912 PU",
+                 "Bucha Inferior do",
+                 "Amortecedor Dianteiro",
+                 "Diâm. Externo 37,0mm",
+                 "Diâm. Interno 14,2mm",
+                 "Frontier 2008 em diante"
+             ],
+    "5019":  [
+                 "5019 PU",
+                 "Bucha da Mola Traseira",
+                 "parte Dianteira",
+                 "Comprimento: 70,0mm",
+                 "Diâm. Externo: 40,0mm",
+                 "Diâm. Interno: 14,0mm",
+                 "Hilux"
+             ],
+    "0628":  [
+                 "0628 PU",
+                 "Bucha da Barra de",
+                 "Torção Dianteira",
+                 "Código original 500350342",
+                 "Altura: 32,0mm",
+                 "Diâmetro Externo 65,0mm",
+                 "Interno do Furo 38,0mm",
+                 "Iveco Daily 70C16 / 70C16 HD",
+                 "70C17 / 70C17 HD / 65-170",
+                 "70-170 (2019 em diante)"
+             ],
+    "5029":  [
+                 "5029 PU",
+                 "Bucha Inferior do",
+                 "Amortecedor Dianteiro",
+                 "Diâm. Externo 42,0mm",
+                 "Diâm. Interno 14,2mm",
+                 "Hilux 2005 a 2022"
+             ],
+    "0906":  [
+                 "0906 PU",
+                 "Bucha do Feixe de",
+                 "Mola Traseiro parte",
+                 "Traseira",
+                 "Comprimento 70,0mm",
+                 "Diâmetro Externo 32,0mm",
+                 "IDiâm. Interno 13,0mm",
+                 "Frontier até 2011"
+             ],
+    "9022":  [
+                 "9022 PU",
+                 "Bucha do Feixe de Mola",
+                 "Traseiro parte Traseira",
+                 "SIO 2012 em diante"
+             ],
+    "0633":  [
+                 "0633 PU",
+                 "Bucha Superior da Barra",
+                 "de Torção Dianteira",
+                 "Código original 93828149A",
+                 "Altura: 42,0mm",
+                 "Diâm. Externo 57 Omm",
+                 "Interno do Furo 3Í,Omm",
+                 "Iveco Daily 35-10 / 35-13 / 38-13",
+                 "40-12/ 40-13 49-10 49-12",
+                 "50-13 / 59-12 60-12 60-13",
+                 "70-12 / 70-13/ 5S14/ 5S14 HD",
+                 "40S14 / 40s16 / 45s14 / 45S16",
+                 "45S17 / 55C16 / 50C17 / 55C17"
+             ],
+    "2062":  [
+                 "2062 PU",
+                 "Bucha do Feixe de",
+                 "Molas Dianteiro",
+                 "Parte Dianteira",
+                 "Aplicável em Olhais com",
+                 "Diâm. Interno 61,0mm",
+                 "MB Atego"
+             ],
+    "1062":  [
+                 "1062 PU",
+                 "Bucha do Feixe de Molas",
+                 "e Suporte Traseiro",
+                 "Comprimento: 76,0mm",
+                 "Diâm. Externo: 53,0mm",
+                 "Diâm. Interno 18,2mm",
+                 "VW 6.160 / 4.150 / 4.160",
+                 "Express 2018 em diante"
+             ],
+    "1053":  [
+                 "1053 PU",
+                 "Bucha da Ponta da",
+                 "Barra Estabilizadora",
+                 "Traseira",
+                 "Comprimento 40,0mm",
+                 "Diâm. Externo 34,5,0mm",
+                 "Diâm. Interno 14,0mm",
+                 "VW 11.180 / 9.170 / Delivery"
+             ],
+    "5022":  [
+                 "5022 PU",
+                 "Bucha Inferior do",
+                 "Amortecedor Diantei",
+                 "Diâm. Externo 35,0mm",
+                 "Diâm. Interno 14,2mm",
+                 "Hilux 2005 a 2022"
+             ],
+    "9026":  [
+                 "9026 PU",
+                 "Bucha do Feixe de Mola",
+                 "Dianteiro Parte Dianteira",
+                 "Comprimento: 70,0mm",
+                 "Diâm. Externo: 40,0mm",
+                 "Diâm. Interno: 14,0mm",
+                 "SIO 2012 em diante"
+             ],
+    "1033":  [
+                 "1033 PU",
+                 "Calço do Feixe de",
+                 "Molas Dianteiro",
+                 "(Pastilha Antirruído)",
+                 "VW 8.100 / 8.120 / 8.140",
+                 "8.150"
+             ],
+    "5007":  [
+                 "5007 PU",
+                 "Bucha do Suporte da",
+                 "Mola Traseira",
+                 "(Jumelo)",
+                 "Comprimento: 55,0mm",
+                 "Diâm. Externo: 30,0mm",
+                 "Diâm. Interno: 18,0mm",
+                 "Hilux até 2016"
+             ],
+    "0912A":  [
+                  "0912 PU",
+                  "Bucha Inferior do",
+                  "Amortecedor Dianteiro",
+                  "Diâm. Externo 41,5mm",
+                  "Diâm. Interno 14,2mm",
+                  "Frontier 2008 em diante"
+              ],
+    "2048":  [
+                 "2048 PU",
+                 "Bucha da Barra",
+                 "Estabilizadora Traseira",
+                 "Comprimento: 90,0mm",
+                 "Diâm. Externo: 84,0mm",
+                 "Diâm. Interno 49,0mm",
+                 "Entre Abas: 80,0mm",
+                 "MB 1418 / 1620"
+             ],
+    "0836":  [
+                 "0836 PU",
+                 "Bucha do Braço",
+                 "Transversal Traseiro",
+                 "A: Diâm. Interno: 12,0mm",
+                 "B: Diâm. Interno: 14,0mm",
+                 "Pajero TR4 / Pajero 10",
+                 "(2002 a 2015)"
+             ],
+    "2063A":  [
+                  "2063A PU",
+                  "Bucha do Feixe de",
+                  "Molas Dianteiro",
+                  "Parte Traseira",
+                  "Aplicável em Olhais com",
+                  "Diâm. Interno 53,0mm",
+                  "MB Atego"
+              ],
+    "2015":  [
+                 "2015 PU",
+                 "Bucha da Ponta do",
+                 "Estabilizador Dianteiro",
+                 "e Traseiro",
+                 "MB 1418 / 1620 / 1721"
+             ],
+    "0828A":  [
+                  "0828A PU",
+                  "Bucha Inferior do",
+                  "Amortecedor Dianteiro",
+                  "Diâm. Externo 37,0mm",
+                  "Diâm. Interno 14,2mm",
+                  "L200 Triton 2008 em diante"
+              ],
+    "0813":  [
+                 "0813 PU",
+                 "Bucha do Feixe de",
+                 "Mola Traseiro parte",
+                 "Dianteira",
+                 "Comprimento 80,0mm",
+                 "Diâmetro Externo 41,5mm",
+                 "Diâm. Interno: 14,2mm",
+                 "L200 Triton (2008 a 2022)"
+             ],
+    "2078":  [
+                 "2078 PU",
+                 "Bucha do Feixe de",
+                 "Molas Dianteiro e",
+                 "Traseiro",
+                 "Comprimento: 86,0mm",
+                 "Diâm. Externo: 55,0mm",
+                 "Diâm. Interno: 19,0mm",
+                 "MB Accelo 915 / 1016"
+             ],
+    "2063C":  [
+                  "2063C PU",
+                  "Bucha do Feixe de Molas",
+                  "Dianteiro Parte Traseira",
+                  "Aplicável em Olhais com",
+                  "Diâm. Interno 58,0mm",
+                  "(Adaptação para mola sem",
+                  "capa de metal)",
+                  "MB Atego"
+              ],
+    "7010A":  [
+                  "7010A PU",
+                  "Bucha do Feixe de",
+                  "Molas Dianteiro",
+                  "ADIicável em Olhais com",
+                  "Diâm. Interno 54,0mm",
+                  "Diâm. Interno (Furo): 16,0mm",
+                  "Volvo VM 240 / 260"
+              ],
+    "3056":  [
+                 "3056 PU",
+                 "Bucha Inferior do",
+                 "Amortecedor Diante",
+                 "Diâm. Externo 40,0mm",
+                 "Diâm. Interno 16,2mm",
+                 "Ranger 2012 a 2022"
+             ],
+    "0615":  [
+                 "0615 PU",
+                 "Bucha da Barra",
+                 "Estabilizadora Dianteira",
+                 "A: Diâm. Interno: 36,0mm",
+                 "B: Diâm. Interno: 34,0mm",
+                 "C: Diâm. Interno: 41,0mm",
+                 "Iveco Vertice / 90\\/16 / 90V18"
+             ],
+    "3058":  [
+                 "3058 PU",
+                 "Bucha Inferior do",
+                 "Amortecedor Diante",
+                 "Diâm. Externo 38,0mm",
+                 "Diâm. Interno 16,2mm",
+                 "Ranger 2012 a 2022"
+             ],
+    "1027":  [
+                 "1027 PU",
+                 "Bucha do Feixe de Mola",
+                 "Dianteiro e Suporte",
+                 "Dianteiro",
+                 "Cód. orig.: TAP.511.181 / 2RE.51.181",
+                 "Comprimento: 90,0mm",
+                 "Diâm. Externo: 58,0mm",
+                 "Diâm. Interno: 30,2mm",
+                 "VW 8.100 / 8.120 / 8.140",
+                 "8.150 / 9.150"
+             ],
+    "1048A":  [
+                  "1048A PU",
+                  "Bucha Central da Barra",
+                  "Estabilizadora Traseira",
+                  "Código original 23B411346",
+                  "Diâm. Interno 33,0mm",
+                  "VW 9.170 / 11.180 Delivery",
+                  "2018 em diante"
+              ],
+    "0904":  [
+                 "0904 PU",
+                 "Bucha da Algema",
+                 "Traseira (jumelo)",
+                 "Comprimento: 46,0mm",
+                 "Diâm. Externo: 32,0mm",
+                 "Diâm. Interno: 20,0mm",
+                 "Frontier / Xterra",
+                 "(até 2011)"
+             ],
+    "2074C":  [
+                  "0 2074C PU",
+                  "Bucha do Suporte da",
+                  "Mola Dianteira",
+                  "Aplicável em Suporte com",
+                  "Diâm. Interno 43,0mm",
+                  "MB Atego"
+              ],
+    "1021":  [
+                 "1021 PU",
+                 "Coxim da Cabine",
+                 "Traseiro",
+                 "VW 8.100 / 8.120 / 8.140",
+                 "8.150 / 9.150"
+             ],
+    "9023":  [
+                 "9023 PU",
+                 "Bucha da Algema",
+                 "Traseira (jumelo)",
+                 "SIO 2012 em diante"
+             ],
+    "6052":  [
+                 "6052 PU",
+                 "Bucha do Feixe de",
+                 "Molas Traseiro",
+                 "Parte Traseira",
+                 "Cod. orig.: 255.669 / 455.589",
+                 "1.362.710",
+                 "Scania Suspensão a Ar"
+             ],
+    "6002":  [
+                 "6002 PU",
+                 "Bucha da Barra",
+                 "Estabilizadora",
+                 "Dianteira",
+                 "Código Original: 228483",
+                 "Comprimento: 100mm",
+                 "Diâmetro Externo: 71mm",
+                 "Interno do Furo 49mm",
+                 "Scania 124"
+             ],
+    "0911":  [
+                 "0911 PU",
+                 "Calço do Feixe de Molas",
+                 "(Pastilha Antirruído)",
+                 "Frontier 2008 em diante",
+                 "Ranger 2012 em diante"
+             ],
+    "8024":  [
+                 "uspensys•",
+                 "8024 PU",
+                 "Bucha da Balança",
+                 "Comprimento 119,0mm",
+                 "Diâmetro Externo 85,0mm",
+                 "Interno do Furo 30,5mm",
+                 "Lub free"
+             ],
+    "9017":  [
+                 "9017 PU",
+                 "Calço do Feixe de Molas",
+                 "(Pastilha Antirruído)",
+                 "Trava Oblonga",
+                 "SIO 2002 a 2011",
+                 "Blazer 2002 até 2011"
+             ],
+    "7015":  [
+                 "7015 PU",
+                 "Calço do Feixe de Molas",
+                 "(Pastilha Antirruído)",
+                 "Diâm. do Pino: 15,0mm",
+                 "Volvo VM"
+             ],
+    "5008":  [
+                 "5008 PU",
+                 "Bucha da Mola Traseira",
+                 "parte Traseira",
+                 "Comprimento: 35,0mm",
+                 "Diâm. Externo: 30,0mm",
+                 "Diâm. Interno: 18,0mm",
+                 "Hilux até 2016"
+             ],
+    "8011":  [
+                 "8011 PU",
+                 "Bucha do Tensor do",
+                 "Truck",
+                 "Comprimento: 63mm",
+                 "Diâmetro Externo: 58,5mm",
+                 "Diâm. Interno (Furo): 24mm",
+                 "Randon 2000"
+             ],
+    "8012":  [
+                 "uspensys•",
+                 "8012 PU",
+                 "Bucha do Tensor",
+                 "Suspensys com Pino",
+                 "Comprimento: 63,0mm",
+                 "Diâm. Externo: 63,0mm",
+                 "Entre Furos: 101,5mm",
+                 "VW / Ford / Volvo / MB"
+             ],
+    "9027":  [
+                 "9027 PU",
+                 "Calço do Feixe de Molas",
+                 "(Pastilha Antirruído)",
+                 "(Redonda Maior)",
+                 "SIO 2012 em diante",
+                 "F250"
+             ],
+    "1065":  [
+                 "1065 PU",
+                 "Bucha do Feixe de Mola",
+                 "Dianteiro Parte Dianteira",
+                 "Código original: 2S2.411.346B",
+                 "Comprimento: 90,0mm",
+                 "Diâm. Externo: 58,0mm",
+                 "Diâm. Interno: 20,2mm",
+                 "VW 13.180 / 13.190"
+             ],
+    "2108":  [
+                 "2108 PU",
+                 "Bucha da Barra",
+                 "Estabilizadora",
+                 "Dianteira",
+                 "Cod. orig.: 000.323.6285",
+                 "Comprimento 56,0mm",
+                 "Diâm. Externo 43,0mm",
+                 "Diâm. Interno 29,0mm",
+                 "MB Actros 2031 / 2655",
+                 "33315"
+             ],
+    "0914":  [
+                 "0914 PU",
+                 "Bucha do Feixe de Mola",
+                 "Traseiro parte Traseira",
+                 "Comprimento: 36,0mm",
+                 "Diâm. Externo: 32,0mm",
+                 "Diâm. Interno: 20,0mm",
+                 "Frontier 2012 em diante"
+             ],
+    "2114":  [
+                 "0 2114 PU",
+                 "Bucha da Ponta da Barra",
+                 "Estabilizadora Traseira",
+                 "Código original 000.323.8185",
+                 "MB Actros / Axor"
+             ],
+    "9028":  [
+                 "9028 PU",
+                 "Bucha Inferior do",
+                 "Amortecedor Dianteiro",
+                 "Diâm. Externo 40,0mm",
+                 "Diâm. Interno 14,2mm",
+                 "SIO 2012 em diante"
+             ],
+    "9024":  [
+                 "9024 PU",
+                 "Calço do Feixe de Molas",
+                 "(Pastilha Antirruído)",
+                 "(Redonda Menor)",
+                 "SIO 2012 em diante"
+             ],
+    "7012":  [
+                 "7012 PU",
+                 "Bucha da Barra",
+                 "Estabilizadora Dianteira",
+                 "7012A: Diâm. Interno: 34,0mm",
+                 "7012B: Diâm. Interno: 39,0mm",
+                 "7012C: Diâm. Interno: 36,0mm",
+                 "Volvo FH"
+             ],
+    "0630":  [
+                 "0630 PU",
+                 "Kit de Buchas da Barra",
+                 "de Torção Dianteira",
+                 "Código original: 93828148A",
+                 "93807640A / 93828149A",
+                 "Iveco Daily 35-10 / 35-13 / 38-13",
+                 "40-12/ 40-13 49-10 49-12",
+                 "50-13 / 59-12 60-12 60-13",
+                 "70-12 / 70-13 ( 5S14/ 5S14 HD",
+                 "40S14 / 40s 6 / 45s14 / 45S16",
+                 "45S17 / 55C16 / 50C17 / 55C17"
+             ],
+    "7014A":  [
+                  "7014A PU",
+                  "Bucha do Feixe de",
+                  "Molas Dianteiro",
+                  "Aplicável em Olhais com",
+                  "Diâm. Interno 54mm",
+                  "Diâm. Interno (Furo): 20mm",
+                  "Volvo VM 260 / 270 / 310"
+              ],
+    "0828":  [
+                 "0828 PU",
+                 "Bucha Inferior do",
+                 "Amortecedor Dianteiro",
+                 "Diâm. Externo 35,0mm",
+                 "Diâm. Interno 14,2mm",
+                 "L200 Triton 2008 em diante"
+             ],
+    "0627":  [
+                 "0627 PU",
+                 "Bucha da Barra de",
+                 "Torção Dianteira",
+                 "Código original 500350342",
+                 "Altura: 32,0mm",
+                 "Diâmetro Externo 65,0mm",
+                 "Interno do Furo 38,0mm",
+                 "Iveco Daily 70C16 / 70C16 HD",
+                 "70C17 / 70C17 HD / 65-170",
+                 "70-170 (2019 em diante)"
+             ],
+    "1030":  [
+                 "1030 PU",
+                 "Calço do Feixe de Molas",
+                 "(Pastilha Antirruído)",
+                 "VW L80 / 690 / 790 / 7100",
+                 "7110 / 8100 / 8140 / 9150",
+                 "MB Accelo"
+             ],
+    "2074A":  [
+                  "0 2074A PU",
+                  "Bucha do Suporte da",
+                  "Mola Dianteira",
+                  "Aplicável em Suporte com",
+                  "Diâm. Interno 48,0mm",
+                  "MB Atego"
+              ],
+    "0913":  [
+                 "0913 PU",
+                 "Bucha da Algema",
+                 "Traseira (jumelo)",
+                 "Comprimento: 55,0mm",
+                 "Diâm. Externo: 32,0mm",
+                 "Diâm. Interno: 20,0mm",
+                 "Frontier 2012 em diante"
+             ],
+    "1048":  [
+                 "1048 PU",
+                 "Bucha Central da Barra",
+                 "Estabilizadora Dianteira",
+                 "Código original: 23B411346",
+                 "Diâm. Interno 30,0mm",
+                 "VW 9.170 / 11.180 Delivery",
+                 "2018 em diante"
+             ],
+    "0631":  [
+                 "0631 PU",
+                 "Bucha Superior da Barra",
+                 "de Torção Dianteira",
+                 "Código original 93828148A",
+                 "Altura: 42,0mm",
+                 "Diâm. Externo 57 Omm",
+                 "Interno do Furo 24,0mm",
+                 "Iveco Daily 35-10 / 35-13 / 38-13",
+                 "40-12/ 40-13 49-10 49-12",
+                 "50-13 / 59-12 60-12 60-13",
+                 "70-12 / 70-13/ 5S14/ 5S14 HD",
+                 "40S14 / 40s16 / 45s14 / 45S16",
+                 "45S17 / 55C16 / 50C17 / 55C17"
+             ],
+    "0614A":  [
+                  "0614A PU",
+                  "Bucha do Feixe de Mola",
+                  "Dianteiro Parte Traseira",
+                  "Comprimento: 82,0mm",
+                  "Diâm. Externo: 45,0mm",
+                  "Diâm. Interno: 20,0mm",
+                  "Iveco Vertice / 90\\/16 / 90\\/18"
+              ],
+    "0632":  [
+                 "0632 PU",
+                 "Bucha Inferior da Barra",
+                 "de Torção Dianteira",
+                 "Código original 93807640A",
+                 "Altura: 42mm",
+                 "Diâm. Externo 52mm",
+                 "Interno do Furo 29mm",
+                 "Iveco Daily 35-10 / 35-13 / 38-13",
+                 "40-12/ 40-13 49-10 49-12",
+                 "50-13 / 59-12 60-12 60-13",
+                 "70-12 / 70-13/ 5S14/ 5S14 HD",
+                 "40S14 / 40S16 / 45s14 / 45S16",
+                 "45S17 / 55C16 / 50C17 / 55C17"
+             ],
+    "7010":  [
+                 "7010 PU",
+                 "Bucha do Feixe de",
+                 "Molas Dianteiro",
+                 "Aplicável em Olhais com",
+                 "Diâm. Interno 52,0mm",
+                 "Diâm. Interno (Furo): 16,0mm",
+                 "Volvo VM 240 / 260"
+             ],
+    "1050":  [
+                 "1050 PU",
+                 "Coxim da Cabine",
+                 "Traseiro",
+                 "VW Delivery 11.180 / 9.170",
+                 "6.170 / 6.160 / 2018 em diante"
+             ],
+    "7014":  [
+                 "7014 PU",
+                 "Bucha do Feixe de",
+                 "Molas Dianteiro",
+                 "Aplicável em Olhais com",
+                 "Diâm. Interno 52mm",
+                 "Diâm. Interno (Furo): 20mm",
+                 "Volvo VM 240 / 260 / 330"
+             ],
+    "1061":  [
+                 "1061 PU",
+                 "Bucha do Feixe de",
+                 "Molas e Suporte",
+                 "Traseiro",
+                 "Comprimento: 88,0mm",
+                 "Diâm. Externo: 53,0mm",
+                 "Diâm. Interno 18,4mm",
+                 "VW 9.170 / 11.180 Delivery",
+                 "2018 em diante"
+             ],
+    "5025":  [
+                 "5025 PU",
+                 "Bucha da Mola Traseira",
+                 "parte Traseira",
+                 "Comprimento: 35,0mm",
+                 "Diâm. Externo: 30,0mm",
+                 "Diâm. Interno: 20,0mm",
+                 "Hilux 2017 em diante"
+             ],
+    "7037":  [
+                 "7037 PU",
+                 "Bucha do Suporte da",
+                 "Articulação Cabine",
+                 "Dianteira",
+                 "Comprimento: 84,0mm",
+                 "Diâm. Externo: 32,0mm",
+                 "Diâm. Interno (Furo): 16,0mm",
+                 "Volvo VM 210 / 220 / 310",
+                 "(2008 em dante)"
+             ],
+    "1066":  [
+                 "1066 PU",
+                 "Bucha do Feixe de Mola",
+                 "Dianteiro Parte Traseira",
+                 "Código original: 2SO.411.346A",
+                 "Comprimento: 90,0mm",
+                 "Diâm. Externo: 53,5mm",
+                 "Diâm. Interno: 20,2mm",
+                 "VW 13.180 / 13.190"
+             ],
+    "2048A":  [
+                  "2048A PU",
+                  "Bucha da Barra",
+                  "Estabilizadora Traseira",
+                  "Comprimento: 110,0mm",
+                  "Diâm. Externo: 84,0mm",
+                  "Diâm. Interno 49,0mm",
+                  "Entre Abas: 100,0mm",
+                  "Ônibus OF 1418 / 1620 / 1721"
+              ],
+    "7017A":  [
+                  "7017A PU",
+                  "Bucha do Suporte da",
+                  "Mola Dianteira",
+                  "(Adaptação)",
+                  "Comprimento: 96,0mm",
+                  "Diâm. Externo: 50,0mm",
+                  "Diâm. Interno (Furo): 20mm",
+                  "Volvo FH até 2014"
+              ],
+    "0805":  [
+                 "0805 PU",
+                 "Bucha do Suporte do",
+                 "Feixe de Mola Traseiro",
+                 "Comprimento: 52,0mm",
+                 "Diâm. Externo: 28,0mm",
+                 "Diâm. Interno (Furo): 16,0mm",
+                 "L200 GL / GLS / Outdoor",
+                 "L200 Triton"
+             ],
+    "7025A":  [
+                  "7025A PU",
+                  "Bucha do Suporte da",
+                  "Mola Dianteira",
+                  "Comprimento: 90,0mm",
+                  "Diâmetro Externo: 42,0mm",
+                  "Diâm. Interno (Furo): 20,0mm",
+                  "Volvo VM 270 / 310"
+              ],
+    "0806":  [
+                 "0806 PU",
+                 "Bucha Do Feixe de",
+                 "Mola Traseiro Parte",
+                 "Traseira",
+                 "Comprimento 42,0mm",
+                 "Diâmetro Externo 28,0mm",
+                 "Interno do Furo 16,0mm",
+                 "L200 GL / GLS / Outdoor",
+                 "L200 Triton"
+             ],
+    "1046A":  [
+                  "HBZ",
+                  "1046A PU",
+                  "Bucha do Quarto Eixo",
+                  "Traseiro do Truck",
+                  "Comprimento 118,0mm",
+                  "Diâm. Externo 68,0mm",
+                  "Diâm. Interno 22,0mm",
+                  "HBZ"
+              ],
+    "7025":  [
+                 "7025 PU",
+                 "Bucha do Suporte da",
+                 "Mola Dianteira",
+                 "Comprimento: 94,0mm",
+                 "Diâmetro Externo: 42,0mm",
+                 "Diâm. Interno (Furo): 16,0mm",
+                 "Volvo VM 260 / 270 / 310"
+             ],
+    "5024":  [
+                 "5024 PU",
+                 "Bucha do Suporte da",
+                 "Mola Traseira",
+                 "(Jumelo)",
+                 "Comprimento: 55,0mm",
+                 "Diâm. Externo: 30,0mm",
+                 "Diâm. Interno: 20,0mm",
+                 "Hilux 2017 em diante"
+             ]
+}
