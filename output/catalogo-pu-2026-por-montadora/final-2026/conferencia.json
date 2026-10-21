@@ -1,0 +1,1193 @@
+{
+  "paginas": 22,
+  "referencias": [
+    {
+      "code": "1008",
+      "line": "1000",
+      "page": 3,
+      "slot": 1
+    },
+    {
+      "code": "1010",
+      "line": "1000",
+      "page": 3,
+      "slot": 2
+    },
+    {
+      "code": "1011",
+      "line": "1000",
+      "page": 3,
+      "slot": 3
+    },
+    {
+      "code": "1012",
+      "line": "1000",
+      "page": 3,
+      "slot": 4
+    },
+    {
+      "code": "1013",
+      "line": "1000",
+      "page": 3,
+      "slot": 5
+    },
+    {
+      "code": "1013A",
+      "line": "1000",
+      "page": 3,
+      "slot": 6
+    },
+    {
+      "code": "1014",
+      "line": "1000",
+      "page": 3,
+      "slot": 7
+    },
+    {
+      "code": "1020",
+      "line": "1000",
+      "page": 3,
+      "slot": 8
+    },
+    {
+      "code": "1021",
+      "line": "1000",
+      "page": 3,
+      "slot": 9
+    },
+    {
+      "code": "1024",
+      "line": "1000",
+      "page": 3,
+      "slot": 10
+    },
+    {
+      "code": "1026",
+      "line": "1000",
+      "page": 4,
+      "slot": 1
+    },
+    {
+      "code": "1026A",
+      "line": "1000",
+      "page": 4,
+      "slot": 2
+    },
+    {
+      "code": "1027",
+      "line": "1000",
+      "page": 4,
+      "slot": 3
+    },
+    {
+      "code": "1030",
+      "line": "1000",
+      "page": 4,
+      "slot": 4
+    },
+    {
+      "code": "1033",
+      "line": "1000",
+      "page": 4,
+      "slot": 5
+    },
+    {
+      "code": "1034",
+      "line": "1000",
+      "page": 4,
+      "slot": 6
+    },
+    {
+      "code": "1048",
+      "line": "1000",
+      "page": 4,
+      "slot": 7
+    },
+    {
+      "code": "1048A",
+      "line": "1000",
+      "page": 4,
+      "slot": 8
+    },
+    {
+      "code": "1050",
+      "line": "1000",
+      "page": 4,
+      "slot": 9
+    },
+    {
+      "code": "1053",
+      "line": "1000",
+      "page": 4,
+      "slot": 10
+    },
+    {
+      "code": "1056",
+      "line": "1000",
+      "page": 5,
+      "slot": 1
+    },
+    {
+      "code": "1061",
+      "line": "1000",
+      "page": 5,
+      "slot": 2
+    },
+    {
+      "code": "1062",
+      "line": "1000",
+      "page": 5,
+      "slot": 3
+    },
+    {
+      "code": "1065",
+      "line": "1000",
+      "page": 5,
+      "slot": 4
+    },
+    {
+      "code": "1066",
+      "line": "1000",
+      "page": 5,
+      "slot": 5
+    },
+    {
+      "code": "1067",
+      "line": "1000",
+      "page": 5,
+      "slot": 6
+    },
+    {
+      "code": "1068",
+      "line": "1000",
+      "page": 5,
+      "slot": 7
+    },
+    {
+      "code": "1069",
+      "line": "1000",
+      "page": 5,
+      "slot": 8
+    },
+    {
+      "code": "2008",
+      "line": "2000",
+      "page": 6,
+      "slot": 1
+    },
+    {
+      "code": "2010",
+      "line": "2000",
+      "page": 6,
+      "slot": 2
+    },
+    {
+      "code": "2015",
+      "line": "2000",
+      "page": 6,
+      "slot": 3
+    },
+    {
+      "code": "2039",
+      "line": "2000",
+      "page": 6,
+      "slot": 4
+    },
+    {
+      "code": "2048",
+      "line": "2000",
+      "page": 6,
+      "slot": 5
+    },
+    {
+      "code": "2048A",
+      "line": "2000",
+      "page": 6,
+      "slot": 6
+    },
+    {
+      "code": "2049",
+      "line": "2000",
+      "page": 6,
+      "slot": 7
+    },
+    {
+      "code": "2051",
+      "line": "2000",
+      "page": 6,
+      "slot": 8
+    },
+    {
+      "code": "2054",
+      "line": "2000",
+      "page": 6,
+      "slot": 9
+    },
+    {
+      "code": "2062",
+      "line": "2000",
+      "page": 6,
+      "slot": 10
+    },
+    {
+      "code": "2062B",
+      "line": "2000",
+      "page": 7,
+      "slot": 1
+    },
+    {
+      "code": "2063A",
+      "line": "2000",
+      "page": 7,
+      "slot": 2
+    },
+    {
+      "code": "2063B",
+      "line": "2000",
+      "page": 7,
+      "slot": 3
+    },
+    {
+      "code": "2063C",
+      "line": "2000",
+      "page": 7,
+      "slot": 4
+    },
+    {
+      "code": "2065",
+      "line": "2000",
+      "page": 7,
+      "slot": 5
+    },
+    {
+      "code": "2066",
+      "line": "2000",
+      "page": 7,
+      "slot": 6
+    },
+    {
+      "code": "2068",
+      "line": "2000",
+      "page": 7,
+      "slot": 7
+    },
+    {
+      "code": "2074A",
+      "line": "2000",
+      "page": 7,
+      "slot": 8
+    },
+    {
+      "code": "2074B",
+      "line": "2000",
+      "page": 7,
+      "slot": 9
+    },
+    {
+      "code": "2074C",
+      "line": "2000",
+      "page": 7,
+      "slot": 10
+    },
+    {
+      "code": "2078",
+      "line": "2000",
+      "page": 8,
+      "slot": 1
+    },
+    {
+      "code": "2078A",
+      "line": "2000",
+      "page": 8,
+      "slot": 2
+    },
+    {
+      "code": "2078C",
+      "line": "2000",
+      "page": 8,
+      "slot": 3
+    },
+    {
+      "code": "2081B",
+      "line": "2000",
+      "page": 8,
+      "slot": 4
+    },
+    {
+      "code": "2081C",
+      "line": "2000",
+      "page": 8,
+      "slot": 5
+    },
+    {
+      "code": "2095",
+      "line": "2000",
+      "page": 8,
+      "slot": 6
+    },
+    {
+      "code": "2108",
+      "line": "2000",
+      "page": 8,
+      "slot": 7
+    },
+    {
+      "code": "2112",
+      "line": "2000",
+      "page": 8,
+      "slot": 8
+    },
+    {
+      "code": "2114",
+      "line": "2000",
+      "page": 8,
+      "slot": 9
+    },
+    {
+      "code": "2119",
+      "line": "2000",
+      "page": 8,
+      "slot": 10
+    },
+    {
+      "code": "2120",
+      "line": "2000",
+      "page": 9,
+      "slot": 1
+    },
+    {
+      "code": "2121",
+      "line": "2000",
+      "page": 9,
+      "slot": 2
+    },
+    {
+      "code": "3039",
+      "line": "3000",
+      "page": 10,
+      "slot": 1
+    },
+    {
+      "code": "5003",
+      "line": "5000",
+      "page": 11,
+      "slot": 1
+    },
+    {
+      "code": "5004",
+      "line": "5000",
+      "page": 11,
+      "slot": 2
+    },
+    {
+      "code": "5007",
+      "line": "5000",
+      "page": 11,
+      "slot": 3
+    },
+    {
+      "code": "5008",
+      "line": "5000",
+      "page": 11,
+      "slot": 4
+    },
+    {
+      "code": "5019",
+      "line": "5000",
+      "page": 11,
+      "slot": 5
+    },
+    {
+      "code": "5024",
+      "line": "5000",
+      "page": 11,
+      "slot": 6
+    },
+    {
+      "code": "5025",
+      "line": "5000",
+      "page": 11,
+      "slot": 7
+    },
+    {
+      "code": "6002",
+      "line": "6000",
+      "page": 12,
+      "slot": 1
+    },
+    {
+      "code": "6051",
+      "line": "6000",
+      "page": 12,
+      "slot": 2
+    },
+    {
+      "code": "6052",
+      "line": "6000",
+      "page": 12,
+      "slot": 3
+    },
+    {
+      "code": "6053",
+      "line": "6000",
+      "page": 12,
+      "slot": 4
+    },
+    {
+      "code": "6054",
+      "line": "6000",
+      "page": 12,
+      "slot": 5
+    },
+    {
+      "code": "6057",
+      "line": "6000",
+      "page": 12,
+      "slot": 6
+    },
+    {
+      "code": "6056",
+      "line": "6000",
+      "page": 12,
+      "slot": 7
+    },
+    {
+      "code": "6058",
+      "line": "6000",
+      "page": 12,
+      "slot": 8
+    },
+    {
+      "code": "7010",
+      "line": "7000",
+      "page": 13,
+      "slot": 1
+    },
+    {
+      "code": "7010A",
+      "line": "7000",
+      "page": 13,
+      "slot": 2
+    },
+    {
+      "code": "7012",
+      "line": "7000",
+      "page": 13,
+      "slot": 3
+    },
+    {
+      "code": "7014",
+      "line": "7000",
+      "page": 13,
+      "slot": 4
+    },
+    {
+      "code": "7014A",
+      "line": "7000",
+      "page": 13,
+      "slot": 5
+    },
+    {
+      "code": "7015",
+      "line": "7000",
+      "page": 13,
+      "slot": 6
+    },
+    {
+      "code": "7017A",
+      "line": "7000",
+      "page": 13,
+      "slot": 7
+    },
+    {
+      "code": "7019",
+      "line": "7000",
+      "page": 13,
+      "slot": 8
+    },
+    {
+      "code": "7020",
+      "line": "7000",
+      "page": 13,
+      "slot": 9
+    },
+    {
+      "code": "7025",
+      "line": "7000",
+      "page": 13,
+      "slot": 10
+    },
+    {
+      "code": "7025A",
+      "line": "7000",
+      "page": 14,
+      "slot": 1
+    },
+    {
+      "code": "7033",
+      "line": "7000",
+      "page": 14,
+      "slot": 2
+    },
+    {
+      "code": "7034",
+      "line": "7000",
+      "page": 14,
+      "slot": 3
+    },
+    {
+      "code": "7035",
+      "line": "7000",
+      "page": 14,
+      "slot": 4
+    },
+    {
+      "code": "7037",
+      "line": "7000",
+      "page": 14,
+      "slot": 5
+    },
+    {
+      "code": "7038",
+      "line": "7000",
+      "page": 14,
+      "slot": 6
+    },
+    {
+      "code": "7039",
+      "line": "7000",
+      "page": 14,
+      "slot": 7
+    },
+    {
+      "code": "8001",
+      "line": "8000",
+      "page": 15,
+      "slot": 1
+    },
+    {
+      "code": "8002",
+      "line": "8000",
+      "page": 15,
+      "slot": 2
+    },
+    {
+      "code": "8003",
+      "line": "8000",
+      "page": 15,
+      "slot": 3
+    },
+    {
+      "code": "8004",
+      "line": "8000",
+      "page": 15,
+      "slot": 4
+    },
+    {
+      "code": "8010",
+      "line": "8000",
+      "page": 15,
+      "slot": 5
+    },
+    {
+      "code": "8011",
+      "line": "8000",
+      "page": 15,
+      "slot": 6
+    },
+    {
+      "code": "8012",
+      "line": "8000",
+      "page": 15,
+      "slot": 7
+    },
+    {
+      "code": "8013",
+      "line": "8000",
+      "page": 15,
+      "slot": 8
+    },
+    {
+      "code": "8023",
+      "line": "8000",
+      "page": 15,
+      "slot": 9
+    },
+    {
+      "code": "8024",
+      "line": "8000",
+      "page": 15,
+      "slot": 10
+    },
+    {
+      "code": "8027",
+      "line": "8000",
+      "page": 16,
+      "slot": 1
+    },
+    {
+      "code": "9017",
+      "line": "9000",
+      "page": 17,
+      "slot": 1
+    },
+    {
+      "code": "9020",
+      "line": "9000",
+      "page": 17,
+      "slot": 2
+    },
+    {
+      "code": "9022",
+      "line": "9000",
+      "page": 17,
+      "slot": 3
+    },
+    {
+      "code": "9023",
+      "line": "9000",
+      "page": 17,
+      "slot": 4
+    },
+    {
+      "code": "9024",
+      "line": "9000",
+      "page": 17,
+      "slot": 5
+    },
+    {
+      "code": "9026",
+      "line": "9000",
+      "page": 17,
+      "slot": 6
+    },
+    {
+      "code": "9027",
+      "line": "9000",
+      "page": 17,
+      "slot": 7
+    },
+    {
+      "code": "0605",
+      "line": "0600",
+      "page": 18,
+      "slot": 1
+    },
+    {
+      "code": "0610",
+      "line": "0600",
+      "page": 18,
+      "slot": 2
+    },
+    {
+      "code": "0610A",
+      "line": "0600",
+      "page": 18,
+      "slot": 3
+    },
+    {
+      "code": "0611",
+      "line": "0600",
+      "page": 18,
+      "slot": 4
+    },
+    {
+      "code": "0613",
+      "line": "0600",
+      "page": 18,
+      "slot": 5
+    },
+    {
+      "code": "0614",
+      "line": "0600",
+      "page": 18,
+      "slot": 6
+    },
+    {
+      "code": "0614A",
+      "line": "0600",
+      "page": 18,
+      "slot": 7
+    },
+    {
+      "code": "0614B",
+      "line": "0600",
+      "page": 18,
+      "slot": 8
+    },
+    {
+      "code": "0615",
+      "line": "0600",
+      "page": 18,
+      "slot": 9
+    },
+    {
+      "code": "0616",
+      "line": "0600",
+      "page": 18,
+      "slot": 10
+    },
+    {
+      "code": "0616A",
+      "line": "0600",
+      "page": 19,
+      "slot": 1
+    },
+    {
+      "code": "0627",
+      "line": "0600",
+      "page": 19,
+      "slot": 2
+    },
+    {
+      "code": "0628",
+      "line": "0600",
+      "page": 19,
+      "slot": 3
+    },
+    {
+      "code": "0630",
+      "line": "0600",
+      "page": 19,
+      "slot": 4
+    },
+    {
+      "code": "0631",
+      "line": "0600",
+      "page": 19,
+      "slot": 5
+    },
+    {
+      "code": "0632",
+      "line": "0600",
+      "page": 19,
+      "slot": 6
+    },
+    {
+      "code": "0633",
+      "line": "0600",
+      "page": 19,
+      "slot": 7
+    },
+    {
+      "code": "0636",
+      "line": "0600",
+      "page": 19,
+      "slot": 8
+    },
+    {
+      "code": "0805",
+      "line": "0800",
+      "page": 20,
+      "slot": 1
+    },
+    {
+      "code": "0806",
+      "line": "0800",
+      "page": 20,
+      "slot": 2
+    },
+    {
+      "code": "0807",
+      "line": "0800",
+      "page": 20,
+      "slot": 3
+    },
+    {
+      "code": "0813",
+      "line": "0800",
+      "page": 20,
+      "slot": 4
+    },
+    {
+      "code": "0819",
+      "line": "0800",
+      "page": 20,
+      "slot": 5
+    },
+    {
+      "code": "0825",
+      "line": "0800",
+      "page": 20,
+      "slot": 6
+    },
+    {
+      "code": "0904",
+      "line": "0900",
+      "page": 21,
+      "slot": 1
+    },
+    {
+      "code": "0905",
+      "line": "0900",
+      "page": 21,
+      "slot": 2
+    },
+    {
+      "code": "0906",
+      "line": "0900",
+      "page": 21,
+      "slot": 3
+    },
+    {
+      "code": "0911",
+      "line": "0900",
+      "page": 21,
+      "slot": 4
+    },
+    {
+      "code": "0913",
+      "line": "0900",
+      "page": 21,
+      "slot": 5
+    },
+    {
+      "code": "0914",
+      "line": "0900",
+      "page": 21,
+      "slot": 6
+    }
+  ],
+  "excluidas": [
+    "7036"
+  ],
+  "foto_corrigida": {
+    "0616": "0616A"
+  },
+  "novas": [
+    "2062B PU",
+    "2081C PU",
+    "2119 PU",
+    "8010 PU",
+    "2066 PU",
+    "0613 PU",
+    "2068 PU",
+    "2051 PU",
+    "7034 PU",
+    "1056 PU",
+    "2065 PU",
+    "7038 PU",
+    "6056 PU",
+    "7039 PU",
+    "7035 PU"
+  ],
+  "fonte_codigo_original_pt": 9,
+  "pendentes": [],
+  "textos": [
+    {
+      "code": "1056 PU",
+      "body_bottom": 91.92,
+      "font_size": 9.4
+    },
+    {
+      "code": "2051 PU",
+      "body_bottom": 91.92,
+      "font_size": 9.4
+    },
+    {
+      "code": "2062B PU",
+      "body_bottom": 91.92,
+      "font_size": 9.4
+    },
+    {
+      "code": "2065 PU",
+      "body_bottom": 91.92,
+      "font_size": 9.4
+    },
+    {
+      "code": "2066 PU",
+      "body_bottom": 91.92,
+      "font_size": 9.4
+    },
+    {
+      "code": "2068 PU",
+      "body_bottom": 71.58,
+      "font_size": 9.4
+    },
+    {
+      "code": "2081C PU",
+      "body_bottom": 70.68,
+      "font_size": 9.4
+    },
+    {
+      "code": "2119 PU",
+      "body_bottom": 71.58,
+      "font_size": 9.4
+    },
+    {
+      "code": "6056 PU",
+      "body_bottom": 76.75,
+      "font_size": 9.4
+    },
+    {
+      "code": "7034 PU",
+      "body_bottom": 60.96,
+      "font_size": 9.4
+    },
+    {
+      "code": "7035 PU",
+      "body_bottom": 60.96,
+      "font_size": 9.4
+    },
+    {
+      "code": "7038 PU",
+      "body_bottom": 76.75,
+      "font_size": 9.4
+    },
+    {
+      "code": "7039 PU",
+      "body_bottom": 93.75,
+      "font_size": 9.4
+    },
+    {
+      "code": "8010 PU",
+      "body_bottom": 45.79,
+      "font_size": 9.4
+    },
+    {
+      "code": "0613 PU",
+      "body_bottom": 81.3,
+      "font_size": 9.4
+    },
+    {
+      "code": "0616 PU",
+      "body_bottom": 91.47,
+      "font_size": 9.4
+    },
+    {
+      "code": "1008 PU",
+      "body_bottom": 63.39699999999999,
+      "font_size": 9.4
+    },
+    {
+      "code": "1010 PU",
+      "body_bottom": 74.01900000000006,
+      "font_size": 9.4
+    },
+    {
+      "code": "1011 PU",
+      "body_bottom": 74.01900000000006,
+      "font_size": 9.4
+    },
+    {
+      "code": "1012 PU",
+      "body_bottom": 74.019,
+      "font_size": 9.4
+    },
+    {
+      "code": "1013 PU",
+      "body_bottom": 74.019,
+      "font_size": 9.4
+    },
+    {
+      "code": "1013A PU",
+      "body_bottom": 74.01899999999998,
+      "font_size": 9.4
+    },
+    {
+      "code": "1014 PU",
+      "body_bottom": 74.01900000000006,
+      "font_size": 9.4
+    },
+    {
+      "code": "1024 PU",
+      "body_bottom": 74.019,
+      "font_size": 9.4
+    },
+    {
+      "code": "1026A PU",
+      "body_bottom": 82.83300000000003,
+      "font_size": 9.4
+    },
+    {
+      "code": "1034 PU",
+      "body_bottom": 74.01899999999998,
+      "font_size": 9.4
+    },
+    {
+      "code": "1067 PU",
+      "body_bottom": 93.45499999999998,
+      "font_size": 9.4
+    },
+    {
+      "code": "1068 PU",
+      "body_bottom": 93.45500000000004,
+      "font_size": 9.4
+    },
+    {
+      "code": "1069 PU",
+      "body_bottom": 93.45500000000004,
+      "font_size": 9.4
+    },
+    {
+      "code": "2008 PU",
+      "body_bottom": 74.01899999999998,
+      "font_size": 9.4
+    },
+    {
+      "code": "2010 PU",
+      "body_bottom": 74.01900000000006,
+      "font_size": 9.4
+    },
+    {
+      "code": "2039 PU",
+      "body_bottom": 48.678999999999974,
+      "font_size": 9.4
+    },
+    {
+      "code": "2054 PU",
+      "body_bottom": 73.11500000000001,
+      "font_size": 9.4
+    },
+    {
+      "code": "2078C PU",
+      "body_bottom": 93.45500000000004,
+      "font_size": 9.4
+    },
+    {
+      "code": "2095 PU",
+      "body_bottom": 74.01899999999998,
+      "font_size": 9.4
+    },
+    {
+      "code": "2120 PU",
+      "body_bottom": 93.45499999999998,
+      "font_size": 9.4
+    },
+    {
+      "code": "2121 PU",
+      "body_bottom": 93.45500000000004,
+      "font_size": 9.4
+    },
+    {
+      "code": "3039 PU",
+      "body_bottom": 93.45499999999998,
+      "font_size": 9.4
+    },
+    {
+      "code": "5003 PU",
+      "body_bottom": 82.833,
+      "font_size": 9.4
+    },
+    {
+      "code": "5004 PU",
+      "body_bottom": 82.83300000000003,
+      "font_size": 9.4
+    },
+    {
+      "code": "6057 PU",
+      "body_bottom": 48.679,
+      "font_size": 9.4
+    },
+    {
+      "code": "6058 PU",
+      "body_bottom": 93.45500000000004,
+      "font_size": 9.4
+    },
+    {
+      "code": "7012 PU",
+      "body_bottom": 93.45500000000004,
+      "font_size": 9.4
+    },
+    {
+      "code": "8001 PU",
+      "body_bottom": 65.77600000000001,
+      "font_size": 9.4
+    },
+    {
+      "code": "8002 PU",
+      "body_bottom": 65.77600000000001,
+      "font_size": 9.4
+    },
+    {
+      "code": "8003 PU",
+      "body_bottom": 65.77600000000001,
+      "font_size": 9.4
+    },
+    {
+      "code": "8004 PU",
+      "body_bottom": 65.77599999999995,
+      "font_size": 9.4
+    },
+    {
+      "code": "8011 PU",
+      "body_bottom": 82.833,
+      "font_size": 9.4
+    },
+    {
+      "code": "8023 PU",
+      "body_bottom": 48.678999999999974,
+      "font_size": 9.4
+    },
+    {
+      "code": "8027 PU",
+      "body_bottom": 76.398,
+      "font_size": 9.4
+    },
+    {
+      "code": "9020 PU",
+      "body_bottom": 93.45500000000004,
+      "font_size": 9.4
+    },
+    {
+      "code": "9022 PU",
+      "body_bottom": 93.45500000000004,
+      "font_size": 9.4
+    },
+    {
+      "code": "9023 PU",
+      "body_bottom": 82.83299999999997,
+      "font_size": 9.4
+    },
+    {
+      "code": "0605 PU",
+      "body_bottom": 83.737,
+      "font_size": 9.4
+    },
+    {
+      "code": "0610A PU",
+      "body_bottom": 93.45500000000004,
+      "font_size": 9.4
+    },
+    {
+      "code": "0614 PU",
+      "body_bottom": 103.512,
+      "font_size": 9.4
+    },
+    {
+      "code": "0614A PU",
+      "body_bottom": 103.512,
+      "font_size": 9.4
+    },
+    {
+      "code": "0614B PU",
+      "body_bottom": 103.512,
+      "font_size": 9.4
+    },
+    {
+      "code": "0615 PU",
+      "body_bottom": 103.51200000000006,
+      "font_size": 9.4
+    },
+    {
+      "code": "0616A PU",
+      "body_bottom": 92.89000000000001,
+      "font_size": 9.4
+    },
+    {
+      "code": "0627 PU",
+      "body_bottom": 92.88999999999999,
+      "font_size": 9.4
+    },
+    {
+      "code": "0636 PU",
+      "body_bottom": 82.83300000000003,
+      "font_size": 9.4
+    },
+    {
+      "code": "0819 PU",
+      "body_bottom": 74.019,
+      "font_size": 9.4
+    }
+  ]
+}
